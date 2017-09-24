@@ -1,0 +1,33 @@
+[submodule "net/luci-app-shadowsocks"]
+	path = net/luci-app-shadowsocks
+	url = https://github.com/pexcn/luci-app-shadowsocks.git
+[submodule "net/openwrt-dist-luci"]
+	path = net/openwrt-dist-luci
+	url = https://github.com/pexcn/openwrt-dist-luci.git
+[submodule "net/openwrt-shadowsocks"]
+	path = net/openwrt-shadowsocks
+	url = https://github.com/shadowsocks/openwrt-shadowsocks.git
+[submodule "net/openwrt-chinadns"]
+	path = net/openwrt-chinadns
+	url = https://github.com/aa65535/openwrt-chinadns.git
+[submodule "net/openwrt-dns-forwarder"]
+	path = net/openwrt-dns-forwarder
+	url = https://github.com/aa65535/openwrt-dns-forwarder.git
+[submodule "net/openwrt-simple-obfs"]
+	path = net/openwrt-simple-obfs
+	url = https://github.com/aa65535/openwrt-simple-obfs.git
+[submodule "net/openwrt-hev-socks5-server"]
+	path = net/openwrt-hev-socks5-server
+	url = https://github.com/pexcn/openwrt-hev-socks5-server.git
+[submodule "net/openwrt-chinadns-ng"]
+	path = net/openwrt-chinadns-ng
+	url = https://github.com/pexcn/openwrt-chinadns-ng.git
+[submodule "net/openwrt-udp2raw"]
+	path = net/openwrt-udp2raw
+	url = https://github.com/pexcn/openwrt-udp2raw.git
+[submodule "net/openwrt-dns2tcp"]
+	path = net/openwrt-dns2tcp
+	url = https://github.com/pexcn/openwrt-dns2tcp.git
+[submodule "net/openwrt-ipt2socks"]
+	path = net/openwrt-ipt2socks
+	url = https://github.com/pexcn/openwrt-ipt2socks.git
