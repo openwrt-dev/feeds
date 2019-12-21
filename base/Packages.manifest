@@ -336,3 +336,16 @@ SHA256sum: 49300b3c9f0a15d26ea75aa31278051f48fc81347e0d988d3571349a447963dc
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
+Package: udpspeeder
+Version: 20190408-1
+Depends: libc
+Source: package/openwrt-dev/net/openwrt-udpspeeder
+Section: net
+Architecture: x86_64
+Installed-Size: 167731
+Filename: udpspeeder_20190408-1_x86_64.ipk
+Size: 168607
+SHA256sum: 067f950f2937f1dc0f6bb37bad825e4cdaf4ae8bb3d9310332368e0a65d6bd52
+Description:  A tunnel which improves your network quality on a high-latency lossy link
+ by using forward error correction, for all traffics (TCP/UDP/ICMP).
+
