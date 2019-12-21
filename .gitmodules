@@ -31,3 +31,6 @@
 [submodule "net/openwrt-ipt2socks"]
 	path = net/openwrt-ipt2socks
 	url = https://github.com/pexcn/openwrt-ipt2socks.git
+[submodule "net/openwrt-udpspeeder"]
+	path = net/openwrt-udpspeeder
+	url = https://github.com/pexcn/openwrt-udpspeeder.git

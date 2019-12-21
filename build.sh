@@ -36,6 +36,7 @@ build_packages() {
   make package/openwrt-ipt2socks/compile V=w
   make package/openwrt-hev-socks5-server/compile V=w
   make package/openwrt-udp2raw/compile V=w
+  make package/openwrt-udpspeeder/compile V=w
 
   make package/openwrt-shadowsocks/compile V=w \
     CONFIG_SHADOWSOCKS_STATIC_LINK=y \
