@@ -25,11 +25,11 @@ git submodule update --remote --merge
 
 Setup opkg configs following those lines:
 ```bash
-# ar71xx-generic
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ar71xx-generic/base
+# ath79-generic
+src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-generic/base
 
-# ar71xx-tiny
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ar71xx-tiny/base
+# ath79-tiny
+src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-tiny/base
 
 # ramips-mt7620
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/base
