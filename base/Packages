@@ -222,27 +222,27 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  CSR generation (gen_key, cert_req)
 
 Package: shadowsocks-libev-server
-Version: 3.3.3-1
+Version: 3.3.4-1
 Depends: libc, libpthread
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 378417
-Filename: shadowsocks-libev-server_3.3.3-1_mips_24kc.ipk
-Size: 378869
-SHA256sum: f81c43d22906a9c3748c765090c596a535ab0e06c6b060d9c38058e3de022251
+Installed-Size: 378473
+Filename: shadowsocks-libev-server_3.3.4-1_mips_24kc.ipk
+Size: 378917
+SHA256sum: ccbd31a7395c0288a9a44fefa03172807839b1826c5ade69a5a08c7c4ee4cc67
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
-Version: 3.3.3-1
+Version: 3.3.4-1
 Depends: libc, libpthread
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 906226
-Filename: shadowsocks-libev_3.3.3-1_mips_24kc.ipk
-Size: 906126
-SHA256sum: fa7b329e9b876def4cdf73d45ce7222760d2e3773010b73ba6ecf2679e6a06a6
+Installed-Size: 906461
+Filename: shadowsocks-libev_3.3.4-1_mips_24kc.ipk
+Size: 906406
+SHA256sum: 07aab7da308febf81bba558455701aebfda698105b1c3506c94121974d4a94bb
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
