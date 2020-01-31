@@ -1,23 +1,24 @@
 #!/bin/bash -e
 
-CUR_DIR=$(pwd)
+TARGET=$(cut -d '/' -f 7-8 <<< $SDK_URL | tr '/' '-')
 SDK_DIR=openwrt-sdk-$TARGET
 
-get_sources() {
-  curl -sSL $SDK_URL | tar xfJ -
-  mv $(ls -1 | grep $TARGET) $SDK_DIR
+get_sdk() {
+  curl -sSL $SDK_URL | tar Jxf -
+  mv openwrt-sdk* $SDK_DIR
+}
 
+get_sources() {
   cd $SDK_DIR
   git clone https://github.com/openwrt-dev/feeds.git package/openwrt-dev -b master --single-branch --recurse-submodules -j4
   cp ../key-build .
-  cd $CUR_DIR
+  cd ..
 }
 
 build_packages() {
   cd $SDK_DIR
 
   make defconfig
-  make prereq
 
   make package/libev/compile V=w
   make package/libcares/compile V=w
@@ -51,14 +52,15 @@ build_packages() {
 
   make package/index V=s
 
-  cd $CUR_DIR
+  cd ..
 }
 
-dist_release() {
-  mkdir release
-  cp -r $SDK_DIR/bin/packages/*/base release
+copy_binaries() {
+  mkdir $TARGET
+  cp -r $SDK_DIR/bin/packages/*/base $TARGET
 }
 
+get_sdk
 get_sources
 build_packages
-dist_release
+copy_binaries

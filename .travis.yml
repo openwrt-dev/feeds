@@ -47,10 +47,8 @@ env:
     - secure: "iq8eFoGpKiBlBC8K3Psw62sjGT3PqqSYlIdRUM1dPEDdpDYR0iOz0qoNq6AseUuWWs02+Kck+RcYCxXiLk2DLwKVD5yyNqUab6hR4+9mm7DszXSb7CYIxLMMzFcS1IY4ompd0ljUFi/wPdMuYxm6gNKnAlda9V+8YtH3nn7vYSPOb3mmVwzMZR0wR2752Pem4b5Wa1JbnBL13NrXTXcuRRTtWYFy0lb4ZXE1jB++pufn93Xxhg0RjQ0HYoUg+xZZf+uNh3dP5pbYreasrx3oKfjTPtDtRlU7hF3nPE2iqenwcW3WT79W0LVLgBsVA41zyzhHmSGOThm/4l5/yXHK0mGHkq0sAaG/K/sUZ4Pa3lOftsgo+4pRP3uY+bOn2JPPszftBimKhVMifRwbunlstC6A7tDfTXKSScZZOjy+IPilc2tdIJBxZqWMeCtP6FoxNDubw59SSSUvbK755WVtFJVsFMN8OtjX8CZkAtHwVCRropt2kz61kO2dR9NjW4YfIMX/bHnAVU6CLU1/l+RlDplx7oW6s80RjLNTAgdhhW/mPE9rh7jKXibK3vpqn6q3ka5dazM6RiTFzgSQGTcwMHvNFSHP5hn1eURmtngAt0NWJ48BrPx6BvIgcvkJF+JoXmiPkQvO+tIct3wMW+ZNxriPYUv3ESmyh+i62ccw6qg="
 
 install:
-  - git clone https://github.com/openwrt-dev/po2lmo.git -b master --single-branch
-  - cd po2lmo
-  - make && sudo make install && make clean
-  - cd ..
+  - git clone https://github.com/openwrt-dev/po2lmo.git --single-branch -b master
+  - pushd po2lmo; make && sudo make install; popd
   - rm -rf po2lmo
 
 before_script:
@@ -61,7 +59,7 @@ script:
 
 deploy:
   provider: pages
-  local-dir: release
+  local-dir: ${TARGET}
   target-branch: ${TARGET}
   keep-history: true
   skip-cleanup: true
