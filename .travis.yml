@@ -1,5 +1,6 @@
+os: linux
 dist: bionic
-language: bash
+language: shell
 
 branches:
   only:
@@ -37,11 +38,11 @@ addons:
       - unzip
 
 env:
-  matrix:
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.0/targets/ath79/generic/openwrt-sdk-19.07.0-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.0/targets/ath79/tiny/openwrt-sdk-19.07.0-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.0/targets/ramips/mt7620/openwrt-sdk-19.07.0-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/18.06.6/targets/x86/64/openwrt-sdk-18.06.6-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
+  jobs:
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.1/targets/ath79/generic/openwrt-sdk-19.07.1-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.1/targets/ath79/tiny/openwrt-sdk-19.07.1-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.1/targets/ramips/mt7620/openwrt-sdk-19.07.1-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/18.06.7/targets/x86/64/openwrt-sdk-18.06.7-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
   global:
     - TZ: "Asia/Taipei"
     - secure: "iq8eFoGpKiBlBC8K3Psw62sjGT3PqqSYlIdRUM1dPEDdpDYR0iOz0qoNq6AseUuWWs02+Kck+RcYCxXiLk2DLwKVD5yyNqUab6hR4+9mm7DszXSb7CYIxLMMzFcS1IY4ompd0ljUFi/wPdMuYxm6gNKnAlda9V+8YtH3nn7vYSPOb3mmVwzMZR0wR2752Pem4b5Wa1JbnBL13NrXTXcuRRTtWYFy0lb4ZXE1jB++pufn93Xxhg0RjQ0HYoUg+xZZf+uNh3dP5pbYreasrx3oKfjTPtDtRlU7hF3nPE2iqenwcW3WT79W0LVLgBsVA41zyzhHmSGOThm/4l5/yXHK0mGHkq0sAaG/K/sUZ4Pa3lOftsgo+4pRP3uY+bOn2JPPszftBimKhVMifRwbunlstC6A7tDfTXKSScZZOjy+IPilc2tdIJBxZqWMeCtP6FoxNDubw59SSSUvbK755WVtFJVsFMN8OtjX8CZkAtHwVCRropt2kz61kO2dR9NjW4YfIMX/bHnAVU6CLU1/l+RlDplx7oW6s80RjLNTAgdhhW/mPE9rh7jKXibK3vpqn6q3ka5dazM6RiTFzgSQGTcwMHvNFSHP5hn1eURmtngAt0NWJ48BrPx6BvIgcvkJF+JoXmiPkQvO+tIct3wMW+ZNxriPYUv3ESmyh+i62ccw6qg="
@@ -51,18 +52,21 @@ install:
   - pushd po2lmo; make && sudo make install; popd
   - rm -rf po2lmo
 
-before_script:
-  - export TARGET=$(cut -d '/' -f 7-8 <<< $SDK_URL | tr '/' '-')
-
 script:
   - ./build.sh
 
+before_deploy:
+  - export TARGET=$(cut -d '/' -f 7-8 <<< $SDK_URL | tr '/' '-')
+
 deploy:
+  edge: true
   provider: pages
-  local-dir: ${TARGET}
-  target-branch: ${TARGET}
-  keep-history: true
-  skip-cleanup: true
-  github-token: ${GITHUB_TOKEN}
+  local_dir: ${TARGET}
+  target_branch: ${TARGET}
+  keep_history: true
+  name: Deployment Bot
+  email: deploy@travis-ci.org
+  commit_message: $(date '+%Y-%m-%d %H:%M:%S')
+  token: ${GITHUB_TOKEN}
   on:
     branch: master
