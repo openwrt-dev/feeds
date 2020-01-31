@@ -5,12 +5,12 @@
 ### Build
 
 ```bash
-apt-get install gcc g++ make automake autoconf libtool git \
-  ccache file patch curl quilt gawk time fakeroot gettext \
-  pkg-config python2.7-minimal libssl-dev libncurses5-dev \
-  zlib1g-dev bzip2 xz-utils unzip --no-install-recommends
+apt-get install --no-install-recommends -y \
+  gcc g++ make automake autoconf libtool git ccache file patch curl quilt gawk time \
+  fakeroot gettext pkg-config python2.7-minimal libssl-dev libncurses5-dev zlib1g-dev  \
+  bzip2 xz-utils unzip
 
-git clone https://github.com/openwrt-dev/feeds.git -b master --single-branch
+git clone https://github.com/openwrt-dev/feeds.git --single-branch -b master
 cd feeds
 git submodule update --init --recursive
 
