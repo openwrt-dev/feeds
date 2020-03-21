@@ -11,15 +11,15 @@ SHA256sum: 893bb20ad92312bb4c4338bd336b501c8d81c1cfeef54ef1028d753b2230ec64
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.15-1
+Version: 1.0-beta.18-1
 Depends: libc, ipset
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 96921
-Filename: chinadns-ng_1.0-beta.15-1_mips_24kc.ipk
-Size: 97667
-SHA256sum: 34165939bdfa7bb2a43a0661b3a25a7578e84847eb6472313b66c995d73a1862
+Installed-Size: 384666
+Filename: chinadns-ng_1.0-beta.18-1_mips_24kc.ipk
+Size: 385451
+SHA256sum: a9b33562364942258f668acd0e72f178ce473bc708ad0b9b296e521decb99f59
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -52,10 +52,10 @@ Depends: libc
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 75236
+Installed-Size: 75237
 Filename: hev-socks5-server_1.9.3-2_mips_24kc.ipk
-Size: 76038
-SHA256sum: f5999acea62d5c7ed0e38c61ebad1c7a5be3129cd38c5eb692a367a2df7a2886
+Size: 76047
+SHA256sum: 141cf51885cc2f6b369c373f067003c53bf5bdf507704a0af6da93dccc07db96
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
