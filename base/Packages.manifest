@@ -14,7 +14,7 @@ SHA256sum: 7c31ec0b132b028781757541256c89e0c12e61aa9f62412206dcd74c4b555dce
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.15-1
+Version: 1.0-beta.18-1
 Depends: libc, ipset
 Source: package/openwrt-dev/net/openwrt-chinadns-ng
 License: GPLv3
@@ -22,10 +22,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 98087
-Filename: chinadns-ng_1.0-beta.15-1_x86_64.ipk
-Size: 98867
-SHA256sum: 3ddc77a35662c1261490bd6bdff55871036b31c7c3e573b35c084b6628435565
+Installed-Size: 385718
+Filename: chinadns-ng_1.0-beta.18-1_x86_64.ipk
+Size: 386593
+SHA256sum: 3fa6f037d50de4ad8a4bfe7957e69dca82466d9546b2aa5e7fce393fb60452c5
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -67,10 +67,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 64690
+Installed-Size: 64686
 Filename: hev-socks5-server_1.9.3-2_x86_64.ipk
-Size: 65569
-SHA256sum: eae3ec3276fd8626eefd504a7abb266e15cae77dffed3a29226631450858c747
+Size: 65558
+SHA256sum: 0e3bed3f94dae21cc192db07b2520bf88301f5a0dcc561e0f582126fbcfee9f3
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
