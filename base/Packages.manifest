@@ -2,104 +2,111 @@ Package: ChinaDNS
 Version: 1.3.3-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-chinadns
+SourceName: ChinaDNS
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 36204
+Installed-Size: 36170
 Filename: ChinaDNS_1.3.3-1_x86_64.ipk
-Size: 35809
-SHA256sum: 7c31ec0b132b028781757541256c89e0c12e61aa9f62412206dcd74c4b555dce
+Size: 35797
+SHA256sum: 00232cd042f5a91a3b2295cdf97f10879958d3355c0469943d119f54d7d6b9eb
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
 Version: 1.0-beta.18-1
 Depends: libc, ipset
 Source: package/openwrt-dev/net/openwrt-chinadns-ng
+SourceName: chinadns-ng
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 385718
+Installed-Size: 385796
 Filename: chinadns-ng_1.0-beta.18-1_x86_64.ipk
-Size: 386593
-SHA256sum: 3fa6f037d50de4ad8a4bfe7957e69dca82466d9546b2aa5e7fce393fb60452c5
+Size: 386573
+SHA256sum: 79992f62e8455f330f343ec5d4e4aa0e696ea962dc426dcf1c4d27a35f40700e
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
 Version: 1.2.1-2
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-dns-forwarder
+SourceName: dns-forwarder
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 10521
+Installed-Size: 10597
 Filename: dns-forwarder_1.2.1-2_x86_64.ipk
-Size: 11309
-SHA256sum: 52106557bd01166a9885526a59f6ae8f74eb0398dade2260d092a3facb83f04e
+Size: 11345
+SHA256sum: 56b31dac924469d54f28fcbd5f200ca4098e688cb3b3b5f9a096bb87adc679cc
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
 Version: 1.0-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-dns2tcp
+SourceName: dns2tcp
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 53288
+Installed-Size: 53269
 Filename: dns2tcp_1.0-1_x86_64.ipk
-Size: 54121
-SHA256sum: 0d0e3740ba70ce7c4f3b704052a32a479c0d8c69bfebc6030b2f3085035e4295
+Size: 54083
+SHA256sum: 1ef0cbc2265eecbde4ba65ef6edd0b29578ba1ba110264ad0a639a57431d5db6
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
 Version: 1.9.3-2
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-hev-socks5-server
+SourceName: hev-socks5-server
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 64686
+Installed-Size: 67018
 Filename: hev-socks5-server_1.9.3-2_x86_64.ipk
-Size: 65558
-SHA256sum: 0e3bed3f94dae21cc192db07b2520bf88301f5a0dcc561e0f582126fbcfee9f3
+Size: 67867
+SHA256sum: a27224faa9fba091404caab1859601223fb6694106013d8d73d0d142cca95b0b
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
 Version: 1.0.2-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-ipt2socks
+SourceName: ipt2socks
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 71118
+Installed-Size: 71022
 Filename: ipt2socks_1.0.2-1_x86_64.ipk
-Size: 71958
-SHA256sum: 276bbc34f807b64a93d17be84967f54c55d2c0685e892cd80e1096537b472dc3
+Size: 71880
+SHA256sum: 1485e432ba306a7ccbf8e0db2ccd9f23f28bfb2950e5fce394c906425ecb8a1c
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
 Version: 1.15.0-4
 Depends: libc
 Source: package/openwrt-dev/libs/libcares
+SourceName: libcares
 License: MIT
 Section: libs
 Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: x86_64
-Installed-Size: 31174
+Installed-Size: 31530
 Filename: libcares_1.15.0-4_x86_64.ipk
-Size: 31967
-SHA256sum: e25fdddb04ff285235f60decf3851000bf0daa40b80b4776c931a35a24aa145e
+Size: 32372
+SHA256sum: 0967e79ab31b34d19dceb10cbf3e7f63784fa27ce0e9d167ab0ea300bd6919eb
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -110,28 +117,31 @@ Package: libev
 Version: 4.27-1
 Depends: libc
 Source: package/openwrt-dev/libs/libev
+SourceName: libev
 License: BSD-2-Clause
 Section: libs
 Maintainer: Karl Palsson <karlp@tweak.net.au>
 Architecture: x86_64
-Installed-Size: 22016
+Installed-Size: 22494
 Filename: libev_4.27-1_x86_64.ipk
-Size: 22748
-SHA256sum: 77bc7188848c2090812c412f9c2dd8a340b016a6d5e7e7e735c67a8bc6a3fa12
+Size: 23270
+SHA256sum: 9ed59e6f09b091c1835a501915f3c54fc0ac9fd9d448712eb4689d701b2a1394
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
-Package: libmbedtls
+Package: libmbedtls12
 Version: 2.16.2-2
 Depends: libc
+Provides: libmbedtls
 Source: package/openwrt-dev/libs/mbedtls
+SourceName: libmbedtls
 License: GPL-2.0+
 Section: libs
 Architecture: x86_64
-Installed-Size: 185327
-Filename: libmbedtls_2.16.2-2_x86_64.ipk
-Size: 186045
-SHA256sum: fc2075877a9ed9e9b89de97a8a7942605acf96d74878b98ac1028cb2924696e7
+Installed-Size: 189812
+Filename: libmbedtls12_2.16.2-2_x86_64.ipk
+Size: 190476
+SHA256sum: 9ec41542710e019d7f6614db7ed1df7beb0b0821ba9ca25495acef57bfc747d8
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -140,29 +150,31 @@ Package: libpcre
 Version: 8.43-1
 Depends: libc
 Source: package/openwrt-dev/libs/pcre
+SourceName: libpcre
 License: BSD-3-Clause
 LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: x86_64
-Installed-Size: 81182
+Installed-Size: 81792
 Filename: libpcre_8.43-1_x86_64.ipk
-Size: 81996
-SHA256sum: 5f3c3f014e53a295bb48d5134be9e6d3b2a5b8a3dc17fcfc2f35de0a3702341c
+Size: 82572
+SHA256sum: ba75397554a7cd992fbc69095bb8d1f1c1bf2365883a36ec1ba1e404be3ccffc
 Description:  A Perl Compatible Regular Expression library
 
 Package: libsodium
 Version: 1.0.18-1
 Depends: libc, libpthread
 Source: package/openwrt-dev/libs/libsodium
+SourceName: libsodium
 License: ISC
 Section: libs
 Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
 Architecture: x86_64
-Installed-Size: 141388
+Installed-Size: 143674
 Filename: libsodium_1.0.18-1_x86_64.ipk
-Size: 142553
-SHA256sum: c38ff8ce3dae079304da080648626ee6cf9baf4f231f979e9c1a1215f6cd7415
+Size: 144902
+SHA256sum: f3a73dd691d5be93d8004a27f029252c73afb700eba5bb6978302ad1e16ec9d4
 Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
  NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
  Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
@@ -170,19 +182,21 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
 
-Package: libuv
+Package: libuv1
 Version: 1.32.0-1
 Depends: libc, libpthread, librt
+Provides: libuv
 Source: package/openwrt-dev/libs/libuv
+SourceName: libuv
 License: MIT
 LicenseFiles: LICENSE
 Section: libs
 Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
 Architecture: x86_64
-Installed-Size: 58003
-Filename: libuv_1.32.0-1_x86_64.ipk
-Size: 58934
-SHA256sum: 20486eec93db8597eadfd88a5d61c3f21522afb61ce7c559e5ddd8382c830d80
+Installed-Size: 59463
+Filename: libuv1_1.32.0-1_x86_64.ipk
+Size: 60363
+SHA256sum: b5e5d93294ba0103cf7547908b975f4a16a9bf0df58661fe2f978b95814ac2d4
 Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
  was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
  pyuv, and others.
@@ -191,73 +205,78 @@ Package: luci-app-chinadns
 Version: 1.6.2-1
 Depends: libc, ChinaDNS
 Source: package/openwrt-dev/net/openwrt-dist-luci
+SourceName: luci-app-chinadns
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 1640
+Installed-Size: 1642
 Filename: luci-app-chinadns_1.6.2-1_all.ipk
-Size: 2521
-SHA256sum: f3d12893f3a4ef183d6c9acc00253e4b864faf346178a439c5ffdb4dafc8ca2e
+Size: 2531
+SHA256sum: 51c61ae27e84e4c7eb04794141073cfa8b78c106a5340ea85e6d7cc5fe3c7e27
 Description:  LuCI Support for ChinaDNS.
 
 Package: luci-app-dns-forwarder
 Version: 1.6.2-1
 Depends: libc, dns-forwarder
 Source: package/openwrt-dev/net/openwrt-dist-luci
+SourceName: luci-app-dns-forwarder
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 1345
+Installed-Size: 1350
 Filename: luci-app-dns-forwarder_1.6.2-1_all.ipk
-Size: 2244
-SHA256sum: 4dc55183b1498a1d776d90fa2db3ce4bbe279a1780afa0333e05c6f273674c4d
+Size: 2257
+SHA256sum: 3279e501f18c625fb789c17447bd4cbd7d968e2ef14ff2fb0c2a894abf7194a8
 Description:  LuCI Support for Dns-Forwarder.
 
 Package: luci-app-shadowsocks-without-ipset
 Version: 1.9.1-1
 Depends: libc, iptables
 Source: package/openwrt-dev/net/luci-app-shadowsocks
+SourceName: luci-app-shadowsocks-without-ipset
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 10294
+Installed-Size: 10300
 Filename: luci-app-shadowsocks-without-ipset_1.9.1-1_all.ipk
-Size: 11222
-SHA256sum: 92c2aa55db30e48102b146417ed038f825af9f05b646f01625d465712bbac8d6
+Size: 11241
+SHA256sum: 924dc98919d950d42a2538a703789b01ea02b872a50681e3c509de8b07dcfe9c
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: luci-app-shadowsocks
 Version: 1.9.1-1
 Depends: libc, iptables, ipset
 Source: package/openwrt-dev/net/luci-app-shadowsocks
+SourceName: luci-app-shadowsocks
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 10416
+Installed-Size: 10422
 Filename: luci-app-shadowsocks_1.9.1-1_all.ipk
-Size: 11346
-SHA256sum: 7a5572ed19071aebb8fcf9f92d2c1d9438c7e2d9dcf81b0c21006524011df595
+Size: 11352
+SHA256sum: 2c814c81cd991925c398216a3b4268b430ce95f369c188056c11ec2a1b4fe0c2
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: mbedtls-util
 Version: 2.16.2-2
-Depends: libc, libmbedtls
+Depends: libc, libmbedtls12
 Source: package/openwrt-dev/libs/mbedtls
+SourceName: mbedtls-util
 License: GPL-2.0+
 Section: utils
 Architecture: x86_64
-Installed-Size: 6841
+Installed-Size: 7065
 Filename: mbedtls-util_2.16.2-2_x86_64.ipk
-Size: 7677
-SHA256sum: 2d1b8d4f5ec0415d61b7477fc1052045f9113a7a543407b60b07c5734adcac55
+Size: 7887
+SHA256sum: f4b36d248455c1c015b44fa96ad55c75ebb3a86fd657df6e747f519bf8b61085
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -267,72 +286,77 @@ Package: shadowsocks-libev-server
 Version: 3.3.4-1
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-shadowsocks
+SourceName: shadowsocks-libev-server
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 351321
+Installed-Size: 364108
 Filename: shadowsocks-libev-server_3.3.4-1_x86_64.ipk
-Size: 352111
-SHA256sum: c921d2474d3225a708f2aa81942f8c9568bebade21ab0e495a7864c450105b66
+Size: 364936
+SHA256sum: 19e2007f972c82f3f0263738a34b2c0c875786dd38b9dd7ed6985cfe6c5c4c16
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
 Version: 3.3.4-1
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-shadowsocks
+SourceName: shadowsocks-libev
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 835361
+Installed-Size: 869598
 Filename: shadowsocks-libev_3.3.4-1_x86_64.ipk
-Size: 836023
-SHA256sum: a0660a873f4b563bcf9117f25ef374bbfc12b4ee8302fe9f346a390600394b06
+Size: 870317
+SHA256sum: 6ef3e58b46ae931f1add06c74d7026c5cd825fe97496cce005b05f7062df65cc
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
 Version: 0.0.5-4
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-simple-obfs
+SourceName: simple-obfs-server
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 86304
+Installed-Size: 93650
 Filename: simple-obfs-server_0.0.5-4_x86_64.ipk
-Size: 87080
-SHA256sum: 2b019ce6488771193ea6cd840a391a28ee928d7ce861d9a6ff65eed538bd2ee5
+Size: 94494
+SHA256sum: 0b2428e9545eadb0c27e3626665d626d14fe8ae6eb5fe6034262be5f64529792
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
 Version: 0.0.5-4
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-simple-obfs
+SourceName: simple-obfs
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 83820
+Installed-Size: 91363
 Filename: simple-obfs_0.0.5-4_x86_64.ipk
-Size: 84661
-SHA256sum: b2afa1da3b7831c272317e81fc7ae874115a075785d84bf5a11b7ce4e13d16a2
+Size: 92135
+SHA256sum: 1a2bc10cd094f2b8a1e8254e5b826d406e848b0f096e75307b219ad6dc73f48b
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: udp2raw
 Version: 20190716-4
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-udp2raw
+SourceName: udp2raw
 Section: net
 Architecture: x86_64
-Installed-Size: 400230
+Installed-Size: 410558
 Filename: udp2raw_20190716-4_x86_64.ipk
-Size: 400289
-SHA256sum: fe06952adcfa1e2cbeec462e7dbcb1777f6773ef1d1fbd54032c18ccc40e7cc1
+Size: 410996
+SHA256sum: c6a940bc7d7e7d9f448c8a580614fb3f7ef44cbc0caae08c012c582ddc0aabd3
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
@@ -340,12 +364,13 @@ Package: udpspeeder
 Version: 20190408-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-udpspeeder
+SourceName: udpspeeder
 Section: net
 Architecture: x86_64
-Installed-Size: 167730
+Installed-Size: 172848
 Filename: udpspeeder_20190408-1_x86_64.ipk
-Size: 168610
-SHA256sum: 8999b721fd2885299f6a5a1b1e211dfa91a8d7e7d018e1a9ba29d8a2c91cfa34
+Size: 173728
+SHA256sum: baa7791ff08a6790873d4a40b077e155e8753ae9dbacbe16890400a34799088b
 Description:  A tunnel which improves your network quality on a high-latency lossy link
  by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
