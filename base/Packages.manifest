@@ -15,7 +15,7 @@ SHA256sum: d9110e6c4bca254aa9e8f2ebca00bbe4cdfac7ec0c78ef5a647506ada32a04c4
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.18-1
+Version: 1.0-beta.20-1
 Depends: libc, ipset
 Source: package/openwrt-dev/net/openwrt-chinadns-ng
 SourceName: chinadns-ng
@@ -24,10 +24,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 384664
-Filename: chinadns-ng_1.0-beta.18-1_mips_24kc.ipk
-Size: 385446
-SHA256sum: 2a0fe403f517bcf7d9919e1a734da946af1c8457c8ec008d1c1560e26ad3aa53
+Installed-Size: 384788
+Filename: chinadns-ng_1.0-beta.20-1_mips_24kc.ipk
+Size: 385566
+SHA256sum: 9d8d07a234afdf44d1405a9c3fe86dffe6a4db76cc202d5d6d2c060d14494af6
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -315,7 +315,7 @@ SHA256sum: b34d7de51b9f742288acab42a7b7cf411417a5a035a495e71159c7326874be8e
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
-Version: 0.0.5-4
+Version: 0.0.5-5
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-simple-obfs
 SourceName: simple-obfs-server
@@ -324,14 +324,14 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: mips_24kc
-Installed-Size: 106875
-Filename: simple-obfs-server_0.0.5-4_mips_24kc.ipk
-Size: 107621
-SHA256sum: edf7bd4354654345591304e8658ff7d17abce89259a2c9eba718da9c69d4415e
+Installed-Size: 106873
+Filename: simple-obfs-server_0.0.5-5_mips_24kc.ipk
+Size: 107622
+SHA256sum: a608cb79b39c66bd19ee54c786ca812d3605f773fc943392cf18981e7abd1772
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
-Version: 0.0.5-4
+Version: 0.0.5-5
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-simple-obfs
 SourceName: simple-obfs
@@ -340,10 +340,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: mips_24kc
-Installed-Size: 105224
-Filename: simple-obfs_0.0.5-4_mips_24kc.ipk
-Size: 105971
-SHA256sum: dda08e559194e5a568ea252741001aadc5dd8957f49d2db3a1bcb5098e36aa9a
+Installed-Size: 105218
+Filename: simple-obfs_0.0.5-5_mips_24kc.ipk
+Size: 105960
+SHA256sum: dd106940b31d20b326f210f2080cbcae7cb9dee66bcf64f7fa81e2cd71361b3a
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: udp2raw
