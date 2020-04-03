@@ -39,10 +39,10 @@ addons:
 
 env:
   jobs:
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.1/targets/ath79/generic/openwrt-sdk-19.07.1-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.1/targets/ath79/tiny/openwrt-sdk-19.07.1-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.1/targets/ramips/mt7620/openwrt-sdk-19.07.1-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/18.06.7/targets/x86/64/openwrt-sdk-18.06.7-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.2/targets/ath79/generic/openwrt-sdk-19.07.2-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.2/targets/ath79/tiny/openwrt-sdk-19.07.2-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.2/targets/ramips/mt7620/openwrt-sdk-19.07.2-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/18.06.8/targets/x86/64/openwrt-sdk-18.06.8-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
   global:
     - TZ: "Asia/Taipei"
     - secure: "iq8eFoGpKiBlBC8K3Psw62sjGT3PqqSYlIdRUM1dPEDdpDYR0iOz0qoNq6AseUuWWs02+Kck+RcYCxXiLk2DLwKVD5yyNqUab6hR4+9mm7DszXSb7CYIxLMMzFcS1IY4ompd0ljUFi/wPdMuYxm6gNKnAlda9V+8YtH3nn7vYSPOb3mmVwzMZR0wR2752Pem4b5Wa1JbnBL13NrXTXcuRRTtWYFy0lb4ZXE1jB++pufn93Xxhg0RjQ0HYoUg+xZZf+uNh3dP5pbYreasrx3oKfjTPtDtRlU7hF3nPE2iqenwcW3WT79W0LVLgBsVA41zyzhHmSGOThm/4l5/yXHK0mGHkq0sAaG/K/sUZ4Pa3lOftsgo+4pRP3uY+bOn2JPPszftBimKhVMifRwbunlstC6A7tDfTXKSScZZOjy+IPilc2tdIJBxZqWMeCtP6FoxNDubw59SSSUvbK755WVtFJVsFMN8OtjX8CZkAtHwVCRropt2kz61kO2dR9NjW4YfIMX/bHnAVU6CLU1/l+RlDplx7oW6s80RjLNTAgdhhW/mPE9rh7jKXibK3vpqn6q3ka5dazM6RiTFzgSQGTcwMHvNFSHP5hn1eURmtngAt0NWJ48BrPx6BvIgcvkJF+JoXmiPkQvO+tIct3wMW+ZNxriPYUv3ESmyh+i62ccw6qg="
