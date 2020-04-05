@@ -35,15 +35,15 @@ SHA256sum: f944519b6795c15b644b78a4ca34791f8f10033574bff3b2572d36bb3247d9dd
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
-Version: 1.0-1
+Version: 1.1.0-1
 Depends: libc
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 40193
-Filename: dns2tcp_1.0-1_mips_24kc.ipk
-Size: 40792
-SHA256sum: 9fda0aa66e0021899729a1f53209ed92bcba07bdf0fb052aabb68bf06232ac9d
+Installed-Size: 16673
+Filename: dns2tcp_1.1.0-1_mips_24kc.ipk
+Size: 17454
+SHA256sum: 14efa259673b0ffa87ef76679c37a638ab7e1ea4c6a1b285137f30d61369b244
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
