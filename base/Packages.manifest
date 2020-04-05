@@ -24,10 +24,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 394350
+Installed-Size: 394759
 Filename: chinadns-ng_1.0-beta.22-2_mips_24kc.ipk
-Size: 395261
-SHA256sum: 048135ef48a9183ee979a45c8a49b95c8449d2bd2402153ea2bd92a6dcb97094
+Size: 395670
+SHA256sum: f55afe167b4109dae925148672826e58d3a92a7541b1fa3445ba40051d3c8eee
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -56,10 +56,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 16673
+Installed-Size: 17540
 Filename: dns2tcp_1.1.0-1_mips_24kc.ipk
-Size: 17454
-SHA256sum: 14efa259673b0ffa87ef76679c37a638ab7e1ea4c6a1b285137f30d61369b244
+Size: 18355
+SHA256sum: ddeb958a86e1c29bc29dfa99e499aa1e7e9626b4512039aff578faada4bbca8b
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
