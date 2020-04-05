@@ -16,10 +16,10 @@ Depends: libc, ipset
 License: GPLv3
 Section: net
 Architecture: x86_64
-Installed-Size: 395070
+Installed-Size: 395664
 Filename: chinadns-ng_1.0-beta.22-2_x86_64.ipk
-Size: 395948
-SHA256sum: 77bb8c3435a717a97a086a642162faab12791cf782a050448c68eb01357d4c2f
+Size: 396596
+SHA256sum: 1749ebf111118a04512b5515038fe0acbd84027b0e2c1682cfea9b5ec289f54f
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -40,10 +40,10 @@ Depends: libc
 License: GPLv3
 Section: net
 Architecture: x86_64
-Installed-Size: 17208
+Installed-Size: 18196
 Filename: dns2tcp_1.1.0-1_x86_64.ipk
-Size: 17945
-SHA256sum: 79480513f71e0281abcb09eada966c3c7c9add812f021fab40305060b0d440b8
+Size: 18959
+SHA256sum: cbb99b30ee245dec8b6f49032e9d6e2a743f57492f109b7e91532f3c5bc710c4
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
