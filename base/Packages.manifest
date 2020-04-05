@@ -44,7 +44,7 @@ SHA256sum: 27d5f07c54489af26bbe0df683cd6031771139baabdc88ae912bbcbe685f6339
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
-Version: 1.0-1
+Version: 1.1.0-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-dns2tcp
 License: GPLv3
@@ -52,10 +52,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 53291
-Filename: dns2tcp_1.0-1_x86_64.ipk
-Size: 54119
-SHA256sum: abefd53c407ba54b3ffae97791f38ada307dff9b524527dceacd726e8fbb57f8
+Installed-Size: 17208
+Filename: dns2tcp_1.1.0-1_x86_64.ipk
+Size: 17945
+SHA256sum: 79480513f71e0281abcb09eada966c3c7c9add812f021fab40305060b0d440b8
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
