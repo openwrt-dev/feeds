@@ -40,22 +40,22 @@ Depends: libc
 License: GPLv3
 Section: net
 Architecture: x86_64
-Installed-Size: 18196
+Installed-Size: 18163
 Filename: dns2tcp_1.1.0-1_x86_64.ipk
-Size: 18959
-SHA256sum: cbb99b30ee245dec8b6f49032e9d6e2a743f57492f109b7e91532f3c5bc710c4
+Size: 18924
+SHA256sum: 06d0a380010265117fe95d0f920c8f79b96a6bf3bcb08da4dc9d7f85e0368231
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
-Version: 1.9.3-2
+Version: 1.9.4-1
 Depends: libc
 License: GPLv3
 Section: net
 Architecture: x86_64
-Installed-Size: 64688
-Filename: hev-socks5-server_1.9.3-2_x86_64.ipk
-Size: 65562
-SHA256sum: 4c993b5387115f8ba5a6ae045ef4647d072ca3fc560956e5f899255d1d07dc00
+Installed-Size: 64700
+Filename: hev-socks5-server_1.9.4-1_x86_64.ipk
+Size: 65577
+SHA256sum: 961a9537bdbeb40903433d128874adc3b41ce82e1f825f65b5383c2e0c7b1b25
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
