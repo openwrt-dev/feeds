@@ -14,19 +14,19 @@ SHA256sum: fd9260015de6116d3f769165b11ae3ff69bb0921f9ce42fe73d68012ddf4a779
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.22-2
+Version: 1.0-beta.22-3
 Depends: libc, ipset
 Source: package/openwrt-dev/net/openwrt-chinadns-ng
-License: GPLv3
+License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 395664
-Filename: chinadns-ng_1.0-beta.22-2_x86_64.ipk
-Size: 396596
-SHA256sum: 1749ebf111118a04512b5515038fe0acbd84027b0e2c1682cfea9b5ec289f54f
-Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+Installed-Size: 395667
+Filename: chinadns-ng_1.0-beta.22-3_x86_64.ipk
+Size: 396631
+SHA256sum: 78eef31e734c17491c4c6ca52cbf4d7206cd2d1b9d53fd2cfcdddcc3ec6043b5
+Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
 Version: 1.2.1-2
@@ -47,45 +47,45 @@ Package: dns2tcp
 Version: 1.1.0-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-dns2tcp
-License: GPLv3
+License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 18163
 Filename: dns2tcp_1.1.0-1_x86_64.ipk
-Size: 18924
-SHA256sum: 06d0a380010265117fe95d0f920c8f79b96a6bf3bcb08da4dc9d7f85e0368231
+Size: 18926
+SHA256sum: ddafaf60bd03798ce3eed41d0943e519e009e3bb81f22ad3838e2d3d83998310
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
 Version: 1.9.4-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-hev-socks5-server
-License: GPLv3
+License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 64700
 Filename: hev-socks5-server_1.9.4-1_x86_64.ipk
-Size: 65577
-SHA256sum: 961a9537bdbeb40903433d128874adc3b41ce82e1f825f65b5383c2e0c7b1b25
+Size: 65579
+SHA256sum: 787bd828a584c557ff10641d47af16edd1a2c45bd93b30d17ac69794b6e08372
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
 Version: 1.0.2-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-ipt2socks
-License: GPLv3
+License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 71122
 Filename: ipt2socks_1.0.2-1_x86_64.ipk
-Size: 71961
-SHA256sum: 63e23cd729a80a015af91a487c3471d8dbce75315ad82b5ac6ee223fb2baf588
+Size: 71964
+SHA256sum: 697298075353b972890bd6f20e3c8f865458be58ccaa3299ca194465a395a9a0
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
