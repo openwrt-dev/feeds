@@ -11,16 +11,16 @@ SHA256sum: d9110e6c4bca254aa9e8f2ebca00bbe4cdfac7ec0c78ef5a647506ada32a04c4
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.22-2
+Version: 1.0-beta.22-3
 Depends: libc, ipset
-License: GPLv3
+License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 394759
-Filename: chinadns-ng_1.0-beta.22-2_mips_24kc.ipk
-Size: 395670
-SHA256sum: f55afe167b4109dae925148672826e58d3a92a7541b1fa3445ba40051d3c8eee
-Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+Installed-Size: 394746
+Filename: chinadns-ng_1.0-beta.22-3_mips_24kc.ipk
+Size: 395689
+SHA256sum: 08107bdd05150fef98175581a719746ba07adec98b3fbbbf8836ab21960ff411
+Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
 Version: 1.2.1-2
@@ -37,37 +37,37 @@ Description:  Forwarding DNS queries on TCP transport.
 Package: dns2tcp
 Version: 1.1.0-1
 Depends: libc
-License: GPLv3
+License: GPL-3.0
 Section: net
 Architecture: mips_24kc
 Installed-Size: 17501
 Filename: dns2tcp_1.1.0-1_mips_24kc.ipk
-Size: 18312
-SHA256sum: 829f1d7b5d1a8620d996957b4d43fed8d87af107794f0c8d26c4b8e1842b1881
+Size: 18313
+SHA256sum: 5a4313feeead03e3d967f753460928312a41a2f0d504a3595938c103a59fd62e
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
 Version: 1.9.4-1
 Depends: libc
-License: GPLv3
+License: GPL-3.0
 Section: net
 Architecture: mips_24kc
 Installed-Size: 75229
 Filename: hev-socks5-server_1.9.4-1_mips_24kc.ipk
-Size: 76024
-SHA256sum: 5e7a6c7015b169c51426bcac34aeb78b16faed5e77b499109e4fa2931cf03868
+Size: 76027
+SHA256sum: 550e0a26d715f4e1314fe3e17a0e06039913c26858bc564ffa3b0e0deddfb487
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
 Version: 1.0.2-1
 Depends: libc
-License: GPLv3
+License: GPL-3.0
 Section: net
 Architecture: mips_24kc
 Installed-Size: 56332
 Filename: ipt2socks_1.0.2-1_mips_24kc.ipk
-Size: 56950
-SHA256sum: 017ea60291ad2e2b01198ed1a0bfa810fecb54bb200a51d1bb9e76d9d56b324d
+Size: 56951
+SHA256sum: 1d013b0fb560a1e0a718aab2081765fbbe9f1c3a66f8fba816b22c4ae76d0fec
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
