@@ -49,7 +49,7 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 - ~~[libcares](https://github.com/openwrt/packages/tree/master/libs/c-ares)~~
 - ~~[libsodium](https://github.com/openwrt/packages/tree/master/libs/libsodium)~~
 
-### Reference
+### Credits
 
 1. https://github.com/simonsmh/lede-dist
 2. https://github.com/isjerryxiao/r6220-openwrt
