@@ -46,6 +46,22 @@ Size: 9605
 SHA256sum: f944519b6795c15b644b78a4ca34791f8f10033574bff3b2572d36bb3247d9dd
 Description:  Forwarding DNS queries on TCP transport.
 
+Package: dns2socks
+Version: 2.1-1
+Depends: libc, libpthread
+Source: package/openwrt-dev/net/openwrt-dns2socks
+SourceName: dns2socks
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mips_24kc
+Installed-Size: 12147
+Filename: dns2socks_2.1-1_mips_24kc.ipk
+Size: 12932
+SHA256sum: f8511056fa26d0e9d3a50c45ec3b4a0570e36b9143b4b529e2e6eb57d4da8d30
+Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
+
 Package: dns2tcp
 Version: 1.1.0-1
 Depends: libc
