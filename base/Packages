@@ -282,26 +282,26 @@ SHA256sum: dd106940b31d20b326f210f2080cbcae7cb9dee66bcf64f7fa81e2cd71361b3a
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: udp2raw
-Version: 20190716-4
+Version: 20190716-5
 Depends: libc
 Section: net
 Architecture: mips_24kc
-Installed-Size: 463366
-Filename: udp2raw_20190716-4_mips_24kc.ipk
-Size: 462630
-SHA256sum: 1607d0132e46db00ed7adf0c241b0eecb9ce0d196534ec6e590d0c97489d8a94
+Installed-Size: 463365
+Filename: udp2raw_20190716-5_mips_24kc.ipk
+Size: 462602
+SHA256sum: 34333943894c001da7e53d97597540f1526c5f0ae0d4969d56ac1c203873463b
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
 Package: udpspeeder
-Version: 20190408-1
+Version: 20190408-2
 Depends: libc
 Section: net
 Architecture: mips_24kc
-Installed-Size: 199545
-Filename: udpspeeder_20190408-1_mips_24kc.ipk
-Size: 200272
-SHA256sum: 37182e9b462075a43e3a577ec91b8535a5185745b911b049775d44e8e2d2d108
+Installed-Size: 199557
+Filename: udpspeeder_20190408-2_mips_24kc.ipk
+Size: 200255
+SHA256sum: 8d610f1f08b391fa2844b502fc17d174298bcf7af4282f4707e8ce3171a6bc77
 Description:  A tunnel which improves your network quality on a high-latency lossy link
  by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
