@@ -56,10 +56,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 12147
+Installed-Size: 12139
 Filename: dns2socks_2.1-1_mips_24kc.ipk
-Size: 12932
-SHA256sum: f8511056fa26d0e9d3a50c45ec3b4a0570e36b9143b4b529e2e6eb57d4da8d30
+Size: 12917
+SHA256sum: a633a6cde4ae194201409f28bc9060fe621beadfe30412cfa487aadd28a2c309
 Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
@@ -72,10 +72,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 17501
+Installed-Size: 17484
 Filename: dns2tcp_1.1.0-1_mips_24kc.ipk
-Size: 18313
-SHA256sum: 5a4313feeead03e3d967f753460928312a41a2f0d504a3595938c103a59fd62e
+Size: 18296
+SHA256sum: 19d15c2390f5ce10c2ad9fd8c0c24b6224e08455b6ac39ff6cc0128fa841fdac
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
@@ -88,10 +88,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 75229
+Installed-Size: 75227
 Filename: hev-socks5-server_1.9.4-1_mips_24kc.ipk
-Size: 76027
-SHA256sum: 550e0a26d715f4e1314fe3e17a0e06039913c26858bc564ffa3b0e0deddfb487
+Size: 76023
+SHA256sum: 391b09c61b1c368ac2bff27b4e3b0634bc2ff7b477e2a6362e53b2d3d63dbf66
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
@@ -104,10 +104,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 56332
+Installed-Size: 56304
 Filename: ipt2socks_1.0.2-1_mips_24kc.ipk
-Size: 56951
-SHA256sum: 1d013b0fb560a1e0a718aab2081765fbbe9f1c3a66f8fba816b22c4ae76d0fec
+Size: 56921
+SHA256sum: e890ab1fc2e105cebe96396a494462440f848af13c7d8e3d38a3127819e03ae6
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
@@ -369,10 +369,10 @@ Source: package/openwrt-dev/net/openwrt-udp2raw
 SourceName: udp2raw
 Section: net
 Architecture: mips_24kc
-Installed-Size: 463365
+Installed-Size: 463389
 Filename: udp2raw_20190716-5_mips_24kc.ipk
-Size: 462602
-SHA256sum: 34333943894c001da7e53d97597540f1526c5f0ae0d4969d56ac1c203873463b
+Size: 462633
+SHA256sum: 4c20026d362356d0adc2559924f46ebecb027501195f7edd16d6ad3daa6c84ee
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
@@ -383,10 +383,10 @@ Source: package/openwrt-dev/net/openwrt-udpspeeder
 SourceName: udpspeeder
 Section: net
 Architecture: mips_24kc
-Installed-Size: 199557
+Installed-Size: 199520
 Filename: udpspeeder_20190408-2_mips_24kc.ipk
-Size: 200255
-SHA256sum: 8d610f1f08b391fa2844b502fc17d174298bcf7af4282f4707e8ce3171a6bc77
+Size: 200258
+SHA256sum: bc5dd4579b21a8f01f7d7152e5c80a3b81555ed58d77eb2ee615f2c6d25d547d
 Description:  A tunnel which improves your network quality on a high-latency lossy link
  by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
