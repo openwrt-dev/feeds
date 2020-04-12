@@ -52,10 +52,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 12968
+Installed-Size: 12961
 Filename: dns2socks_2.1-1_x86_64.ipk
-Size: 13721
-SHA256sum: 1abb9186886bc7ef9bed96838909ed3f62807048ea73002cca4b79305ef51923
+Size: 13717
+SHA256sum: eac5799e58418309a63f554fe9e2cbee11a734c7c62570d00519f787382cdf68
 Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
@@ -67,10 +67,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 18163
+Installed-Size: 18149
 Filename: dns2tcp_1.1.0-1_x86_64.ipk
-Size: 18926
-SHA256sum: ddafaf60bd03798ce3eed41d0943e519e009e3bb81f22ad3838e2d3d83998310
+Size: 18921
+SHA256sum: 13708fd6208aa68036101e4a50f31aaacd3d84dd07c9437f2769ed6b3c6b3b28
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
@@ -84,8 +84,8 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 64700
 Filename: hev-socks5-server_1.9.4-1_x86_64.ipk
-Size: 65579
-SHA256sum: 787bd828a584c557ff10641d47af16edd1a2c45bd93b30d17ac69794b6e08372
+Size: 65576
+SHA256sum: a6eb704b8f8ef507da8815e3ca9a33e43b170c062a2a7900c620dc8303103b52
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
@@ -97,10 +97,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 71122
+Installed-Size: 71092
 Filename: ipt2socks_1.0.2-1_x86_64.ipk
-Size: 71964
-SHA256sum: 697298075353b972890bd6f20e3c8f865458be58ccaa3299ca194465a395a9a0
+Size: 71940
+SHA256sum: e7717bc245fb5e2798c2daa7494a1305ccdcd3873c9e6c8b69390fb23db6b61d
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
@@ -344,10 +344,10 @@ Depends: libc
 Source: package/openwrt-dev/net/openwrt-udp2raw
 Section: net
 Architecture: x86_64
-Installed-Size: 396043
+Installed-Size: 396020
 Filename: udp2raw_20190716-5_x86_64.ipk
-Size: 396311
-SHA256sum: 269221d310894ecc132ce4ed52e0222e78497c27c700044d29a628cca8a3502d
+Size: 396244
+SHA256sum: 686cb79e08d37e906d18bf18ec792c728b42ae9d32a564fea32269e28b3bae52
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
@@ -357,10 +357,10 @@ Depends: libc
 Source: package/openwrt-dev/net/openwrt-udpspeeder
 Section: net
 Architecture: x86_64
-Installed-Size: 168249
+Installed-Size: 168207
 Filename: udpspeeder_20190408-2_x86_64.ipk
-Size: 169131
-SHA256sum: 8761f7efa44babdea19db898ed8814def0d9b339edcc109bedc570d1093d9413
+Size: 169087
+SHA256sum: d396425ca4c9e1566ed49a360254e1815859df4783ff7b7ad3b65d6608c4f831
 Description:  A tunnel which improves your network quality on a high-latency lossy link
  by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
