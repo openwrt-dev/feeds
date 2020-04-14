@@ -344,10 +344,10 @@ Depends: libc
 Source: package/openwrt-dev/net/openwrt-udp2raw
 Section: net
 Architecture: x86_64
-Installed-Size: 396020
+Installed-Size: 396030
 Filename: udp2raw_20190716-5_x86_64.ipk
-Size: 396244
-SHA256sum: 686cb79e08d37e906d18bf18ec792c728b42ae9d32a564fea32269e28b3bae52
+Size: 396258
+SHA256sum: f5f49c3cdd0835b6a36c847dff6950c92e0535a79cd059f17a89d80b5e00f79a
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
