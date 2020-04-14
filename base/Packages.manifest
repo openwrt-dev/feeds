@@ -369,10 +369,10 @@ Source: package/openwrt-dev/net/openwrt-udp2raw
 SourceName: udp2raw
 Section: net
 Architecture: mips_24kc
-Installed-Size: 463389
+Installed-Size: 463396
 Filename: udp2raw_20190716-5_mips_24kc.ipk
-Size: 462633
-SHA256sum: 4c20026d362356d0adc2559924f46ebecb027501195f7edd16d6ad3daa6c84ee
+Size: 462614
+SHA256sum: 727497532daebef1474eb271af8c8a31c2cc0d66d0fcd691038c5fdf975ca9ef
 Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
  helps you bypass UDP firewalls or unstable UDP Environment.
 
