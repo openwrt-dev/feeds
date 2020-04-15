@@ -63,7 +63,7 @@ SHA256sum: a633a6cde4ae194201409f28bc9060fe621beadfe30412cfa487aadd28a2c309
 Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
-Version: 1.1.0-1
+Version: 1.1.0-2
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-dns2tcp
 SourceName: dns2tcp
@@ -72,14 +72,14 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 17484
-Filename: dns2tcp_1.1.0-1_mips_24kc.ipk
-Size: 18296
-SHA256sum: 19d15c2390f5ce10c2ad9fd8c0c24b6224e08455b6ac39ff6cc0128fa841fdac
+Installed-Size: 17561
+Filename: dns2tcp_1.1.0-2_mips_24kc.ipk
+Size: 18386
+SHA256sum: 16e566e26d2d5018752c004137d3888b0fba6e5ec08b3cba53d2c834081fa4b1
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
-Version: 1.9.4-1
+Version: 1.9.4-2
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-hev-socks5-server
 SourceName: hev-socks5-server
@@ -88,10 +88,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 75227
-Filename: hev-socks5-server_1.9.4-1_mips_24kc.ipk
-Size: 76023
-SHA256sum: 391b09c61b1c368ac2bff27b4e3b0634bc2ff7b477e2a6362e53b2d3d63dbf66
+Installed-Size: 81711
+Filename: hev-socks5-server_1.9.4-2_mips_24kc.ipk
+Size: 82457
+SHA256sum: a1d755a56dd2fb1cb1d3bba9950be6c87fb0ee9173eebea92cbad972be6606a2
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
@@ -297,6 +297,22 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
+
+Package: portfwd
+Version: 20191118-1
+Depends: libc
+Source: package/openwrt-dev/net/openwrt-portfwd
+SourceName: portfwd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mips_24kc
+Installed-Size: 9364
+Filename: portfwd_20191118-1_mips_24kc.ipk
+Size: 10131
+SHA256sum: b5c328219c3ec647576c9d9926597cfef2ae92d378b6c7949419ebfa6a8fac95
+Description:  User-space TCP/UDP port forwarding services.
 
 Package: shadowsocks-libev-server
 Version: 3.3.4-1
