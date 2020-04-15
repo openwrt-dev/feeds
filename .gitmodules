@@ -37,3 +37,6 @@
 [submodule "net/openwrt-dns2socks"]
 	path = net/openwrt-dns2socks
 	url = https://github.com/pexcn/openwrt-dns2socks.git
+[submodule "net/openwrt-portfwd"]
+	path = net/openwrt-portfwd
+	url = https://github.com/pexcn/openwrt-portfwd.git
