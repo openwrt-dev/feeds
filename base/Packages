@@ -47,27 +47,27 @@ SHA256sum: eac5799e58418309a63f554fe9e2cbee11a734c7c62570d00519f787382cdf68
 Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
-Version: 1.1.0-1
+Version: 1.1.0-2
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 18149
-Filename: dns2tcp_1.1.0-1_x86_64.ipk
-Size: 18921
-SHA256sum: 13708fd6208aa68036101e4a50f31aaacd3d84dd07c9437f2769ed6b3c6b3b28
+Installed-Size: 18227
+Filename: dns2tcp_1.1.0-2_x86_64.ipk
+Size: 18997
+SHA256sum: 0b34d380920b0e674c1538b96a6476c794e18d812fb2bf2114a2a6ae0af74104
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
-Version: 1.9.4-1
+Version: 1.9.4-2
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 64700
-Filename: hev-socks5-server_1.9.4-1_x86_64.ipk
-Size: 65576
-SHA256sum: a6eb704b8f8ef507da8815e3ca9a33e43b170c062a2a7900c620dc8303103b52
+Installed-Size: 72443
+Filename: hev-socks5-server_1.9.4-2_x86_64.ipk
+Size: 73307
+SHA256sum: 7204dc6f706388d378e6154019265f83d6300d500528e5fe4db32699b2deb0de
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
@@ -230,6 +230,18 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
+
+Package: portfwd
+Version: 20191118-1
+Depends: libc
+License: GPL-3.0
+Section: net
+Architecture: x86_64
+Installed-Size: 8946
+Filename: portfwd_20191118-1_x86_64.ipk
+Size: 9620
+SHA256sum: b41ef303441d006b013062094bf9e676738d86e0ba432578d8362317ca23b843
+Description:  User-space TCP/UDP port forwarding services.
 
 Package: shadowsocks-libev-server
 Version: 3.3.4-1
