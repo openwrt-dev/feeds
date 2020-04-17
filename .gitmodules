@@ -40,3 +40,6 @@
 [submodule "net/openwrt-portfwd"]
 	path = net/openwrt-portfwd
 	url = https://github.com/pexcn/openwrt-portfwd.git
+[submodule "net/openwrt-vlmcsd"]
+	path = net/openwrt-vlmcsd
+	url = https://github.com/pexcn/openwrt-vlmcsd.git

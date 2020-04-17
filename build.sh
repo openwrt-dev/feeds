@@ -41,6 +41,7 @@ build_packages() {
   make package/openwrt-udpspeeder/compile V=w
   make package/openwrt-dns2socks/compile V=w
   make package/openwrt-portfwd/compile V=w
+  make package/openwrt-vlmcsd/compile V=w
 
   make package/openwrt-shadowsocks/compile V=w \
     CONFIG_SHADOWSOCKS_STATIC_LINK=y \
