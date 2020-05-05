@@ -59,7 +59,7 @@ SHA256sum: eac5799e58418309a63f554fe9e2cbee11a734c7c62570d00519f787382cdf68
 Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
-Version: 1.1.0-2
+Version: 1.1.0-3
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-dns2tcp
 License: GPL-3.0
@@ -67,10 +67,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 18227
-Filename: dns2tcp_1.1.0-2_x86_64.ipk
-Size: 18997
-SHA256sum: 0b34d380920b0e674c1538b96a6476c794e18d812fb2bf2114a2a6ae0af74104
+Installed-Size: 18344
+Filename: dns2tcp_1.1.0-3_x86_64.ipk
+Size: 19135
+SHA256sum: 504e71ad0a41f4f5b7d75577fe705436d021ef728387209d300e57dd6fd08a15
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
@@ -89,7 +89,7 @@ SHA256sum: b893b709c63718bd890420960d8738216eb6e5bb7d09738e1b693b376dddb6e9
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
-Version: 1.0.2-1
+Version: 1.1.0-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-ipt2socks
 License: GPL-3.0
@@ -97,10 +97,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 71092
-Filename: ipt2socks_1.0.2-1_x86_64.ipk
-Size: 71940
-SHA256sum: e7717bc245fb5e2798c2daa7494a1305ccdcd3873c9e6c8b69390fb23db6b61d
+Installed-Size: 37812
+Filename: ipt2socks_1.1.0-1_x86_64.ipk
+Size: 38662
+SHA256sum: dac16b8c4e335aaf2daca5e676583a52b24cc27e8f2e1848fdeefc214b2c28dd
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
@@ -184,23 +184,6 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
-
-Package: libuv
-Version: 1.32.0-1
-Depends: libc, libpthread, librt
-Source: package/openwrt-dev/libs/libuv
-License: MIT
-LicenseFiles: LICENSE
-Section: libs
-Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
-Architecture: x86_64
-Installed-Size: 58002
-Filename: libuv_1.32.0-1_x86_64.ipk
-Size: 58924
-SHA256sum: 4557467e3c92838ddb81989419bb4fb25f0a5c8d4f171d51e142dd1e63f85771
-Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
- was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
- pyuv, and others.
 
 Package: luci-app-chinadns
 Version: 1.6.2-1
@@ -388,9 +371,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 41755
+Installed-Size: 41752
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 42697
-SHA256sum: d4e84c34ed5c390dc84d1292734dc63bce8de2275dc87722a023bab0bd111d0b
+Size: 42704
+SHA256sum: dadb32f126772fe04f1112d740ae7be259119493e57bded021d8fa77327ac706
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
