@@ -51,5 +51,4 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 
 ### Credits
 
-1. https://github.com/simonsmh/lede-dist
-2. https://github.com/isjerryxiao/r6220-openwrt
+https://github.com/simonsmh/lede-dist
