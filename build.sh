@@ -26,7 +26,6 @@ build_packages() {
   make package/libsodium/compile V=w
   make package/mbedtls/compile V=w
   make package/pcre/compile V=w
-  make package/libuv/compile V=w
 
   make package/luci-app-shadowsocks/compile V=w
   make package/openwrt-dist-luci/compile V=w

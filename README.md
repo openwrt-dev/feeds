@@ -45,7 +45,6 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 - [libev](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libev)
 - [libcares](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libcares)
 - [libsodium](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libsodium)
-- [libuv](https://github.com/openwrt/packages/tree/master/libs/libuv)
 - ~~[libcares](https://github.com/openwrt/packages/tree/master/libs/c-ares)~~
 - ~~[libsodium](https://github.com/openwrt/packages/tree/master/libs/libsodium)~~
 
