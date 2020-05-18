@@ -1,6 +1,7 @@
 # OpenWrt Feeds
 
 [![Build Status](https://travis-ci.org/openwrt-dev/feeds.svg?branch=master)](https://travis-ci.org/openwrt-dev/feeds)
+[![CDN](https://data.jsdelivr.com/v1/package/gh/openwrt-dev/feeds/badge?style=rounded)](https://cdn.jsdelivr.net/gh/openwrt-dev/feeds/)
 
 ### Build
 
@@ -38,6 +39,21 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/b
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 ```
 
+Or use [jsDelivr CDN](https://cdn.jsdelivr.net/gh/openwrt-dev/feeds/):
+```bash
+# ath79-generic
+src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@ath79-generic/base
+
+# ath79-tiny
+src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@ath79-tiny/base
+
+# ramips-mt7620
+src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@ramips-mt7620/base
+
+# x86-64
+src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@x86-64/base
+```
+
 ### Upstreams
 
 - [mbedtls](https://github.com/shadowsocks/openwrt-feeds/tree/master/base/mbedtls)
@@ -50,4 +66,4 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 
 ### Credits
 
-https://github.com/simonsmh/lede-dist
+https://github.com/simonsmh/openwrt-dist
