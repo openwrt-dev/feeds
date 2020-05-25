@@ -22,10 +22,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 395628
+Installed-Size: 395577
 Filename: chinadns-ng_1.0-beta.22-4_x86_64.ipk
-Size: 396593
-SHA256sum: efd7a8d4ce01b0f8a74f1cc130169b6eb29f21d46db702ff0499ed2c4584cf84
+Size: 396530
+SHA256sum: 7eead7d02a78e3f7a2aeed9e48c61f4675155579f8b6cef301508b769339467f
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -89,7 +89,7 @@ SHA256sum: b893b709c63718bd890420960d8738216eb6e5bb7d09738e1b693b376dddb6e9
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
-Version: 1.1.0-1
+Version: 1.1.2-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-ipt2socks
 License: GPL-3.0
@@ -97,10 +97,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 37812
-Filename: ipt2socks_1.1.0-1_x86_64.ipk
-Size: 38662
-SHA256sum: dac16b8c4e335aaf2daca5e676583a52b24cc27e8f2e1848fdeefc214b2c28dd
+Installed-Size: 39025
+Filename: ipt2socks_1.1.2-1_x86_64.ipk
+Size: 39862
+SHA256sum: a86a800e0b99f4839f4b2cf9a48c6def2b168cd466599bf9789941a0121ce85d
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
@@ -371,9 +371,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 41752
+Installed-Size: 41792
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 42704
-SHA256sum: dadb32f126772fe04f1112d740ae7be259119493e57bded021d8fa77327ac706
+Size: 42749
+SHA256sum: 8b52b863695fe8ca9cb1fd1d0e7bacbd30dc50cfbfea94fa5a62cadadfeab145
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
