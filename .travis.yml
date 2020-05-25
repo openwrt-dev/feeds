@@ -39,9 +39,9 @@ addons:
 
 env:
   jobs:
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.2/targets/ath79/generic/openwrt-sdk-19.07.2-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.2/targets/ath79/tiny/openwrt-sdk-19.07.2-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
-    - SDK_URL="https://downloads.openwrt.org/releases/19.07.2/targets/ramips/mt7620/openwrt-sdk-19.07.2-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.3/targets/ath79/generic/openwrt-sdk-19.07.3-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.3/targets/ath79/tiny/openwrt-sdk-19.07.3-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
+    - SDK_URL="https://downloads.openwrt.org/releases/19.07.3/targets/ramips/mt7620/openwrt-sdk-19.07.3-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz"
     - SDK_URL="https://downloads.openwrt.org/releases/18.06.8/targets/x86/64/openwrt-sdk-18.06.8-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz"
   global:
     - TZ: "Asia/Taipei"
@@ -60,6 +60,7 @@ before_deploy:
 
 deploy:
   edge: true
+  strategy: git
   provider: pages
   local_dir: ${TARGET}
   target_branch: ${TARGET}
