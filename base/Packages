@@ -11,15 +11,15 @@ SHA256sum: 1b5a653cccd96a6f714aa007719a1b7890365ae33345d808949a4f4c81f482ba
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.22-4
+Version: 1.0-beta.23-1
 Depends: libc, ipset
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 394653
-Filename: chinadns-ng_1.0-beta.22-4_mips_24kc.ipk
-Size: 395597
-SHA256sum: 2733222380a1afb922e0af6da1243f8d3b8b73c39e141370203ed964b9be6ce1
+Installed-Size: 394679
+Filename: chinadns-ng_1.0-beta.23-1_mips_24kc.ipk
+Size: 395639
+SHA256sum: 482b0e29757ffc6cdb3aade3a56065aa3ddf3670bf2b8d74e035fc42f8c1ee13
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -59,27 +59,27 @@ SHA256sum: 9ffa26a9b96270aab21c88aaeaa2a361e60235b539966c6b8ef7a3e32835b4ed
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
-Version: 1.9.4-2
+Version: 1.9.7-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 81618
-Filename: hev-socks5-server_1.9.4-2_mips_24kc.ipk
-Size: 82372
-SHA256sum: 0956377bed2467e21e09e91fb1cdd992e40f46dd1b0c8d10a29cd6a346ade1c5
+Installed-Size: 81651
+Filename: hev-socks5-server_1.9.7-1_mips_24kc.ipk
+Size: 82401
+SHA256sum: 84b200ca0bc365e7382ce1858f097d7fd9b70954218994836192d5383717bdc5
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
-Version: 1.1.2-1
+Version: 1.1.3-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 34866
-Filename: ipt2socks_1.1.2-1_mips_24kc.ipk
-Size: 35649
-SHA256sum: 5b10043df0afa784881c15f0be2642dc9f1c5673cddc1cc27176d1df9e5faf4f
+Installed-Size: 35382
+Filename: ipt2socks_1.1.3-1_mips_24kc.ipk
+Size: 36094
+SHA256sum: a71fc63a229770c639860897b364c954ae9c0d351020feefe8fadd1461ab7d36
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
@@ -231,27 +231,27 @@ SHA256sum: 0fe2fc0a1240e6c18709f480a96c5973b3eeff930048ccf3816c3b0853dc0c38
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: shadowsocks-libev-server
-Version: 3.3.4-1
+Version: 3.3.5-1
 Depends: libc, libpthread
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 378474
-Filename: shadowsocks-libev-server_3.3.4-1_mips_24kc.ipk
-Size: 378934
-SHA256sum: 07ba9c9ee1c98fdaaf55b15047dae280c35a01153df4eb3e883623156dcc4b9d
+Installed-Size: 377813
+Filename: shadowsocks-libev-server_3.3.5-1_mips_24kc.ipk
+Size: 378268
+SHA256sum: 12cb35bf205a8a8cc43def82e87ee603c942ea71f9913bc233bc0577d6af30be
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
-Version: 3.3.4-1
+Version: 3.3.5-1
 Depends: libc, libpthread
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 906463
-Filename: shadowsocks-libev_3.3.4-1_mips_24kc.ipk
-Size: 906412
-SHA256sum: d092463cb481fbcc8633ee205f2b8b5d353f653cb5559441748a6b6201f04680
+Installed-Size: 907055
+Filename: shadowsocks-libev_3.3.5-1_mips_24kc.ipk
+Size: 906916
+SHA256sum: bc9009e4ecdb06b1e368dbecf4c3e531430dcd648197518d6127f36e28a955e2
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -303,14 +303,14 @@ Description:  A tunnel which improves your network quality on a high-latency los
  by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
 Package: vlmcsd
-Version: svn1113-1
+Version: svn1113-2
 Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 45804
-Filename: vlmcsd_svn1113-1_mips_24kc.ipk
-Size: 46554
-SHA256sum: 4a9b09dc8c0a097c31ea80ea9c6514994c78d031217509b5eeb9b906c998fc02
+Installed-Size: 45801
+Filename: vlmcsd_svn1113-2_mips_24kc.ipk
+Size: 46548
+SHA256sum: 2fc5996002d266446e2cc5177da484a8951730ab0c757f5bf94d3c370cfbb664
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
