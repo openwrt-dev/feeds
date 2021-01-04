@@ -14,7 +14,7 @@ SHA256sum: fd9260015de6116d3f769165b11ae3ff69bb0921f9ce42fe73d68012ddf4a779
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.22-4
+Version: 1.0-beta.23-1
 Depends: libc, ipset
 Source: package/openwrt-dev/net/openwrt-chinadns-ng
 License: GPL-3.0
@@ -22,10 +22,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 395577
-Filename: chinadns-ng_1.0-beta.22-4_x86_64.ipk
-Size: 396530
-SHA256sum: 7eead7d02a78e3f7a2aeed9e48c61f4675155579f8b6cef301508b769339467f
+Installed-Size: 395616
+Filename: chinadns-ng_1.0-beta.23-1_x86_64.ipk
+Size: 396579
+SHA256sum: 49b51d76bfa1f3c0d7b880bccb3db2c8ec3bd616804c970f3079b2ace5a732f4
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -74,7 +74,7 @@ SHA256sum: 504e71ad0a41f4f5b7d75577fe705436d021ef728387209d300e57dd6fd08a15
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: hev-socks5-server
-Version: 1.9.4-2
+Version: 1.9.7-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-hev-socks5-server
 License: GPL-3.0
@@ -82,14 +82,14 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 72410
-Filename: hev-socks5-server_1.9.4-2_x86_64.ipk
-Size: 73281
-SHA256sum: b893b709c63718bd890420960d8738216eb6e5bb7d09738e1b693b376dddb6e9
+Installed-Size: 72418
+Filename: hev-socks5-server_1.9.7-1_x86_64.ipk
+Size: 73293
+SHA256sum: acb078966bfc64252e2b96ed2e135d3764c01d69d366846ad44d92c58310711d
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
-Version: 1.1.2-1
+Version: 1.1.3-1
 Depends: libc
 Source: package/openwrt-dev/net/openwrt-ipt2socks
 License: GPL-3.0
@@ -97,10 +97,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 39025
-Filename: ipt2socks_1.1.2-1_x86_64.ipk
-Size: 39862
-SHA256sum: a86a800e0b99f4839f4b2cf9a48c6def2b168cd466599bf9789941a0121ce85d
+Installed-Size: 39328
+Filename: ipt2socks_1.1.3-1_x86_64.ipk
+Size: 40189
+SHA256sum: e81fb9a9e33a42fcfd5e6184a2d1d1d71b55ea1d8ae53a4c19206531f01cac8a
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
@@ -277,7 +277,7 @@ SHA256sum: b41ef303441d006b013062094bf9e676738d86e0ba432578d8362317ca23b843
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: shadowsocks-libev-server
-Version: 3.3.4-1
+Version: 3.3.5-1
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-shadowsocks
 License: GPLv3
@@ -285,14 +285,14 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 351321
-Filename: shadowsocks-libev-server_3.3.4-1_x86_64.ipk
-Size: 352130
-SHA256sum: f2cb68c40246d170bb47dcf8480bbfc80e88ee5b5cc4cd25c83d9e5a1d9c236e
+Installed-Size: 350867
+Filename: shadowsocks-libev-server_3.3.5-1_x86_64.ipk
+Size: 351664
+SHA256sum: 1d7302caf8e55358f2e00eab9f6682b952798c994d2757e102f1f697df61a5af
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
-Version: 3.3.4-1
+Version: 3.3.5-1
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-shadowsocks
 License: GPLv3
@@ -300,10 +300,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 835363
-Filename: shadowsocks-libev_3.3.4-1_x86_64.ipk
-Size: 836056
-SHA256sum: 90a913f1d7f73293e783ada40749ec6a8bf7d1fa190bd6a46d0cc6d8ee5ddd25
+Installed-Size: 836809
+Filename: shadowsocks-libev_3.3.5-1_x86_64.ipk
+Size: 837601
+SHA256sum: e803bee8bfeb6485562fb0964a3925379dad290edcf01ae1e827f80ebd811bae
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -363,7 +363,7 @@ Description:  A tunnel which improves your network quality on a high-latency los
  by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
 Package: vlmcsd
-Version: svn1113-1
+Version: svn1113-2
 Depends: libc, libpthread
 Source: package/openwrt-dev/net/openwrt-vlmcsd
 License: GPL-3.0
@@ -371,9 +371,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 41792
-Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 42749
-SHA256sum: 8b52b863695fe8ca9cb1fd1d0e7bacbd30dc50cfbfea94fa5a62cadadfeab145
+Installed-Size: 41789
+Filename: vlmcsd_svn1113-2_x86_64.ipk
+Size: 42730
+SHA256sum: 3fa4998544e0c2ca9c5a42a9e400f282ef13b555bfe23317de761e074a1deed6
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
