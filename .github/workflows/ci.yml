@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Taipei
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-20.04
+    container:
+      image: pexcn/docker-images:buster-openwrt
+      options: --user builder
+    strategy:
+      fail-fast: false
+      matrix:
+        SDK_URL:
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ath79/generic/openwrt-sdk-19.07.6-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ath79/tiny/openwrt-sdk-19.07.6-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ramips/mt7620/openwrt-sdk-19.07.6-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ramips/mt7621/openwrt-sdk-19.07.6-ramips-mt7621_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/x86/64/openwrt-sdk-19.07.6-x86-64_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Set environment variables
+        run: |
+          echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
+          echo "TARGET=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
+      - name: Build
+        run: ./build.sh
+      - name: Push
+        if: github.event_name == 'push'
+        run: |
+          pwd && whoami && ls -al && echo "TODO..."
