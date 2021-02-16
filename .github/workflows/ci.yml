@@ -32,5 +32,6 @@ jobs:
       - name: Push
         if: github.event_name == 'push'
         run: |
-          echo "$(cut -d '/' -f 7-8 <<< ${{ matrix.SDK_URL }} | tr '/' '-')"
+          TEST=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')
+          echo $TEST
           pwd && ls -al
