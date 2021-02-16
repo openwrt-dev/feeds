@@ -2,6 +2,7 @@
 set -o pipefail
 
 TARGET=$(cut -d '/' -f 7-8 <<< $SDK_URL | tr '/' '-')
+echo $TARGET
 SDK_DIR=openwrt-sdk-$TARGET
 
 get_sdk() {

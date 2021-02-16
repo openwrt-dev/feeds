@@ -30,7 +30,7 @@ jobs:
         with:
           submodules: true
       - name: Build
-        run: pwd && whoami && ls -al # && ./build.sh
+        run: ./build.sh
       - name: Push
         if: github.event_name == 'push'
         run: |
