@@ -15,10 +15,6 @@ jobs:
     runs-on: ubuntu-20.04
     container:
       image: pexcn/docker-images:buster-openwrt
-      env:
-        SDK_URL2: ${{ matrix.SDK_URL }}
-        TARGET_ARCH2: $(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')
-        TARGET_ARCH3: echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-'
       options: --user builder
     strategy:
       fail-fast: false
@@ -33,18 +29,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: true
-#      - name: Set environment variables
-#        run: |
-#          echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
-#          echo "TARGET_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
-      - name: Build
+      - name: Set environment variables
         run: |
-          echo $SDK_URL
-          echo $SDK_URL2
-          echo $TARGET_ARCH
-          echo $TARGET_ARCH2
-          echo $TARGET_ARCH3
-          echo ${{ matrix.SDK_URL }}
+          echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
+          echo "TARGET_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
+      - name: Build
+        run: ./build.sh
       - name: Push
         if: github.event_name == 'push'
         run: |
