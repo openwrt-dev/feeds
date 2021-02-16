@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-#    branches: master
+    branches: master
   pull_request:
     branches: master
   workflow_dispatch:
@@ -20,10 +20,10 @@ jobs:
       fail-fast: false
       matrix:
         SDK_URL:
-          - https://downloads.openwrt.org/releases/19.07.1/targets/ath79/generic/openwrt-sdk-19.07.1-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/19.07.1/targets/ath79/tiny/openwrt-sdk-19.07.1-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/19.07.1/targets/ramips/mt7620/openwrt-sdk-19.07.1-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/18.06.7/targets/x86/64/openwrt-sdk-18.06.7-x86-64_gcc-7.3.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ath79/generic/openwrt-sdk-19.07.6-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ath79/tiny/openwrt-sdk-19.07.6-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/ramips/mt7620/openwrt-sdk-19.07.6-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.6/targets/x86/64/openwrt-sdk-19.07.6-x86-64_gcc-7.5.0_musl.Linux-x86_64.tar.xz
     steps:
       - name: Checkout
         uses: actions/checkout@v2

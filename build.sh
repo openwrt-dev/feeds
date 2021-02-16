@@ -17,9 +17,9 @@ copy_sources() {
 build_packages() {
   cd $SDK_DIR
 
-  make defconfig
+  make defconfig V=s
 
-  make package/libev/compile V=w
+  make package/libev/compile V=s
   make package/libcares/compile V=w
   make package/libsodium/compile V=w
   make package/mbedtls/compile V=w
