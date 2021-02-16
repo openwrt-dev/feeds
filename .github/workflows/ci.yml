@@ -36,7 +36,7 @@ jobs:
           echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
           echo "TARGET_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
       - name: Build
-        run: ./build.sh
+        run: echo $SDK_URL2
       - name: Push
         if: github.event_name == 'push'
         run: |
