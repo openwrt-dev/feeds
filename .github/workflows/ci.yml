@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-20.04
     container:
       image: pexcn/docker-images:buster-openwrt
-      options: --user 1001
+      options: --user builder
     strategy:
       fail-fast: false
       matrix:
