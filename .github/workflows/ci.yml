@@ -31,7 +31,7 @@ jobs:
           submodules: true
       - name: Set environment variables
         run: |
-          #echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
+          echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
           echo "TARGET_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
       - name: Build
         run: ./build.sh
