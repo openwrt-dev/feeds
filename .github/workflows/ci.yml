@@ -32,6 +32,6 @@ jobs:
       - name: Push
         if: github.event_name == 'push'
         run: |
-          TARGET_ARCH=$(cut -d '/' -f 7-8 <<< ${{ matrix.SDK_URL }} | tr '/' '-')
-          echo $TARGET_ARCH
+          #TARGET_ARCH=$(cut -d '/' -f 7-8 <<< ${{ matrix.SDK_URL }} | tr '/' '-')
+          #echo $TARGET_ARCH
           pwd && whoami && ls -al
