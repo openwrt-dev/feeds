@@ -1,19 +1,13 @@
 # OpenWrt Feeds
 
-[![Build Status](https://travis-ci.org/openwrt-dev/feeds.svg?branch=master)](https://travis-ci.org/openwrt-dev/feeds)
+[![CI](https://github.com/openwrt-dev/feeds/workflows/CI/badge.svg)](https://github.com/openwrt-dev/feeds)
 [![CDN](https://data.jsdelivr.com/v1/package/gh/openwrt-dev/feeds/badge?style=rounded)](https://cdn.jsdelivr.net/gh/openwrt-dev/feeds/)
 
 ### Build
 
 ```bash
-apt-get install --no-install-recommends -y \
-  gcc g++ make automake autoconf libtool git ccache file patch curl quilt gawk time \
-  fakeroot gettext pkg-config python2.7-minimal libssl-dev libncurses5-dev zlib1g-dev  \
-  bzip2 xz-utils unzip
-
-git clone https://github.com/openwrt-dev/feeds.git --single-branch -b master
+git clone https://github.com/openwrt-dev/feeds.git -b master --single-branch --recurse-submodules -j4
 cd feeds
-git submodule update --init --recursive
 
 # update upstreams
 git submodule update --remote --merge
@@ -35,23 +29,11 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-tiny/base
 # ramips-mt7620
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/base
 
+# ramips-mt7621
+src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/base
+
 # x86-64
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
-```
-
-Or use [jsDelivr CDN](https://cdn.jsdelivr.net/gh/openwrt-dev/feeds/):
-```bash
-# ath79-generic
-src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@ath79-generic/base
-
-# ath79-tiny
-src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@ath79-tiny/base
-
-# ramips-mt7620
-src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@ramips-mt7620/base
-
-# x86-64
-src/gz openwrt_dev_base https://cdn.jsdelivr.net/gh/openwrt-dev/feeds@x86-64/base
 ```
 
 ### Upstreams
