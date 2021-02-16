@@ -10,7 +10,7 @@ get_sdk() {
 
 copy_sources() {
   mkdir -p $SDK_DIR/package/openwrt-dev
-  cp libs net $SDK_DIR/package/openwrt-dev
+  cp -r libs net $SDK_DIR/package/openwrt-dev
   cp key-build $SDK_DIR
 }
 
