@@ -13,7 +13,9 @@ env:
 jobs:
   build-and-push:
     runs-on: ubuntu-20.04
-    container: pexcn/docker-images:buster-openwrt
+    container:
+      image: pexcn/docker-images:buster-openwrt
+      options: --user root
     strategy:
       fail-fast: false
       matrix:
