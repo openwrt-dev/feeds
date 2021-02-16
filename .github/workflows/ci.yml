@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-20.04
     container:
       image: pexcn/docker-images:buster-openwrt
+      env:
+        SDK_URL2: ${{ matrix.SDK_URL }}
       options: --user builder
     strategy:
       fail-fast: false
