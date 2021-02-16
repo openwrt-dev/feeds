@@ -46,5 +46,5 @@ build_packages() {
 }
 
 get_sdk
-get_sources
+copy_sources
 build_packages
