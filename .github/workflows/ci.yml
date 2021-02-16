@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-20.04
     container:
       image: pexcn/docker-images:buster-openwrt
-      options: --user root
+      options: --user 1001
     strategy:
       fail-fast: false
       matrix:
@@ -35,4 +35,4 @@ jobs:
         if: github.event_name == 'push'
         run: |
           TEST=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')
-          pwd && ls -al
+          pwd && whoami && ls -al
