@@ -31,7 +31,7 @@ jobs:
           submodules: true
       - name: Append environment variables
         run: |
-          echo "TARGET_ARCH=$(cut -d '/' -f 7-8 <<< ${{ matrix.SDK_URL }} | tr '/' '-')" >> $GITHUB_ENV
+          echo "TARGET_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
       - name: Build
         run: ./build.sh
       - name: Push
