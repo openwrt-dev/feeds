@@ -17,6 +17,8 @@ jobs:
       image: pexcn/docker-images:buster-openwrt
       env:
         SDK_URL2: ${{ matrix.SDK_URL }}
+        TARGET_ARCH2: $(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')
+        TARGET_ARCH3: echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-'
       options: --user builder
     strategy:
       fail-fast: false
@@ -36,7 +38,13 @@ jobs:
           echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
           echo "TARGET_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
       - name: Build
-        run: echo $SDK_URL2
+        run: |
+          echo $SDK_URL
+          echo $SDK_URL2
+          echo $TARGET_ARCH
+          echo $TARGET_ARCH2
+          echo $TARGET_ARCH3
+          echo ${{ matrix.SDK_URL }}
       - name: Push
         if: github.event_name == 'push'
         run: |
