@@ -33,10 +33,10 @@ jobs:
       - name: Set environment variables
         run: |
           echo "SDK_URL=${{ matrix.SDK_URL }}" >> $GITHUB_ENV
-          echo "TARGET2_ARCH=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
+          echo "TARGET=$(echo ${{ matrix.SDK_URL }} | cut -d '/' -f 7-8 | tr '/' '-')" >> $GITHUB_ENV
       - name: Build
         run: ./build.sh
       - name: Push
         if: github.event_name == 'push'
         run: |
-          pwd && ls -al
+          pwd && whoami && ls -al && echo "TODO..."
