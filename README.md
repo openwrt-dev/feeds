@@ -38,12 +38,13 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 
 ### Upstreams
 
+- [@openwrt/packages/libs/c-ares](https://github.com/openwrt/packages/tree/openwrt-21.02/libs/c-ares)
+- ~~[@shadowsocks/openwrt-feeds/packages/libcares](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libcares)~~
+
 - [mbedtls](https://github.com/shadowsocks/openwrt-feeds/tree/master/base/mbedtls)
 - [pcre](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/pcre)
 - [libev](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libev)
-- [libcares](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libcares)
 - [libsodium](https://github.com/shadowsocks/openwrt-feeds/tree/master/packages/libsodium)
-- ~~[libcares](https://github.com/openwrt/packages/tree/master/libs/c-ares)~~
 - ~~[libsodium](https://github.com/openwrt/packages/tree/master/libs/libsodium)~~
 
 ### Credits

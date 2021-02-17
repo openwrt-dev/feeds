@@ -19,8 +19,8 @@ build_packages() {
 
   make defconfig V=w
 
+  make -j$(nproc) package/c-ares/compile V=w
   make -j$(nproc) package/libev/compile V=w
-  make -j$(nproc) package/libcares/compile V=w
   make -j$(nproc) package/libsodium/compile V=w
   make -j$(nproc) package/mbedtls/compile V=w
   make -j$(nproc) package/pcre/compile V=w
