@@ -111,18 +111,19 @@ SHA256sum: 34d623971242f69410bd9d0f2de3573083311d2cbe835e526a9e2e98c92f8285
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
-Version: 1.15.0-4
+Version: 1.17.1-1
 Depends: libc
-Source: package/libcares
+Source: package/c-ares
 SourceName: libcares
 License: MIT
+LicenseFiles: LICENSE.md
 Section: libs
 Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: mips_24kc
-Installed-Size: 31648
-Filename: libcares_1.15.0-4_mips_24kc.ipk
-Size: 32474
-SHA256sum: 2e1f1499d8e08953a7433e6f99d2883284d58c7361c79226996c9df245a469fa
+Installed-Size: 30152
+Filename: libcares_1.17.1-1_mips_24kc.ipk
+Size: 31001
+SHA256sum: 936b33e9a4852dbd307e4b97ba63c202a8e8b2239262d69d9525a5f10a1c04b6
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -130,7 +131,7 @@ Description:  c-ares is a C library for asynchronous DNS requests (including nam
  
 
 Package: libev
-Version: 4.27-1
+Version: 4.31-1
 Depends: libc
 Source: package/libev
 SourceName: libev
@@ -138,32 +139,33 @@ License: BSD-2-Clause
 Section: libs
 Maintainer: Karl Palsson <karlp@tweak.net.au>
 Architecture: mips_24kc
-Installed-Size: 22875
-Filename: libev_4.27-1_mips_24kc.ipk
-Size: 23635
-SHA256sum: 01477f55e34629bf6267f260f53bd3bec208069d4a1f2c6214a6129097046bb4
+Installed-Size: 25316
+Filename: libev_4.31-1_mips_24kc.ipk
+Size: 26027
+SHA256sum: d2eff213bf67ba349409f7d9e0c7ba44bf8b54d487c1556cd7149d495a7573e2
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
 Package: libmbedtls12
-Version: 2.16.2-2
+Version: 2.16.9-1
 Depends: libc
 Provides: libmbedtls
 Source: package/mbedtls
 SourceName: libmbedtls
-License: GPL-2.0+
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 182382
-Filename: libmbedtls12_2.16.2-2_mips_24kc.ipk
-Size: 182754
-SHA256sum: f15cc8f0cc77a893f554048a6c98d8def36bbd4574b4e840ba83c225fd4bc8fb
+Installed-Size: 184318
+Filename: libmbedtls12_2.16.9-1_mips_24kc.ipk
+Size: 184811
+SHA256sum: dae59bb6cb21689c12407c57f7ef08fcc43ad5ff12ba9ab7abdad3e72122227e
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
 
 Package: libpcre
-Version: 8.43-1
+Version: 8.44-3
 Depends: libc
 Source: package/pcre
 SourceName: libpcre
@@ -172,25 +174,26 @@ LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: mips_24kc
-Installed-Size: 89133
-Filename: libpcre_8.43-1_mips_24kc.ipk
-Size: 89895
-SHA256sum: c2e393b1c0eee28c55d69511d6189d3ed8465a4df929d17c3da51e94837b898d
+Installed-Size: 80467
+Filename: libpcre_8.44-3_mips_24kc.ipk
+Size: 81292
+SHA256sum: 799201b2e958e6294e653e2bab420b75c5bf8eaf75076468c157248f9c05a354
 Description:  A Perl Compatible Regular Expression library
 
 Package: libsodium
-Version: 1.0.18-1
-Depends: libc, libpthread
+Version: 1.0.18-3
+Depends: libc
 Source: package/libsodium
 SourceName: libsodium
 License: ISC
+LicenseFiles: LICENSE
 Section: libs
 Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 143756
-Filename: libsodium_1.0.18-1_mips_24kc.ipk
-Size: 144856
-SHA256sum: da3af99d53f6f3648fbea6fcdc6b0728cd9bbbbb4ebd921dcc58d72e3700caa1
+Installed-Size: 144210
+Filename: libsodium_1.0.18-3_mips_24kc.ipk
+Size: 145340
+SHA256sum: ed093ae27c731a6d6b960df351af83800d52452372f8142d38ac1400db3de632
 Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
  NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
  Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
@@ -263,17 +266,18 @@ SHA256sum: 4e7243d8b00bbee58f558e6309dbfc7928e6e3fd9449ba6cdf5f8c56f31bfdb9
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: mbedtls-util
-Version: 2.16.2-2
+Version: 2.16.9-1
 Depends: libc, libmbedtls12
 Source: package/mbedtls
 SourceName: mbedtls-util
-License: GPL-2.0+
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
 Section: utils
 Architecture: mips_24kc
-Installed-Size: 6898
-Filename: mbedtls-util_2.16.2-2_mips_24kc.ipk
-Size: 7748
-SHA256sum: 6d299473cd4117a42ce4cc881b1457fdf5bbd18a152b771a4f21e58e185a2b8b
+Installed-Size: 6796
+Filename: mbedtls-util_2.16.9-1_mips_24kc.ipk
+Size: 7666
+SHA256sum: a60f88b691480f6d3fb7e194f7b0b7d745bd911171132ef3e0e60dbf7dc1179b
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -305,10 +309,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: mips_24kc
-Installed-Size: 60318
+Installed-Size: 60310
 Filename: shadowsocks-libev-server_3.3.5-1_mips_24kc.ipk
-Size: 60616
-SHA256sum: a64b48346480300e7c8f8e9508664e79b3570e89b6002674d2ce69dd38a77bca
+Size: 60612
+SHA256sum: 8b285391c062a48dbc7aea400ba34d763b272efa25668e6fa0e73833593ae649
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
@@ -321,10 +325,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: mips_24kc
-Installed-Size: 156897
+Installed-Size: 156889
 Filename: shadowsocks-libev_3.3.5-1_mips_24kc.ipk
-Size: 156083
-SHA256sum: 05d234ccce6cbcfd5d63d36af4723292b93ba0e33bbd4c7ab2c06c4d2f2cabfd
+Size: 156062
+SHA256sum: c0697327e6698a5fd277c150aff317a4e3a8409f907fc7cf019cb9427df8a8dc
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -400,6 +404,6 @@ Architecture: mips_24kc
 Installed-Size: 45803
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
 Size: 46541
-SHA256sum: b5f0a4d2e4a3e5fd758d2c6b95f2a3f1b953e1e3da6a2dda6b6c8eafc3724dfd
+SHA256sum: f112fd404405cf399c6ed2e9a3dbb801f5b3108c886caa2e2ae8cb10ee121821
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
