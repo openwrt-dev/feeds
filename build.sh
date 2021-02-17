@@ -1,16 +1,16 @@
 #!/bin/bash -e
 set -o pipefail
 
+CUR_DIR=$(pwd)
 SDK_DIR=/tmp/openwrt-sdk
 
-get_sdk() {
+download_sdk() {
   curl -sSL $SDK_URL | tar Jxf -
   mv openwrt-sdk-* $SDK_DIR
 }
 
 copy_sources() {
-  mkdir -p $SDK_DIR/package/openwrt-dev
-  cp -r libs net $SDK_DIR/package/openwrt-dev
+  cp -r libs/* net/* $SDK_DIR/package/
   cp key-build $SDK_DIR
 }
 
@@ -43,8 +43,15 @@ build_packages() {
   make package/openwrt-simple-obfs/compile V=w
 
   make package/index V=s
+
+  cd $CUR_DIR
 }
 
-get_sdk
+copy_packages() {
+  cp -r $SDK_DIR/bin/packages/*/base $TARGET-base
+}
+
+download_sdk
 copy_sources
 build_packages
+copy_packages
