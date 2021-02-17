@@ -23,6 +23,11 @@ build_packages() {
   make -j$(nproc) package/libev/compile V=w
   make -j$(nproc) package/libsodium/compile V=w
   make -j$(nproc) package/mbedtls/compile V=w
+
+  # workaround for fix pcre compile
+  sed -i "s/CONFIG_PACKAGE_libpcre16=m/# CONFIG_PACKAGE_libpcre16 is not set/" .config
+  sed -i "s/CONFIG_PACKAGE_libpcre32=m/# CONFIG_PACKAGE_libpcre32 is not set/" .config
+  sed -i "s/CONFIG_PACKAGE_libpcrecpp=m/# CONFIG_PACKAGE_libpcrecpp is not set/" .config
   make -j$(nproc) package/pcre/compile V=w
 
   make -j$(nproc) package/luci-app-shadowsocks/compile V=w
