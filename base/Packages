@@ -83,15 +83,15 @@ SHA256sum: b43452b8d9fa864a4ee245fadecbdf7ef64243b779fc5227eee3cf2dfb273e12
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: libcares
-Version: 1.15.0-4
+Version: 1.17.1-1
 Depends: libc
 License: MIT
 Section: libs
 Architecture: x86_64
-Installed-Size: 31530
-Filename: libcares_1.15.0-4_x86_64.ipk
-Size: 32358
-SHA256sum: 414ea63805cbaea57d3339bfe653629c716d3c90164093b0aa52a74a8e81ba91
+Installed-Size: 35499
+Filename: libcares_1.17.1-1_x86_64.ipk
+Size: 36369
+SHA256sum: abc1c377f2290d408a40fa86ecee7875807f200b0cfd96971cc3de6b0ef2d5eb
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -99,55 +99,55 @@ Description:  c-ares is a C library for asynchronous DNS requests (including nam
  
 
 Package: libev
-Version: 4.27-1
+Version: 4.31-1
 Depends: libc
 License: BSD-2-Clause
 Section: libs
 Architecture: x86_64
-Installed-Size: 22494
-Filename: libev_4.27-1_x86_64.ipk
-Size: 23265
-SHA256sum: 83670ec925a3fe8be9ea6467a5762fa3a26ceacec1972f6de01c10399931d4e8
+Installed-Size: 24886
+Filename: libev_4.31-1_x86_64.ipk
+Size: 25571
+SHA256sum: 8bf8aa06415c031a5be5c27011243ba244c3274f86f072f9caeec88d0c43f2a2
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
 Package: libmbedtls12
-Version: 2.16.2-2
+Version: 2.16.9-1
 Depends: libc
 Provides: libmbedtls
-License: GPL-2.0+
+License: GPL-2.0-or-later
 Section: libs
 Architecture: x86_64
-Installed-Size: 189812
-Filename: libmbedtls12_2.16.2-2_x86_64.ipk
-Size: 190460
-SHA256sum: 2fcb7189a6c5954c8b705d590dc6a67aaf29c5106ff13d0cb86f8e62962f9f31
+Installed-Size: 191858
+Filename: libmbedtls12_2.16.9-1_x86_64.ipk
+Size: 192629
+SHA256sum: d6947c687ac02853040d262bb09608c5d7b2b390b951356e96eb46312799795a
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
 
 Package: libpcre
-Version: 8.43-1
+Version: 8.44-3
 Depends: libc
 License: BSD-3-Clause
 Section: libs
 Architecture: x86_64
-Installed-Size: 81793
-Filename: libpcre_8.43-1_x86_64.ipk
-Size: 82567
-SHA256sum: 9888e3a67218639c3d35800fd30e5df36d4282191d590e3dc6addd21ec65a1e7
+Installed-Size: 140983
+Filename: libpcre_8.44-3_x86_64.ipk
+Size: 141828
+SHA256sum: 756928d11eb2b562a64ef4ab9a721dcd09de5193415f19befff0502321141527
 Description:  A Perl Compatible Regular Expression library
 
 Package: libsodium
-Version: 1.0.18-1
-Depends: libc, libpthread
+Version: 1.0.18-3
+Depends: libc
 License: ISC
 Section: libs
 Architecture: x86_64
-Installed-Size: 143675
-Filename: libsodium_1.0.18-1_x86_64.ipk
-Size: 144889
-SHA256sum: f6552cdc9b7500fb60973c951ee2d8180ceb7731cb5f31977cb5b0510a4f1eaa
+Installed-Size: 144329
+Filename: libsodium_1.0.18-3_x86_64.ipk
+Size: 145540
+SHA256sum: 95e10f26c26c4018da6ed6c1cad6d4755fd66c21ddcda933b5d56e454fd4aaac
 Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
  NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
  Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
@@ -204,15 +204,15 @@ SHA256sum: 4e7243d8b00bbee58f558e6309dbfc7928e6e3fd9449ba6cdf5f8c56f31bfdb9
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: mbedtls-util
-Version: 2.16.2-2
+Version: 2.16.9-1
 Depends: libc, libmbedtls12
-License: GPL-2.0+
+License: GPL-2.0-or-later
 Section: utils
 Architecture: x86_64
-Installed-Size: 7066
-Filename: mbedtls-util_2.16.2-2_x86_64.ipk
-Size: 7880
-SHA256sum: 82b6238b96c8d2d5fc7cb0efd23feea46b09b0edfcf471ff4c0442f175fe3ac6
+Installed-Size: 6990
+Filename: mbedtls-util_2.16.9-1_x86_64.ipk
+Size: 7811
+SHA256sum: 971925c1adf545636394555b770a44596b82286dadcc258d4654714b8be102a8
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -236,10 +236,10 @@ Depends: libc, libpthread, libev, libpcre, libcares, libsodium, libmbedtls12
 License: GPLv3
 Section: net
 Architecture: x86_64
-Installed-Size: 67756
+Installed-Size: 67754
 Filename: shadowsocks-libev-server_3.3.5-1_x86_64.ipk
-Size: 68661
-SHA256sum: 88a6f0bac9595d9cb15c31a326d478169365f8fe150749f42342990f5b620bac
+Size: 68668
+SHA256sum: c27d88a5dae82c6a41ce3ddecefbd72217d26b5b06c5c95b7ddbae51fb19e712
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
@@ -248,10 +248,10 @@ Depends: libc, libpthread, libev, libpcre, libcares, libsodium, libmbedtls12
 License: GPLv3
 Section: net
 Architecture: x86_64
-Installed-Size: 178390
+Installed-Size: 178401
 Filename: shadowsocks-libev_3.3.5-1_x86_64.ipk
-Size: 179244
-SHA256sum: 99ef82315d13ac482e8f98e8085b145388dfb75c033adb5271f4e07aec0f2c81
+Size: 179250
+SHA256sum: 8a2894ae3dd37155306135e474b19dfec48e928d75d3d6d47b1506e27e5b8791
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -308,9 +308,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 42431
+Installed-Size: 42432
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43385
-SHA256sum: 57471627037cfccf60e9d7ef237bcb02318684b762df6e2fd34905dbcd771b60
+Size: 43386
+SHA256sum: 1e732a54aaf5d5356978c4ab01aa3770d613ba78c28d3d8f9b6e2ac68cdd0c3f
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
