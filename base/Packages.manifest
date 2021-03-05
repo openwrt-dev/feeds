@@ -46,22 +46,6 @@ Size: 9601
 SHA256sum: d453f94853bc1c61cac6e44583a14a074e6856418f57454660a9af2a49a69667
 Description:  Forwarding DNS queries on TCP transport.
 
-Package: dns2socks
-Version: 2.1-1
-Depends: libc, libpthread
-Source: package/openwrt-dns2socks
-SourceName: dns2socks
-License: GPL-3.0
-LicenseFiles: LICENSE
-Section: net
-Maintainer: pexcn <i@pexcn.me>
-Architecture: mips_24kc
-Installed-Size: 12141
-Filename: dns2socks_2.1-1_mips_24kc.ipk
-Size: 12915
-SHA256sum: 85505ea673d24a981b1707cda59e373a9f4d0c2bbcb6d57cbe090baf32662772
-Description:  This is a command line utility to resolve DNS requests via a SOCKS tunnel like Tor or a HTTP proxy.
-
 Package: dns2tcp
 Version: 1.1.0-3
 Depends: libc
@@ -88,10 +72,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 81665
+Installed-Size: 81650
 Filename: hev-socks5-server_1.9.7-1_mips_24kc.ipk
-Size: 82371
-SHA256sum: a3fdcb98b283e7a603559440fd826eceaea7249f5deda4c688aaa63006be12b3
+Size: 82372
+SHA256sum: 905c61ed7777c2f152cff77f1d0ba2226cf5796fdcaf69e8024c20c8b6872715
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ipt2socks
@@ -401,9 +385,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 45803
+Installed-Size: 45804
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46541
-SHA256sum: f112fd404405cf399c6ed2e9a3dbb801f5b3108c886caa2e2ae8cb10ee121821
+Size: 46551
+SHA256sum: 3ac0f6264fb11cc27e4725a6c3a8499b27621b2dc6ae4601af1566913a447d40
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
