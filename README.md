@@ -46,4 +46,4 @@ src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 
 ### Credits
 
-https://github.com/simonsmh/openwrt-dist
+- https://github.com/simonsmh/openwrt-dist
