@@ -36,7 +36,6 @@ build_packages() {
   make -j$(nproc) package/openwrt-chinadns/compile V=w
   make -j$(nproc) package/openwrt-chinadns-ng/compile V=w
   make -j$(nproc) package/openwrt-dns-forwarder/compile V=w
-  make -j$(nproc) package/openwrt-dns2socks/compile V=w
   make -j$(nproc) package/openwrt-dns2tcp/compile V=w
   make -j$(nproc) package/openwrt-hev-socks5-server/compile V=w
   make -j$(nproc) package/openwrt-ipt2socks/compile V=w
