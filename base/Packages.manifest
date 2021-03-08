@@ -385,9 +385,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 42428
+Installed-Size: 42427
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43389
-SHA256sum: e9e39b9dbbaee3d9b1938e849d1e1cad894d2a167a1ed5e0b7d47f47786ffa16
+Size: 43390
+SHA256sum: e8ebcfae2f4ead5b274174ab796fbee1b74b5b4002d5fc39948b342a04981e53
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
