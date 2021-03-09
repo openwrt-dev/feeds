@@ -1,6 +1,8 @@
 #!/bin/bash -e
 set -o pipefail
 
+[ "$DEBUG" == 1 ] && set -x
+
 CUR_DIR=$(pwd)
 SDK_DIR=/tmp/openwrt-sdk
 
