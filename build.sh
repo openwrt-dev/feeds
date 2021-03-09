@@ -17,7 +17,7 @@ copy_sources() {
 build_packages() {
   cd $SDK_DIR
 
-  make defconfig V=w
+  make defconfig
 
   make -j$(nproc) package/c-ares/compile V=w
   make -j$(nproc) package/libev/compile V=w
@@ -52,7 +52,7 @@ build_packages() {
 }
 
 copy_packages() {
-  cp -r $SDK_DIR/bin/packages/*/base $TARGET-base
+  cp -r $SDK_DIR/bin/packages/*/base $IPK_ARCH-base
 }
 
 download_sdk
