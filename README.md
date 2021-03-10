@@ -18,7 +18,14 @@ git submodule update --remote --merge
 
 ### Usage
 
-Setup opkg configs following those lines:
+Add public key:
+```bash
+wget -O /tmp/key-build.pub https://github.com/openwrt-dev/feeds/raw/master/key-build.pub
+opkg-key add /tmp/key-build.pub
+rm /tmp/key-build.pub
+```
+
+Setup opkg configs:
 ```bash
 # ath79-generic
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-generic/base
