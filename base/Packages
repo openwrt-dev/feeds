@@ -167,18 +167,6 @@ Size: 2395
 SHA256sum: 55ef22de06c79d9128fd7dd773b7f92ba6371b1913277877081e2609f47b5ad1
 Description:  LuCI Support for Dns-Forwarder.
 
-Package: luci-app-shadowsocks-without-ipset
-Version: 1.9.1-1
-Depends: libc, iptables
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 10297
-Filename: luci-app-shadowsocks-without-ipset_1.9.1-1_all.ipk
-Size: 11229
-SHA256sum: 2e4bf2d6d953c3fd2eed8e56242efc4e7be5b3fd0b08e8a7583475bd63edd044
-Description:  LuCI Support for shadowsocks-libev.
-
 Package: luci-app-shadowsocks
 Version: 1.9.1-1
 Depends: libc, iptables, ipset
@@ -190,21 +178,6 @@ Filename: luci-app-shadowsocks_1.9.1-1_all.ipk
 Size: 11342
 SHA256sum: 269421cbf0e9f838a99ccd8e1fc4f7fe8e8b249a35a5babf0a164e2924b949cc
 Description:  LuCI Support for shadowsocks-libev.
-
-Package: mbedtls-util
-Version: 2.16.9-1
-Depends: libc, libmbedtls12
-License: GPL-2.0-or-later
-Section: utils
-Architecture: x86_64
-Installed-Size: 6989
-Filename: mbedtls-util_2.16.9-1_x86_64.ipk
-Size: 7808
-SHA256sum: 9c73d215833d9fb573e210d0a35174bda1fcf47522264b1aee6a2830cc7ef929
-Description:  The aim of the mbedtls project is to provide a quality, open-source
- cryptographic library written in C and targeted at embedded systems.
- This package contains mbedtls helper programs for private key and
- CSR generation (gen_key, cert_req)
 
 Package: portfwd
 Version: 20191118-1
@@ -298,7 +271,7 @@ Section: net
 Architecture: x86_64
 Installed-Size: 42425
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43381
-SHA256sum: ee4e0052ecacca23e5a1ad3dfb6f04b89e0bd96f268f5919e26545d5dbdfaf23
+Size: 43379
+SHA256sum: a18230f055403d6a7e0cf8c8e68495cce148c0e9985c101042b684ca448fa273
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
