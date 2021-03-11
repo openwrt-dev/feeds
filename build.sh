@@ -1,22 +1,24 @@
 #!/bin/bash -e
 set -o pipefail
-
 [ "$DEBUG" == 1 ] && set -x
 
 CUR_DIR=$(pwd)
-SDK_DIR=/tmp/openwrt-sdk
+SDK_DIR=$(pwd)/openwrt-sdk
 
 download_sdk() {
   curl -sSL $SDK_URL | tar Jxf -
   mv openwrt-sdk-* $SDK_DIR
 }
 
-copy_sources() {
+get_sources() {
   cp -r libs/* net/* $SDK_DIR/package/
   cp key-build $SDK_DIR
+
+  curl -sSL https://github.com/openwrt/openwrt/archive/v19.07.7.tar.gz | \
+    tar -zxf - -C $SDK_DIR/package/ openwrt-19.07.7/package/network/utils/iptables --strip-components 4
 }
 
-build_packages() {
+update_config() {
   cd $SDK_DIR
 
   make defconfig
@@ -29,6 +31,12 @@ build_packages() {
   sed -i 's/CONFIG_PACKAGE_libpcre16=m/# CONFIG_PACKAGE_libpcre16 is not set/' .config
   sed -i 's/CONFIG_PACKAGE_libpcre32=m/# CONFIG_PACKAGE_libpcre32 is not set/' .config
   sed -i 's/CONFIG_PACKAGE_libpcrecpp=m/# CONFIG_PACKAGE_libpcrecpp is not set/' .config
+
+  cd $CUR_DIR
+}
+
+build_packages() {
+  cd $SDK_DIR
 
   make -j$(nproc) package/c-ares/compile V=w
   make -j$(nproc) package/libev/compile V=w
@@ -52,16 +60,32 @@ build_packages() {
   make -j$(nproc) package/openwrt-udpspeeder/compile V=w
   make -j$(nproc) package/openwrt-vlmcsd/compile V=w
 
-  make package/index V=s
+  make -j$(nproc) package/openwrt-fullconenat/compile V=w
 
+  cd $CUR_DIR
+}
+
+remove_useless() {
+  cd $SDK_DIR
+  find bin/targets -type f ! -name "kmod-ipt-fullconenat*" | xargs rm -f
+  cd $CUR_DIR
+}
+
+create_index() {
+  cd $SDK_DIR
+  make package/index V=s
   cd $CUR_DIR
 }
 
 copy_packages() {
   cp -r $SDK_DIR/bin/packages/*/base $IPK_ARCH-base
+  cp -r $SDK_DIR/bin/targets/${IPK_ARCH%%-*}/${IPK_ARCH##*-}/packages $IPK_ARCH-core
 }
 
 download_sdk
-copy_sources
+get_sources
+update_config
 build_packages
+remove_useless
+create_index
 copy_packages
