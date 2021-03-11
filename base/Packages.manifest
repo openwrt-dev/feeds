@@ -94,6 +94,22 @@ Size: 40423
 SHA256sum: de60cdd1ebbe3e37bb4e100cb1fa135ffb2db5319c862219116cb1a057092ce8
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
+Package: iptables-mod-fullconenat
+Version: 2019-10-21-0cf3b48f-1
+Depends: libc, iptables, kmod-ipt-fullconenat
+Source: package/openwrt-fullconenat
+SourceName: iptables-mod-fullconenat
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Chion Tang <tech@chionlab.moe>
+Architecture: x86_64
+Installed-Size: 2399
+Filename: iptables-mod-fullconenat_2019-10-21-0cf3b48f-1_x86_64.ipk
+Size: 3139
+SHA256sum: a12796de92e6e8455d76f298ecfbf6d5653f6c0910f74d2b97db41ad2b2d9fd8
+Description:  FULLCONENAT iptables extension
+
 Package: libcares
 Version: 1.17.1-1
 Depends: libc
@@ -351,9 +367,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 42425
+Installed-Size: 42426
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43379
-SHA256sum: a18230f055403d6a7e0cf8c8e68495cce148c0e9985c101042b684ca448fa273
+Size: 43387
+SHA256sum: 5fe0c77fa4d0ca45d50f029279e4fd7f88614d0d36957d02037a8fff656d60dd
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
