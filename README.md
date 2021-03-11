@@ -29,18 +29,23 @@ Setup opkg configs:
 ```bash
 # ath79-generic
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-generic/base
+src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ath79-generic/core
 
 # ath79-tiny
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-tiny/base
+src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ath79-tiny/core
 
 # ramips-mt7620
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/base
+src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/core
 
 # ramips-mt7621
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/base
+src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/core
 
 # x86-64
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
+src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/x86-64/core
 ```
 
 ### Upstreams
