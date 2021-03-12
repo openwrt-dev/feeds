@@ -46,6 +46,18 @@ Size: 19147
 SHA256sum: 429b7a0ea62a0a8255342e51211bc3cc06888be9252ef59367d2bcdf9dc33da6
 Description:  Utility to convert DNS query from UDP to TCP.
 
+Package: firewall
+Version: 2019-11-22-8174814a-3
+Depends: libc, libubox20191228, libubus20191227, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 49329
+Filename: firewall_2019-11-22-8174814a-3_x86_64.ipk
+Size: 50276
+SHA256sum: 8545d0aee8398a1a1cb044923c617a231d60b21cc40affd6707de9d2ab695826
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
 Package: hev-socks5-server
 Version: 1.9.7-1
 Depends: libc
@@ -155,18 +167,6 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
 
-Package: luci-app-chinadns
-Version: 1.6.2-1
-Depends: libc, ChinaDNS
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 1834
-Filename: luci-app-chinadns_1.6.2-1_all.ipk
-Size: 2729
-SHA256sum: 0fd6041fcfc50c26a64230f849957dfbef93dd1d82622ddf11252d7a9a47aea7
-Description:  LuCI Support for ChinaDNS.
-
 Package: luci-app-dns-forwarder
 Version: 1.6.2-1
 Depends: libc, dns-forwarder
@@ -178,6 +178,18 @@ Filename: luci-app-dns-forwarder_1.6.2-1_all.ipk
 Size: 2395
 SHA256sum: 55ef22de06c79d9128fd7dd773b7f92ba6371b1913277877081e2609f47b5ad1
 Description:  LuCI Support for Dns-Forwarder.
+
+Package: luci-app-shadowsocks-without-ipset
+Version: 1.9.1-1
+Depends: libc, iptables
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 10297
+Filename: luci-app-shadowsocks-without-ipset_1.9.1-1_all.ipk
+Size: 11229
+SHA256sum: 2e4bf2d6d953c3fd2eed8e56242efc4e7be5b3fd0b08e8a7583475bd63edd044
+Description:  LuCI Support for shadowsocks-libev.
 
 Package: luci-app-shadowsocks
 Version: 1.9.1-1
@@ -281,9 +293,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 42425
+Installed-Size: 42426
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43379
-SHA256sum: 71ef5b30c59a8c27a5a216844c9ce83ee3fbc9f0b601f575c7e4b6bcd0f9d439
+Size: 43381
+SHA256sum: 9d322a00787bb35373294efb650b705d7211f937c78616381c9094fae224f9e0
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
