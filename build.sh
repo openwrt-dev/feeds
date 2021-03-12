@@ -5,27 +5,71 @@ set -o pipefail
 CUR_DIR=$(pwd)
 SDK_DIR=$(pwd)/openwrt-sdk
 
+_reserve_ipk_list() {
+  cat <<- EOF
+	libcares
+	libev
+	libmbedtls12
+	libpcre
+	libsodium
+
+	ChinaDNS
+	chinadns-ng
+	dns-forwarder
+	dns2tcp
+	hev-socks5-server
+	ipt2socks
+	portfwd
+	shadowsocks-libev-server
+	shadowsocks-libev
+	simple-obfs-server
+	simple-obfs
+	udp2raw
+	udpspeeder
+	vlmcsd
+	luci-app-dns-forwarder
+	luci-app-shadowsocks
+
+	kmod-ipt-fullconenat
+	iptables-mod-fullconenat
+	firewall
+	luci-app-firewall
+	luci-i18n-firewall-zh-cn
+	luci-i18n-firewall-zh-tw
+EOF
+}
+
 download_sdk() {
   curl -sSL $SDK_URL | tar Jxf -
   mv openwrt-sdk-* $SDK_DIR
 }
 
 get_sources() {
-  cp -r libs/* net/* $SDK_DIR/package/
-  cp key-build $SDK_DIR
+  cd $SDK_DIR
 
-  curl -sSL https://github.com/openwrt/openwrt/archive/v19.07.7.tar.gz | \
-    tar -zxf - -C $SDK_DIR/package/ openwrt-19.07.7/package/network/utils/iptables --strip-components 4
+  # update feeds
+  ./scripts/feeds update base luci
+
+  # fullconenat patch for firewall
+  ./scripts/feeds install firewall
+  cp -r $CUR_DIR/patch/firewall/patches package/network/config/firewall/
+
+  # fullconenat patch for luci-app-firewall
+  ./scripts/feeds install luci-app-firewall
+  cp -r $CUR_DIR/patch/luci-app-firewall/patches package/feeds/luci/luci-app-firewall/
+
+  # copy local sources
+  cp -r $CUR_DIR/libs/* package/
+  cp -r $CUR_DIR/net/* package/
+  cp $CUR_DIR/key-build .
+
+  cd $CUR_DIR
 }
 
 update_config() {
   cd $SDK_DIR
 
   make defconfig
-
-  # exclude packages
-  sed -i 's/CONFIG_PACKAGE_mbedtls-util=m/# CONFIG_PACKAGE_mbedtls-util is not set/' .config
-  sed -i 's/CONFIG_PACKAGE_luci-app-shadowsocks-without-ipset=m/# CONFIG_PACKAGE_luci-app-shadowsocks-without-ipset is not set/' .config
 
   # fix pcre compile
   sed -i 's/CONFIG_PACKAGE_libpcre16=m/# CONFIG_PACKAGE_libpcre16 is not set/' .config
@@ -61,13 +105,15 @@ build_packages() {
   make -j$(nproc) package/openwrt-vlmcsd/compile V=w
 
   make -j$(nproc) package/openwrt-fullconenat/compile V=w
+  make -j$(nproc) package/firewall/compile V=w
+  make -j$(nproc) package/luci-app-firewall/compile V=w
 
   cd $CUR_DIR
 }
 
 remove_useless() {
   cd $SDK_DIR
-  find bin/targets -type f ! -name "kmod-ipt-fullconenat*" | xargs rm -f
+  find bin/ -type f $(printf " ! -name %s*" $(_reserve_ipk_list)) | xargs rm -f
   cd $CUR_DIR
 }
 
@@ -79,6 +125,7 @@ create_index() {
 
 copy_packages() {
   cp -r $SDK_DIR/bin/packages/*/base $IPK_ARCH-base
+  cp -r $SDK_DIR/bin/packages/*/luci $IPK_ARCH-luci
   cp -r $SDK_DIR/bin/targets/${IPK_ARCH%%-*}/${IPK_ARCH##*-}/packages $IPK_ARCH-core
 }
 

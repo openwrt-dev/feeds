@@ -47,6 +47,7 @@ jobs:
           git clone https://github.com/${{ github.repository }}.git --single-branch -b $IPK_ARCH --depth 1 $IPK_ARCH
           rm -rf $IPK_ARCH/*
           mv $IPK_ARCH-base $IPK_ARCH/base
+          mv $IPK_ARCH-luci $IPK_ARCH/luci
           mv $IPK_ARCH-core $IPK_ARCH/core
           # commit and push packages
           cd $IPK_ARCH
