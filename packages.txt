@@ -1,0 +1,29 @@
+# libs
+libmbedtls12
+
+# net
+ChinaDNS
+chinadns-ng
+dns-forwarder
+dns2tcp
+hev-socks5-server
+ipt2socks
+portfwd
+shadowsocks-libev-server
+shadowsocks-libev
+simple-obfs-server
+simple-obfs
+udp2raw
+udpspeeder
+vlmcsd
+luci-app-chinadns
+luci-app-dns-forwarder
+luci-app-shadowsocks
+
+# fullconenat
+kmod-ipt-fullconenat
+iptables-mod-fullconenat
+firewall
+luci-app-firewall
+luci-i18n-firewall-zh-cn
+luci-i18n-firewall-zh-tw

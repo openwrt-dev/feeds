@@ -35,11 +35,14 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: true
+
       - name: Append environment variable
         run: |
           echo "IPK_ARCH=$(echo $SDK_URL | awk -F '/' '{print $7 "-" $8}')" >> $GITHUB_ENV
+
       - name: Build
         run: ./build.sh
+
       - name: Push
         if: github.event_name == 'push'
         run: |
@@ -47,8 +50,9 @@ jobs:
           git clone https://github.com/${{ github.repository }}.git --single-branch -b $IPK_ARCH --depth 1 $IPK_ARCH
           rm -rf $IPK_ARCH/*
           mv $IPK_ARCH-base $IPK_ARCH/base
-          mv $IPK_ARCH-luci $IPK_ARCH/luci
           mv $IPK_ARCH-core $IPK_ARCH/core
+          mv $IPK_ARCH-luci $IPK_ARCH/luci
+          mv $IPK_ARCH-packages $IPK_ARCH/packages
           # commit and push packages
           cd $IPK_ARCH
           git config user.name github-actions[bot]

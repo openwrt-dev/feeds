@@ -30,31 +30,39 @@ Setup opkg configs:
 # ath79-generic
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-generic/base
 src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ath79-generic/core
+src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ath79-generic/luci
+src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ath79-generic/packages
 
 # ath79-tiny
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-tiny/base
 src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ath79-tiny/core
+src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ath79-tiny/luci
+src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ath79-tiny/packages
 
 # ramips-mt7620
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/base
 src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/core
+src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/luci
+src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/packages
 
 # ramips-mt7621
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/base
 src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/core
+src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/luci
+src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/packages
 
 # x86-64
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/x86-64/core
+src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/x86-64/luci
+src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/x86-64/packages
 ```
 
 ### Upstreams
 
-- [@openwrt/packages/libs/c-ares](https://github.com/openwrt/packages/tree/openwrt-21.02/libs/c-ares)
-- [@openwrt/packages/libs/libev](https://github.com/openwrt/packages/tree/openwrt-21.02/libs/libev)
-- [@openwrt/packages/libs/libsodium](https://github.com/openwrt/packages/tree/openwrt-21.02/libs/libsodium)
-- [@openwrt/openwrt/package/libs/mbedtls](https://github.com/openwrt/openwrt/tree/openwrt-21.02/package/libs/mbedtls)
-- [@openwrt/openwrt/package/libs/pcre](https://github.com/openwrt/openwrt/tree/openwrt-21.02/package/libs/pcre)
+- [@openwrt/openwrt/package/libs/mbedtls](https://github.com/openwrt/openwrt/tree/openwrt-19.07/package/libs/mbedtls)
+- [@openwrt/openwrt/package/network/config/firewall](https://github.com/openwrt/openwrt/tree/openwrt-19.07/package/network/config/firewall)
+- [@openwrt/luci/applications/luci-app-firewall](https://github.com/openwrt/luci/tree/openwrt-19.07/applications/luci-app-firewall)
 
 ### Credits
 
