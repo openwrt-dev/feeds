@@ -94,78 +94,32 @@ Size: 3041
 SHA256sum: 3bfa142b7d672548ae9ab96f452be92c7ccd1fdb7125e4f26884489b10dfdaa1
 Description:  FULLCONENAT iptables extension
 
-Package: libcares
-Version: 1.17.1-1
-Depends: libc
-License: MIT
-Section: libs
-Architecture: mips_24kc
-Installed-Size: 30152
-Filename: libcares_1.17.1-1_mips_24kc.ipk
-Size: 31007
-SHA256sum: e7b458752177d18713f18b1235cd13a219744a4229c001e6211db494b5cd6ecf
-Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
- 
- C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
- Netware, Android and many more operating systems.
- 
-
-Package: libev
-Version: 4.31-1
-Depends: libc
-License: BSD-2-Clause
-Section: libs
-Architecture: mips_24kc
-Installed-Size: 25315
-Filename: libev_4.31-1_mips_24kc.ipk
-Size: 26025
-SHA256sum: 141b1aefbe31b0d2dcded11317fd34c776b23aea22e76525dfee5e772fc30ddd
-Description:  A full-featured and high-performance event loop that is loosely modelled after
- libevent, but without its limitations and bugs.
-
 Package: libmbedtls12
 Version: 2.16.9-1
 Depends: libc
 Provides: libmbedtls
-License: GPL-2.0-or-later
+License: GPL-2.0+
 Section: libs
 Architecture: mips_24kc
 Installed-Size: 184320
 Filename: libmbedtls12_2.16.9-1_mips_24kc.ipk
-Size: 184831
-SHA256sum: 4cc19e8941e5e417416d61f6cc206743145ff8c6c52c9aae41d5afc7f2c22fd2
+Size: 184817
+SHA256sum: 73ab283d9d92b5903a98e85924c3e16212caefffcd82ee7a6ab88808a3dc7933
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
 
-Package: libpcre
-Version: 8.44-3
-Depends: libc
-License: BSD-3-Clause
-Section: libs
-Architecture: mips_24kc
-Installed-Size: 80468
-Filename: libpcre_8.44-3_mips_24kc.ipk
-Size: 81292
-SHA256sum: c000f1e232b9d6624de5b92fa3e5a0133a49ca7dcf24d7baf791c59f86e43aed
-Description:  A Perl Compatible Regular Expression library
-
-Package: libsodium
-Version: 1.0.18-3
-Depends: libc
-License: ISC
-Section: libs
-Architecture: mips_24kc
-Installed-Size: 144209
-Filename: libsodium_1.0.18-3_mips_24kc.ipk
-Size: 145322
-SHA256sum: d068b4089ab9a9a989318fcd4242a150b2958c400daa01701dc49a40eb222953
-Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
- NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
- Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
- The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
- The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
- And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+Package: luci-app-chinadns
+Version: 1.6.2-1
+Depends: libc, ChinaDNS
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1834
+Filename: luci-app-chinadns_1.6.2-1_all.ipk
+Size: 2729
+SHA256sum: 0fd6041fcfc50c26a64230f849957dfbef93dd1d82622ddf11252d7a9a47aea7
+Description:  LuCI Support for ChinaDNS.
 
 Package: luci-app-dns-forwarder
 Version: 1.6.2-1
@@ -178,18 +132,6 @@ Filename: luci-app-dns-forwarder_1.6.2-1_all.ipk
 Size: 2395
 SHA256sum: 55ef22de06c79d9128fd7dd773b7f92ba6371b1913277877081e2609f47b5ad1
 Description:  LuCI Support for Dns-Forwarder.
-
-Package: luci-app-shadowsocks-without-ipset
-Version: 1.9.1-1
-Depends: libc, iptables
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 10297
-Filename: luci-app-shadowsocks-without-ipset_1.9.1-1_all.ipk
-Size: 11229
-SHA256sum: 2e4bf2d6d953c3fd2eed8e56242efc4e7be5b3fd0b08e8a7583475bd63edd044
-Description:  LuCI Support for shadowsocks-libev.
 
 Package: luci-app-shadowsocks
 Version: 1.9.1-1
@@ -221,10 +163,10 @@ Depends: libc, libpthread, libev, libpcre, libcares, libsodium, libmbedtls12
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 60308
+Installed-Size: 60317
 Filename: shadowsocks-libev-server_3.3.5-1_mips_24kc.ipk
-Size: 60609
-SHA256sum: 85f2fdff8088e3b513fe29bf7fd224c3b9ecca38bde67c379c327feb21f544fe
+Size: 60624
+SHA256sum: eb75ecc2d7aaf51496c989855d1ac1039ecdbd01b295eb47ad215a78f23fed4d
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
@@ -233,10 +175,10 @@ Depends: libc, libpthread, libev, libpcre, libcares, libsodium, libmbedtls12
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 156881
+Installed-Size: 156888
 Filename: shadowsocks-libev_3.3.5-1_mips_24kc.ipk
 Size: 156078
-SHA256sum: 901a682d8ed4c50e7524cdd0f0cf92134467c9b32ae293db360ef648693758ea
+SHA256sum: 7c159ecd5c3e5dc6ff3325ca4e071ceca52e698ad5b9aa7ca7515433b8dd7e65
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -296,6 +238,6 @@ Architecture: mips_24kc
 Installed-Size: 45796
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
 Size: 46537
-SHA256sum: 43eef8ca521562e81e93af9ed2dbcbbcf1c3a30ad82c7fb76aa758b0a73a0b21
+SHA256sum: 051e3b7df06e3ab17b2c0bf17cbd3207baccc47ba08c09cc2848006dd7ba8b0f
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
