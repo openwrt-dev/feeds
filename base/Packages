@@ -94,6 +94,21 @@ Size: 3041
 SHA256sum: 3bfa142b7d672548ae9ab96f452be92c7ccd1fdb7125e4f26884489b10dfdaa1
 Description:  FULLCONENAT iptables extension
 
+Package: libmbedtls12
+Version: 2.16.9-1
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0+
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 184320
+Filename: libmbedtls12_2.16.9-1_mips_24kc.ipk
+Size: 184817
+SHA256sum: 73ab283d9d92b5903a98e85924c3e16212caefffcd82ee7a6ab88808a3dc7933
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
 Package: luci-app-chinadns
 Version: 1.6.2-1
 Depends: libc, ChinaDNS
@@ -222,7 +237,7 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 45796
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46534
-SHA256sum: c43552f41f7075bdb80b8a48c79ee453c47510dc401abd71c270e069f49ec473
+Size: 46535
+SHA256sum: 658f98412735a0a2d9d93aaeb1c4058d1187726e7df4b661f9c5805ff988c620
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
