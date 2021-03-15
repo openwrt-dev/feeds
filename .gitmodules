@@ -43,6 +43,3 @@
 [submodule "net/openwrt-fullconenat"]
 	path = net/openwrt-fullconenat
 	url = https://github.com/pexcn/openwrt-fullconenat.git
-[submodule "luci/luci-app-fullconenat"]
-	path = luci/luci-app-fullconenat
-	url = https://github.com/pexcn/luci-app-fullconenat.git

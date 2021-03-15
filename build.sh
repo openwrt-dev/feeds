@@ -38,16 +38,16 @@ build_packages() {
   build_package openwrt-hev-socks5-server
   build_package openwrt-ipt2socks
   build_package openwrt-portfwd
-  build_package openwrt-shadowsocks
-  build_package openwrt-simple-obfs
   build_package openwrt-udp2raw
   build_package openwrt-udpspeeder
   build_package openwrt-vlmcsd
+
+  build_package openwrt-shadowsocks
+  build_package openwrt-simple-obfs
   build_package luci-app-shadowsocks
   build_package openwrt-dist-luci
 
   build_package openwrt-fullconenat
-  build_package luci-app-fullconenat
   build_package firewall
   build_package luci-app-firewall
 
