@@ -16,6 +16,8 @@ simple-obfs
 udp2raw
 udpspeeder
 vlmcsd
+
+# luci
 luci-app-chinadns
 luci-app-dns-forwarder
 luci-app-shadowsocks
@@ -24,6 +26,8 @@ luci-app-shadowsocks
 iptables-mod-fullconenat
 ip6tables-mod-fullconenat
 kmod-ipt-fullconenat
+luci-app-fullconenat
+luci-i18n-fullconenat-zh-cn
 firewall
 luci-app-firewall
 luci-i18n-firewall-zh-cn

@@ -1,8 +1,8 @@
 [submodule "net/luci-app-shadowsocks"]
-	path = net/luci-app-shadowsocks
+	path = luci/luci-app-shadowsocks
 	url = https://github.com/pexcn/luci-app-shadowsocks.git
 [submodule "net/openwrt-dist-luci"]
-	path = net/openwrt-dist-luci
+	path = luci/openwrt-dist-luci
 	url = https://github.com/pexcn/openwrt-dist-luci.git
 [submodule "net/openwrt-shadowsocks"]
 	path = net/openwrt-shadowsocks
@@ -43,3 +43,6 @@
 [submodule "net/openwrt-fullconenat"]
 	path = net/openwrt-fullconenat
 	url = https://github.com/pexcn/openwrt-fullconenat.git
+[submodule "luci/luci-app-fullconenat"]
+	path = luci/luci-app-fullconenat
+	url = https://github.com/pexcn/luci-app-fullconenat.git

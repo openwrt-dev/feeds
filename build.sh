@@ -20,6 +20,7 @@ get_sources() {
 
   # copy sources
   cp -rv $CUR_DIR/net/* package/
+  cp -rv $CUR_DIR/luci/* package/
   cp $CUR_DIR/key-build .
 
   cd $CUR_DIR
@@ -46,6 +47,7 @@ build_packages() {
   build_package openwrt-dist-luci
 
   build_package openwrt-fullconenat
+  build_package luci-app-fullconenat
   build_package firewall
   build_package luci-app-firewall
 
