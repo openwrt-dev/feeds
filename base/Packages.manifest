@@ -190,19 +190,6 @@ Size: 2395
 SHA256sum: 55ef22de06c79d9128fd7dd773b7f92ba6371b1913277877081e2609f47b5ad1
 Description:  LuCI Support for Dns-Forwarder.
 
-Package: luci-app-fullconenat
-Version: 1.3-3
-Depends: libc, iptables-mod-fullconenat
-Source: package/luci-app-fullconenat
-SourceName: luci-app-fullconenat
-Section: luci
-Architecture: all
-Installed-Size: 2408
-Filename: luci-app-fullconenat_1.3-3_all.ipk
-Size: 3219
-SHA256sum: f6ab7578ba2e5b1a1a45ad3eb516b25e67329efda843908ee19c6f3daf8fd074
-Description:  LuCI support for FullConeNat
-
 Package: luci-app-shadowsocks
 Version: 1.9.1-1
 Depends: libc, iptables, ipset
@@ -218,19 +205,6 @@ Filename: luci-app-shadowsocks_1.9.1-1_all.ipk
 Size: 11342
 SHA256sum: 269421cbf0e9f838a99ccd8e1fc4f7fe8e8b249a35a5babf0a164e2924b949cc
 Description:  LuCI Support for shadowsocks-libev.
-
-Package: luci-i18n-fullconenat-zh-cn
-Version: 1.3-3
-Depends: libc, luci-app-fullconenat
-Source: package/luci-app-fullconenat
-SourceName: luci-i18n-fullconenat-zh-cn
-Section: luci
-Architecture: all
-Installed-Size: 883
-Filename: luci-i18n-fullconenat-zh-cn_1.3-3_all.ipk
-Size: 1636
-SHA256sum: fa22643983f3522917e2ce1b1b9ef3c0ef35055eb8bf66e430a02b19541671ec
-Description:  Translation for luci-app-fullconenat - 
 
 Package: portfwd
 Version: 20191118-1
@@ -350,9 +324,9 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 42426
+Installed-Size: 42425
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43388
-SHA256sum: 5002b607ed6c7c334b3e2cb6c714232bb894be2d894cfaf0b2dda8d3ce6b51f5
+Size: 43381
+SHA256sum: d834e79ad893cb3293e6a6be1019a74c13b20718bde6284ebc3532457ed1758f
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
