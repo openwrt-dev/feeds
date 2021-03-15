@@ -21,8 +21,9 @@ luci-app-dns-forwarder
 luci-app-shadowsocks
 
 # fullconenat
-kmod-ipt-fullconenat
 iptables-mod-fullconenat
+ip6tables-mod-fullconenat
+kmod-ipt-fullconenat
 firewall
 luci-app-firewall
 luci-i18n-firewall-zh-cn
