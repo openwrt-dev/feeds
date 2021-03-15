@@ -70,6 +70,18 @@ Size: 82364
 SHA256sum: 4f5b731b271b3f309243736344279d67b4fbdd7e1185352951e7ebfab62af8b1
 Description:  A simple, lightweight socks5 server for Unix.
 
+Package: ip6tables-mod-fullconenat
+Version: 2020-05-09-869f1460-1
+Depends: libc, ip6tables, kmod-nf-nat6, kmod-ipt-fullconenat
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 2396
+Filename: ip6tables-mod-fullconenat_2020-05-09-869f1460-1_mips_24kc.ipk
+Size: 3179
+SHA256sum: 2a1f111cb1708716c7c9174d5e084d0640efcb2e45fd5f1991393e35f8e3a55e
+Description:  FULLCONENAT ip6tables extension
+
 Package: ipt2socks
 Version: 1.1.3-1
 Depends: libc
@@ -83,15 +95,15 @@ SHA256sum: bd9b4c425945fdcfbd617aed2adaf1725dbb3ff310792e202e40c922fee6aa25
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
-Version: 2019-10-21-0cf3b48f-1
+Version: 2020-05-09-869f1460-1
 Depends: libc, iptables, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2274
-Filename: iptables-mod-fullconenat_2019-10-21-0cf3b48f-1_mips_24kc.ipk
-Size: 3041
-SHA256sum: 3bfa142b7d672548ae9ab96f452be92c7ccd1fdb7125e4f26884489b10dfdaa1
+Installed-Size: 2333
+Filename: iptables-mod-fullconenat_2020-05-09-869f1460-1_mips_24kc.ipk
+Size: 3102
+SHA256sum: 56d96d50a790da9728f682add86c02a78ab79b49b6bb5bf1fc8a0e14df3c3996
 Description:  FULLCONENAT iptables extension
 
 Package: libmbedtls12
@@ -235,9 +247,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 45796
+Installed-Size: 45797
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46535
-SHA256sum: 15fe0e817294382c548c64706a381d6b5f6fee9fce52253e6671b3ba857aa864
+Size: 46537
+SHA256sum: 6d2d7446ea23d1faf974e8af4673de331a76c3f6d7fda0ae75fdb95b0ecc5ae9
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
