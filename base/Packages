@@ -64,10 +64,10 @@ Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 75346
+Installed-Size: 75348
 Filename: hev-socks5-server_1.9.7-1_x86_64.ipk
-Size: 76183
-SHA256sum: fafb8d5b6d05cb68823c5045d07186abe7eb36716463560be5f873109912b7c7
+Size: 76185
+SHA256sum: 85d8308940813671f6e96a659b82ba55f2d7d678828e5a4f309fbde875586ced
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ip6tables-mod-fullconenat
@@ -127,10 +127,10 @@ Depends: libc, ChinaDNS
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1834
+Installed-Size: 1778
 Filename: luci-app-chinadns_1.6.2-1_all.ipk
-Size: 2729
-SHA256sum: 0fd6041fcfc50c26a64230f849957dfbef93dd1d82622ddf11252d7a9a47aea7
+Size: 2672
+SHA256sum: 5354b1ac58b2c04b676ba4a36af0e00c5a87173f83bacefd0162af43ca43237c
 Description:  LuCI Support for ChinaDNS.
 
 Package: luci-app-dns-forwarder
@@ -139,22 +139,22 @@ Depends: libc, dns-forwarder
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1499
+Installed-Size: 1465
 Filename: luci-app-dns-forwarder_1.6.2-1_all.ipk
-Size: 2395
-SHA256sum: 55ef22de06c79d9128fd7dd773b7f92ba6371b1913277877081e2609f47b5ad1
+Size: 2357
+SHA256sum: 68b38553e08cf40a507bcf05c01b9cbcf813233791620cbe245f28e41d84e8e5
 Description:  LuCI Support for Dns-Forwarder.
 
 Package: luci-app-shadowsocks
-Version: 1.9.1-1
-Depends: libc, iptables, ipset
+Version: 2.0.0-1
+Depends: libc, iptables, wget, resolveip, ipset
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 10420
-Filename: luci-app-shadowsocks_1.9.1-1_all.ipk
-Size: 11342
-SHA256sum: 269421cbf0e9f838a99ccd8e1fc4f7fe8e8b249a35a5babf0a164e2924b949cc
+Installed-Size: 13187
+Filename: luci-app-shadowsocks_2.0.0-1_all.ipk
+Size: 14108
+SHA256sum: cdf0dfadc5c1f05dc50e4072d4ff2e8c7ccbdbb61d7f3c385f41bb0d3c277ea8
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: portfwd
@@ -247,9 +247,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 42425
+Installed-Size: 42427
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43381
-SHA256sum: d834e79ad893cb3293e6a6be1019a74c13b20718bde6284ebc3532457ed1758f
+Size: 43385
+SHA256sum: b46abdc3391cf82904d835ff0a2b855fa3c5b45edba08dbe1b14e1f8ed9c1c9c
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
