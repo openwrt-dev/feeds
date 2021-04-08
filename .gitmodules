@@ -43,3 +43,6 @@
 [submodule "net/openwrt-fullconenat"]
 	path = net/openwrt-fullconenat
 	url = https://github.com/pexcn/openwrt-fullconenat.git
+[submodule "net/openwrt-v2ray-plugin"]
+	path = net/openwrt-v2ray-plugin
+	url = https://github.com/pexcn/openwrt-v2ray-plugin.git

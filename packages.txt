@@ -15,6 +15,7 @@ simple-obfs-server
 simple-obfs
 udp2raw
 udpspeeder
+v2ray-plugin
 vlmcsd
 
 # luci
