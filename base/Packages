@@ -258,9 +258,20 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 45795
+Installed-Size: 45797
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46542
-SHA256sum: 0456e01bf7b617a5fa68f49bc5b45c7a95de30d1f75f32ce588238d989946ab7
+Size: 46541
+SHA256sum: 5a61b84044a4dc8c5124de107c8f4f26b9c0e4dd66c22ebb99e5acccd5682cd9
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
+
+Package: xray-plugin
+Version: 1.4.2-1
+Depends: libc
+Section: net
+Architecture: mips_24kc
+Installed-Size: 3478480
+Filename: xray-plugin_1.4.2-1_mips_24kc.ipk
+Size: 3479807
+SHA256sum: 9a88ac5d0b115501ad0f790e885c3970fd17f1dd07f2d9b03d125bda981353c0
+Description:  Yet another SIP003 plugin for shadowsocks, based on Xray-core.
 
