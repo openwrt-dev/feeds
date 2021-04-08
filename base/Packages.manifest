@@ -339,7 +339,20 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 42429
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43389
-SHA256sum: c03a89d60b8f5384e2953316bfda0de2cb660f7db2f4a74fc1dd7af5c4c9b2cb
+Size: 43385
+SHA256sum: 188d9447bc5a01efef9b6aa30f1fec284841033d30e63660db45a6276abc5926
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
+
+Package: xray-plugin
+Version: 1.4.2-1
+Depends: libc
+Source: package/openwrt-xray-plugin
+SourceName: xray-plugin
+Section: net
+Architecture: x86_64
+Installed-Size: 4498638
+Filename: xray-plugin_1.4.2-1_x86_64.ipk
+Size: 4487287
+SHA256sum: b9a01e649de7ec6e564da7ff2f5e87194a521b032f7253afcdcf96e3548b7b3d
+Description:  Yet another SIP003 plugin for shadowsocks, based on Xray-core.
 
