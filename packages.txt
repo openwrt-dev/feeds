@@ -17,6 +17,7 @@ udp2raw
 udpspeeder
 v2ray-plugin
 vlmcsd
+xray-plugin
 
 # luci
 luci-app-chinadns

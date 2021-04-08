@@ -45,6 +45,7 @@ build_packages() {
   build_package openwrt-shadowsocks
   build_package openwrt-simple-obfs
   build_package openwrt-v2ray-plugin
+  build_package openwrt-xray-plugin
   build_package luci-app-shadowsocks
   build_package openwrt-dist-luci
 

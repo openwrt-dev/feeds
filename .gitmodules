@@ -46,3 +46,6 @@
 [submodule "net/openwrt-v2ray-plugin"]
 	path = net/openwrt-v2ray-plugin
 	url = https://github.com/pexcn/openwrt-v2ray-plugin.git
+[submodule "net/openwrt-xray-plugin"]
+	path = net/openwrt-xray-plugin
+	url = https://github.com/pexcn/openwrt-xray-plugin.git
