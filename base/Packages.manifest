@@ -15,7 +15,7 @@ SHA256sum: bffd90f7262466ea46ecbd1256814f8afcc72a4b8c15798388df9452b18689da
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.24-4
+Version: 1.0-beta.24-5
 Depends: libc, ipset
 Source: package/openwrt-chinadns-ng
 SourceName: chinadns-ng
@@ -24,10 +24,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 373835
-Filename: chinadns-ng_1.0-beta.24-4_x86_64.ipk
-Size: 374755
-SHA256sum: ff613c9d33e119b2b85b2d57b8cf167799fdffbe197d4dd488a202e1746a231f
+Installed-Size: 373838
+Filename: chinadns-ng_1.0-beta.24-5_x86_64.ipk
+Size: 374753
+SHA256sum: 02ab97e930c4061ed10237cd5aca066928da77795df44cc4e4f0332c420f0db6
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -339,8 +339,8 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 42428
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43384
-SHA256sum: c0847c1110aa8c0bbca469e43b6a0d2a8b9d739577e2fff2ba8c9dc1f535a213
+Size: 43382
+SHA256sum: 601263cec82e74522adb09c7705135ff1e62c81cccd50fb9593231a73a9c74b5
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
