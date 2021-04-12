@@ -200,10 +200,10 @@ LicenseFiles: LICENSE
 Section: luci
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 13333
+Installed-Size: 13354
 Filename: luci-app-shadowsocks_2.0.2-1_all.ipk
-Size: 14253
-SHA256sum: 15bb7be437bf8f3cc25ff61149b5ce05447c5ca21d8f7ffa33d6a30bdc84acc5
+Size: 14273
+SHA256sum: 7408dba06f7a3640f878f3cdded1539f1f45849a8c5134ab924cc6b6185fda9a
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: portfwd
@@ -339,8 +339,8 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 42428
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43382
-SHA256sum: 601263cec82e74522adb09c7705135ff1e62c81cccd50fb9593231a73a9c74b5
+Size: 43379
+SHA256sum: 89e09a747bde3a13ba0a6ab28eb3bc13e8f5ff154f88d64fab96149139a3da8b
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
