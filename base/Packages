@@ -151,10 +151,10 @@ Depends: libc, iptables, wget, resolveip, ipset
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 13333
+Installed-Size: 13354
 Filename: luci-app-shadowsocks_2.0.2-1_all.ipk
-Size: 14253
-SHA256sum: 15bb7be437bf8f3cc25ff61149b5ce05447c5ca21d8f7ffa33d6a30bdc84acc5
+Size: 14273
+SHA256sum: 7408dba06f7a3640f878f3cdded1539f1f45849a8c5134ab924cc6b6185fda9a
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: portfwd
@@ -258,10 +258,10 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 45796
+Installed-Size: 45797
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46534
-SHA256sum: d2b3a4f640af768fd821251a261c87cb60b16e9520ee7e5b29e94500f001ff20
+Size: 46533
+SHA256sum: 7dee6c2dc770176484aef885fcdeb62236f1660616e1b76d4c53831e654b86b7
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
