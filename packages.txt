@@ -13,8 +13,6 @@ shadowsocks-libev-server
 shadowsocks-libev
 simple-obfs-server
 simple-obfs
-udp2raw
-udpspeeder
 v2ray-plugin
 vlmcsd
 xray-plugin
