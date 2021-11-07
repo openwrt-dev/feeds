@@ -218,14 +218,14 @@ SHA256sum: 4d7ff5240afb22907b311df9ee5fea3642a66678f861beab386d222287f4a60a
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: v2ray-plugin
-Version: 1.3.1-1
+Version: 4.43.0-1
 Depends: libc
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2917593
-Filename: v2ray-plugin_1.3.1-1_mips_24kc.ipk
-Size: 2918869
-SHA256sum: 4eabad36d87c2678495bfdc9b684d4a6544e9ec2f625db9c99b03edb1403eb09
+Installed-Size: 3305521
+Filename: v2ray-plugin_4.43.0-1_mips_24kc.ipk
+Size: 3306830
+SHA256sum: 90635e03f7d7236b72d2493bb6633aecd279eeb08f6d6841162e949ef9b06215
 Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray.
 
 Package: vlmcsd
@@ -234,20 +234,20 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 45799
+Installed-Size: 45800
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46538
-SHA256sum: 990c81a07917f4b9fec34ec436e28879c13e53be38edd4f5a1be82464c2bd673
+Size: 46529
+SHA256sum: 67d85df365cb45232cd395cdbd9f7d962d4fe575272d10a01387cedb944ad77b
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
-Version: 1.4.2-1
+Version: 1.5.0-1
 Depends: libc
 Section: net
 Architecture: mips_24kc
-Installed-Size: 3478480
-Filename: xray-plugin_1.4.2-1_mips_24kc.ipk
-Size: 3479804
-SHA256sum: 7e8480f6d79ecd01c6d055bc8bcb9798c960b33cd861e76c5783152f152ee084
+Installed-Size: 3593518
+Filename: xray-plugin_1.5.0-1_mips_24kc.ipk
+Size: 3594875
+SHA256sum: f8812fc3fc48cf3122c2ab935a6bf18426e84500b5fd9296b989c0db96822282
 Description:  Yet another SIP003 plugin for shadowsocks, based on Xray-core.
 
