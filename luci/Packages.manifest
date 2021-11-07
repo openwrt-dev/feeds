@@ -1,19 +1,19 @@
 Package: luci-app-firewall
-Version: git-21.044.30835-34e0d65-1
+Version: git-21.189.23240-7b931da-1
 Depends: libc, firewall
 Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 13847
-Filename: luci-app-firewall_git-21.044.30835-34e0d65-1_all.ipk
-Size: 14543
-SHA256sum: 67f57d187e60ba90a2cc292010922a5ecc61f264be243f9d32c37b997034d1c7
+Installed-Size: 13997
+Filename: luci-app-firewall_git-21.189.23240-7b931da-1_all.ipk
+Size: 14693
+SHA256sum: b110edaf71813b4cb3a99216b8e3d83acb6ea3acea6cee269b7280f0bf4a543e
 Description:  Firewall and Portforwarding application
 
 Package: luci-i18n-firewall-zh-cn
-Version: git-21.044.30835-34e0d65-1
+Version: git-21.189.23240-7b931da-1
 Depends: libc, luci-app-firewall
 Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-zh-cn
@@ -21,22 +21,22 @@ License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 6340
-Filename: luci-i18n-firewall-zh-cn_git-21.044.30835-34e0d65-1_all.ipk
-Size: 7190
-SHA256sum: c30f526f3dc5348078992515c1fb127ceea7892fa51ba3bdf5b733926ad0298e
+Filename: luci-i18n-firewall-zh-cn_git-21.189.23240-7b931da-1_all.ipk
+Size: 7154
+SHA256sum: c1939407e9eb70d856a7d5af8ef1ace4a8673f09fec0e2831f369f9e5037c53e
 Description:  Translation for luci-app-firewall - 中文 (Chinese)
 
 Package: luci-i18n-firewall-zh-tw
-Version: git-21.044.30835-34e0d65-1
+Version: git-21.189.23240-7b931da-1
 Depends: libc, luci-app-firewall
 Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-zh-tw
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 6717
-Filename: luci-i18n-firewall-zh-tw_git-21.044.30835-34e0d65-1_all.ipk
-Size: 7567
-SHA256sum: 2ddb68a55c18dc4bee67edb62c39e1ae645feec61e60d6a833841512e5ba5928
+Installed-Size: 6722
+Filename: luci-i18n-firewall-zh-tw_git-21.189.23240-7b931da-1_all.ipk
+Size: 7575
+SHA256sum: 3f69bf2958f308b6adcefeb00024d62582897a3c27dcd04e6c9ec108eec2aa22
 Description:  Translation for luci-app-firewall - 臺灣華語 (Taiwanese)
 
