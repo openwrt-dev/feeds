@@ -236,8 +236,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 42427
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43380
-SHA256sum: c93a7d1686a8151e9ae52764570c6bcdb7733b352b804ac4df6c0472f08a9701
+Size: 43379
+SHA256sum: 5568345341d87b780eb605f6371b071889f3ed6c355dfb417add7be5d4fdf507
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
