@@ -4,22 +4,22 @@ Depends: libc
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 36180
+Installed-Size: 36182
 Filename: ChinaDNS_1.3.3-1_mips_24kc.ipk
-Size: 35761
-SHA256sum: 85d93c1c9734b90dafd92bc5be4a3f0a99fa0020539a03d1c83cba16f95a63b8
+Size: 35768
+SHA256sum: 9bd06fbe1447e2123adf709d832f68d90b5914ce1aff594b802eaf3d1549631d
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
-Version: 1.0-beta.24-5
+Version: 1.0-beta.25-1
 Depends: libc, ipset
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 372902
-Filename: chinadns-ng_1.0-beta.24-5_mips_24kc.ipk
-Size: 373801
-SHA256sum: 32e3b43f32542a9ddf0d405182717e0675ded2b3ddd8217bd8ee591e3ce7bcba
+Installed-Size: 373073
+Filename: chinadns-ng_1.0-beta.25-1_mips_24kc.ipk
+Size: 373969
+SHA256sum: f2e4e9dc29532b891955233b4469f73e0f052f6670a2e31b665a583da386e9a5
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -28,10 +28,10 @@ Depends: libc
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 8818
+Installed-Size: 8816
 Filename: dns-forwarder_1.2.1-2_mips_24kc.ipk
-Size: 9604
-SHA256sum: 610bc861734774a944fc478b8b563e3af65d2b29a847d6750a825728db434aa3
+Size: 9600
+SHA256sum: a425c4a50e8650a1e86e287dfb8f35fd5bd12f379a1f82b7516423c7642164b7
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
@@ -42,20 +42,20 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 17604
 Filename: dns2tcp_1.1.0-3_mips_24kc.ipk
-Size: 18419
-SHA256sum: cb55633e472900328f4dbcccd890f2f5c7ac52cfb59f1b1a199737e9d3310282
+Size: 18409
+SHA256sum: 7a598c25a98783e38ec8a2130d746b025391bd0438b3275b3acd74ba5a8214fd
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: firewall
 Version: 2019-11-22-8174814a-3
-Depends: libc, libubox20191228, libubus20191227, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Depends: libc, libubox20191228, libubus20210603, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
 License: ISC
 Section: net
 Architecture: mips_24kc
-Installed-Size: 40973
+Installed-Size: 40965
 Filename: firewall_2019-11-22-8174814a-3_mips_24kc.ipk
-Size: 41557
-SHA256sum: 8d824328e6ef3e5b6ccb64c6dcd778556fb531c91324e5520bdff8fe2d8a8879
+Size: 41554
+SHA256sum: 059a03b6c86de72366148bca556e98d3bd7a3e5284c2ab3209616826a4416c93
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: hev-socks5-server
@@ -66,8 +66,8 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 81667
 Filename: hev-socks5-server_1.9.7-1_mips_24kc.ipk
-Size: 82387
-SHA256sum: d496ad1e671e38c8ccbb193082c0a99627a7b8e7872471000c4a05d8e8a8b394
+Size: 82388
+SHA256sum: 9592274da216fb996774f9c09c82bbf2789caf2babe1aac82422057c670e2cd7
 Description:  A simple, lightweight socks5 server for Unix.
 
 Package: ip6tables-mod-fullconenat
@@ -76,10 +76,10 @@ Depends: libc, ip6tables, kmod-nf-nat6, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2396
+Installed-Size: 2395
 Filename: ip6tables-mod-fullconenat_2020-05-09-869f1460-1_mips_24kc.ipk
-Size: 3179
-SHA256sum: 2a1f111cb1708716c7c9174d5e084d0640efcb2e45fd5f1991393e35f8e3a55e
+Size: 3181
+SHA256sum: b28efe9202d61eae3bd88335cc8e76cb7a6dc49d935bf1f7eb86c6700c432fdf
 Description:  FULLCONENAT ip6tables extension
 
 Package: ipt2socks
@@ -88,10 +88,10 @@ Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 35376
+Installed-Size: 35380
 Filename: ipt2socks_1.1.3-1_mips_24kc.ipk
-Size: 36081
-SHA256sum: bd9b4c425945fdcfbd617aed2adaf1725dbb3ff310792e202e40c922fee6aa25
+Size: 36088
+SHA256sum: e6ee2958f7043cdf3cc7ebb2c34762630ee292f414e3c7c3af848515fabdba2a
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
@@ -100,61 +100,61 @@ Depends: libc, iptables, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2333
+Installed-Size: 2332
 Filename: iptables-mod-fullconenat_2020-05-09-869f1460-1_mips_24kc.ipk
-Size: 3102
-SHA256sum: 56d96d50a790da9728f682add86c02a78ab79b49b6bb5bf1fc8a0e14df3c3996
+Size: 3099
+SHA256sum: 662e4d5789a53a1846b6fd9a8ed0a8fc8e332035cd32c2fc5e41fb55111d2aad
 Description:  FULLCONENAT iptables extension
 
 Package: libmbedtls12
-Version: 2.16.9-1
+Version: 2.16.10-1
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0+
 Section: libs
 Architecture: mips_24kc
-Installed-Size: 184320
-Filename: libmbedtls12_2.16.9-1_mips_24kc.ipk
-Size: 184817
-SHA256sum: 73ab283d9d92b5903a98e85924c3e16212caefffcd82ee7a6ab88808a3dc7933
+Installed-Size: 184862
+Filename: libmbedtls12_2.16.10-1_mips_24kc.ipk
+Size: 185333
+SHA256sum: d0b4b4e09b7a10ff45ecd3739301a82002047b0f5acb7158df2563db178cf5a3
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
 
 Package: luci-app-chinadns
-Version: 1.6.2-1
+Version: 1.6.3-1
 Depends: libc, ChinaDNS
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1778
-Filename: luci-app-chinadns_1.6.2-1_all.ipk
-Size: 2672
-SHA256sum: 5354b1ac58b2c04b676ba4a36af0e00c5a87173f83bacefd0162af43ca43237c
+Installed-Size: 1776
+Filename: luci-app-chinadns_1.6.3-1_all.ipk
+Size: 2666
+SHA256sum: 83cc44bc5ef55fd86410b0d1f1358acb704f014f06ab999ac78c2306e1083ed4
 Description:  LuCI Support for ChinaDNS.
 
 Package: luci-app-dns-forwarder
-Version: 1.6.2-1
+Version: 1.6.3-1
 Depends: libc, dns-forwarder
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1465
-Filename: luci-app-dns-forwarder_1.6.2-1_all.ipk
-Size: 2357
-SHA256sum: 68b38553e08cf40a507bcf05c01b9cbcf813233791620cbe245f28e41d84e8e5
+Installed-Size: 1489
+Filename: luci-app-dns-forwarder_1.6.3-1_all.ipk
+Size: 2387
+SHA256sum: 1645980610ec02068592b9fc80feeef6f2965b96dc9486ace92f83d2988dfb75
 Description:  LuCI Support for Dns-Forwarder.
 
 Package: luci-app-shadowsocks
-Version: 2.0.2-1
+Version: 2.0.3-1
 Depends: libc, iptables, wget, resolveip, ipset
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 13354
-Filename: luci-app-shadowsocks_2.0.2-1_all.ipk
-Size: 14273
-SHA256sum: 7408dba06f7a3640f878f3cdded1539f1f45849a8c5134ab924cc6b6185fda9a
+Installed-Size: 13397
+Filename: luci-app-shadowsocks_2.0.3-1_all.ipk
+Size: 14320
+SHA256sum: bb68c8446c05e40d209d970017ce09ebd47d981ed5c96e19997a438dd9b4f984
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: portfwd
@@ -163,10 +163,10 @@ Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 9362
+Installed-Size: 9364
 Filename: portfwd_20191118-1_mips_24kc.ipk
-Size: 10124
-SHA256sum: 5e39ed4f77615107ae60d04829cc67b3d46775225198c19095678805af5e334d
+Size: 10121
+SHA256sum: 42021e3d44b7442d12456178d21d059adf94ee0279e8084c41ef5cc884d258be
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: shadowsocks-libev-server
@@ -175,10 +175,10 @@ Depends: libc, libpthread, libev, libpcre, libcares, libsodium, libmbedtls12
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 60317
+Installed-Size: 60316
 Filename: shadowsocks-libev-server_3.3.5-1_mips_24kc.ipk
-Size: 60624
-SHA256sum: eb75ecc2d7aaf51496c989855d1ac1039ecdbd01b295eb47ad215a78f23fed4d
+Size: 60608
+SHA256sum: 78a553998e001a392f049a87594137c6e7c656e6a0eab5ae5a4a5eea08496cff
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
@@ -187,10 +187,10 @@ Depends: libc, libpthread, libev, libpcre, libcares, libsodium, libmbedtls12
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 156888
+Installed-Size: 156889
 Filename: shadowsocks-libev_3.3.5-1_mips_24kc.ipk
-Size: 156078
-SHA256sum: 7c159ecd5c3e5dc6ff3325ca4e071ceca52e698ad5b9aa7ca7515433b8dd7e65
+Size: 156082
+SHA256sum: bfda7a44b93ab3edcfb44893d1eda7218c09d868742631ac5b1d3a4900d546c8
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -202,7 +202,7 @@ Architecture: mips_24kc
 Installed-Size: 29310
 Filename: simple-obfs-server_0.0.5-5_mips_24kc.ipk
 Size: 29776
-SHA256sum: 79cc5ae43397517b9567b3fce9beecbf9a62e02163f1ad76aa77c145005ea161
+SHA256sum: 6218bcf536ae846ded8538fdccb83e369632a5dba73ec4fcebc63ae35456e3a1
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
@@ -211,45 +211,21 @@ Depends: libc, libpthread, libev
 License: GPLv3
 Section: net
 Architecture: mips_24kc
-Installed-Size: 27583
+Installed-Size: 27581
 Filename: simple-obfs_0.0.5-5_mips_24kc.ipk
-Size: 28139
-SHA256sum: de25fb2a0f036beeb4c7d2be72129c1092b8c707503589597c4a6f67c44a7e0c
+Size: 28136
+SHA256sum: 4d7ff5240afb22907b311df9ee5fea3642a66678f861beab386d222287f4a60a
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
-
-Package: udp2raw
-Version: 20190716-5
-Depends: libc
-Section: net
-Architecture: mips_24kc
-Installed-Size: 464881
-Filename: udp2raw_20190716-5_mips_24kc.ipk
-Size: 464136
-SHA256sum: 232b8904070798ab25503b975ef23f1754c06a4830842cb297185e4501f6a8ea
-Description:  A tunnel which turns UDP traffic into encrypted UDP/FakeTCP/ICMP traffic by using raw socket,
- helps you bypass UDP firewalls or unstable UDP Environment.
-
-Package: udpspeeder
-Version: 20190408-2
-Depends: libc
-Section: net
-Architecture: mips_24kc
-Installed-Size: 199388
-Filename: udpspeeder_20190408-2_mips_24kc.ipk
-Size: 200100
-SHA256sum: 379709d7a78723c3d14c238b258e128bd43210d90c23c82fe0a5349159ce1948
-Description:  A tunnel which improves your network quality on a high-latency lossy link
- by using forward error correction, for all traffics (TCP/UDP/ICMP).
 
 Package: v2ray-plugin
 Version: 1.3.1-1
 Depends: libc
 Section: net
 Architecture: mips_24kc
-Installed-Size: 2917592
+Installed-Size: 2917593
 Filename: v2ray-plugin_1.3.1-1_mips_24kc.ipk
-Size: 2918875
-SHA256sum: b272b4ef0b0e01be6146d76c8ee3fb90998d80e4e16bb56337c9dfc4c236870b
+Size: 2918869
+SHA256sum: 4eabad36d87c2678495bfdc9b684d4a6544e9ec2f625db9c99b03edb1403eb09
 Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray.
 
 Package: vlmcsd
@@ -258,10 +234,10 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 45797
+Installed-Size: 45799
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 46533
-SHA256sum: 7dee6c2dc770176484aef885fcdeb62236f1660616e1b76d4c53831e654b86b7
+Size: 46538
+SHA256sum: 990c81a07917f4b9fec34ec436e28879c13e53be38edd4f5a1be82464c2bd673
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
@@ -271,7 +247,7 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 3478480
 Filename: xray-plugin_1.4.2-1_mips_24kc.ipk
-Size: 3479807
-SHA256sum: 9a88ac5d0b115501ad0f790e885c3970fd17f1dd07f2d9b03d125bda981353c0
+Size: 3479804
+SHA256sum: 7e8480f6d79ecd01c6d055bc8bcb9798c960b33cd861e76c5783152f152ee084
 Description:  Yet another SIP003 plugin for shadowsocks, based on Xray-core.
 
