@@ -22,18 +22,12 @@
 [submodule "net/openwrt-chinadns-ng"]
 	path = net/openwrt-chinadns-ng
 	url = https://github.com/pexcn/openwrt-chinadns-ng.git
-[submodule "net/openwrt-udp2raw"]
-	path = net/openwrt-udp2raw
-	url = https://github.com/pexcn/openwrt-udp2raw.git
 [submodule "net/openwrt-dns2tcp"]
 	path = net/openwrt-dns2tcp
 	url = https://github.com/pexcn/openwrt-dns2tcp.git
 [submodule "net/openwrt-ipt2socks"]
 	path = net/openwrt-ipt2socks
 	url = https://github.com/pexcn/openwrt-ipt2socks.git
-[submodule "net/openwrt-udpspeeder"]
-	path = net/openwrt-udpspeeder
-	url = https://github.com/pexcn/openwrt-udpspeeder.git
 [submodule "net/openwrt-portfwd"]
 	path = net/openwrt-portfwd
 	url = https://github.com/pexcn/openwrt-portfwd.git
