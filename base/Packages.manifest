@@ -287,16 +287,16 @@ SHA256sum: 59e280f2a14d0378bbf58b388ebcd35e7a3fc3cbd0f2e402032c7a244b204c2b
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: v2ray-plugin
-Version: 1.3.1-1
+Version: 4.43.0-1
 Depends: libc
 Source: package/openwrt-v2ray-plugin
 SourceName: v2ray-plugin
 Section: net
 Architecture: x86_64
-Installed-Size: 3658244
-Filename: v2ray-plugin_1.3.1-1_x86_64.ipk
-Size: 3652011
-SHA256sum: 91f9c0918273ac78dc54b3835abbd0efeb63d566e64a30ae47bd57a3fef7699a
+Installed-Size: 4655842
+Filename: v2ray-plugin_4.43.0-1_x86_64.ipk
+Size: 4645239
+SHA256sum: c858bbb7673d7c63f5d4012bc816a65c5690f03c89498ceefbc1cc8254c08a72
 Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray.
 
 Package: vlmcsd
@@ -312,19 +312,19 @@ Architecture: x86_64
 Installed-Size: 42427
 Filename: vlmcsd_svn1113-2_x86_64.ipk
 Size: 43380
-SHA256sum: 5d9da0e0bfc2e1afeef9aefaf4b70ca27f45ba89b500baf9201d2fd38d009258
+SHA256sum: c93a7d1686a8151e9ae52764570c6bcdb7733b352b804ac4df6c0472f08a9701
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
-Version: 1.4.2-1
+Version: 1.5.0-1
 Depends: libc
 Source: package/openwrt-xray-plugin
 SourceName: xray-plugin
 Section: net
 Architecture: x86_64
-Installed-Size: 4498637
-Filename: xray-plugin_1.4.2-1_x86_64.ipk
-Size: 4487445
-SHA256sum: f3899ffe4aa7895a3e9a99f3e7feae882813b5ad1666aceda8ff0619a16f205a
+Installed-Size: 5225648
+Filename: xray-plugin_1.5.0-1_x86_64.ipk
+Size: 5213086
+SHA256sum: 54e22536c490fdc0979d509a5cc1d72f743b9d72a7463ebdefa1746eddb6d2fb
 Description:  Yet another SIP003 plugin for shadowsocks, based on Xray-core.
 
