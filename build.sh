@@ -38,8 +38,6 @@ build_packages() {
   build_package openwrt-hev-socks5-server
   build_package openwrt-ipt2socks
   build_package openwrt-portfwd
-  build_package openwrt-udp2raw
-  build_package openwrt-udpspeeder
   build_package openwrt-vlmcsd
 
   build_package openwrt-shadowsocks
