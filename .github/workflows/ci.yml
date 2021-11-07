@@ -25,11 +25,11 @@ jobs:
       fail-fast: false
       matrix:
         SDK_URL:
-          - https://downloads.openwrt.org/releases/19.07.7/targets/ath79/generic/openwrt-sdk-19.07.7-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/19.07.7/targets/ath79/tiny/openwrt-sdk-19.07.7-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/19.07.7/targets/ramips/mt7620/openwrt-sdk-19.07.7-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/19.07.7/targets/ramips/mt7621/openwrt-sdk-19.07.7-ramips-mt7621_gcc-7.5.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/19.07.7/targets/x86/64/openwrt-sdk-19.07.7-x86-64_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.8/targets/ath79/generic/openwrt-sdk-19.07.8-ath79-generic_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.8/targets/ath79/tiny/openwrt-sdk-19.07.8-ath79-tiny_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.8/targets/ramips/mt7620/openwrt-sdk-19.07.8-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.8/targets/ramips/mt7621/openwrt-sdk-19.07.8-ramips-mt7621_gcc-7.5.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/19.07.8/targets/x86/64/openwrt-sdk-19.07.8-x86-64_gcc-7.5.0_musl.Linux-x86_64.tar.xz
     steps:
       - name: Checkout
         uses: actions/checkout@v2
