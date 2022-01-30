@@ -1,16 +1,17 @@
 Package: kmod-ipt-fullconenat
-Version: 4.14.241+2020-05-09-869f1460-1
-Depends: kernel (=4.14.241-1-68143adfcb7fc62a239c4be112fe40de), kmod-nf-ipt, kmod-nf-nat
+Version: 5.4.154+2022-01-29-1dffa4c8-1
+Depends: kernel (=5.4.154-1-b70ee1516753f10c063dd361f74167d4), kmod-nf-ipt, kmod-nf-nat, kmod-nf-ipt6, kmod-nf-nat6
 Source: package/openwrt-fullconenat
 SourceName: kmod-ipt-fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: kernel
+SourceDateEpoch: 1635066095
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: x86_64
-Installed-Size: 6517
-Filename: kmod-ipt-fullconenat_4.14.241+2020-05-09-869f1460-1_x86_64.ipk
-Size: 7351
-SHA256sum: b34e2531086498e4419fb84f89031976d0b7f19541fd5e8adee335280136a4ac
+Installed-Size: 6645
+Filename: kmod-ipt-fullconenat_5.4.154+2022-01-29-1dffa4c8-1_x86_64.ipk
+Size: 7485
+SHA256sum: 2ce84a9f237c8ed713477f5ce48179f711125cd41e652992116c8221284de6b6
 Description:  FULLCONENAT netfilter module
 

@@ -6,12 +6,13 @@ SourceName: ChinaDNS
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 36173
+Installed-Size: 36123
 Filename: ChinaDNS_1.3.3-1_x86_64.ipk
-Size: 35772
-SHA256sum: b506fc6a2d13cdaf2848132b20c6c8bec1f3b2a573b10fecca368563abd46960
+Size: 35861
+SHA256sum: 0c0b3aa763e363dc3952cdcf050ca85803419ccac39dcdda8debb080c58077b4
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: chinadns-ng
@@ -22,12 +23,13 @@ SourceName: chinadns-ng
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 373695
+Installed-Size: 374963
 Filename: chinadns-ng_1.0-beta.25-1_x86_64.ipk
-Size: 374610
-SHA256sum: 904a6a8079435ec63932d9a6118d47b63e6b473c43faed2ce476aee8171d942b
+Size: 375894
+SHA256sum: db7010b704f307e61307c28240d5b54bf8df27acc4f6a88be8dbeb33a59ef16b
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -38,12 +40,13 @@ SourceName: dns-forwarder
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 10595
+Installed-Size: 10818
 Filename: dns-forwarder_1.2.1-2_x86_64.ipk
-Size: 11347
-SHA256sum: 8543b9c36c45878e7eb003aaaa4c2715890d2cb8fda2ae62592f61451bab4a9e
+Size: 11592
+SHA256sum: 393ccc6147b2a315ab36417e836e6a58d67c0bd35d3c45c9e568392b97d9ced8
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
@@ -54,27 +57,29 @@ SourceName: dns2tcp
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 18389
+Installed-Size: 18480
 Filename: dns2tcp_1.1.0-3_x86_64.ipk
-Size: 19148
-SHA256sum: 3e779e7e3b5ff5256eb5cfad3ecdcb3b587469bd49a4d285d4042a94ae571edd
+Size: 19265
+SHA256sum: 08a6a17ceaffde8e216a4f7e8fdb37e65be5cdf1a5a2875ebd0fd77e3d696332
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: firewall
-Version: 2019-11-22-8174814a-3
-Depends: libc, libubox20191228, libubus20210603, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Version: 2021-03-23-61db17ed-1
+Depends: libc, libubox20210516, libubus20210630, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
 Source: feeds/base/package/network/config/firewall
 SourceName: firewall
 License: ISC
 Section: net
+SourceDateEpoch: 1635191094
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 49325
-Filename: firewall_2019-11-22-8174814a-3_x86_64.ipk
-Size: 50266
-SHA256sum: f12ae7f9fcdfd503621e512a2d3228652c61d2a76ba00d5dfed60c300afb7a8d
+Installed-Size: 50912
+Filename: firewall_2021-03-23-61db17ed-1_x86_64.ipk
+Size: 51824
+SHA256sum: 13aa2b722de132a3aaf95cb10c8c49d6803185fa3e8ab6ea56ef2c5e78dfb301
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: hev-socks5-server
@@ -85,29 +90,14 @@ SourceName: hev-socks5-server
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 75345
+Installed-Size: 77981
 Filename: hev-socks5-server_1.9.7-1_x86_64.ipk
-Size: 76178
-SHA256sum: 7e82a5f9c7255618e325594c14628e5cd4bc11305d2b2c0eee808d05e3614823
+Size: 78856
+SHA256sum: c6e3cfa082b1bb460a4c6971b30ec509045c40a30c2f36fb6e710ca9a9eec350
 Description:  A simple, lightweight socks5 server for Unix.
-
-Package: ip6tables-mod-fullconenat
-Version: 2020-05-09-869f1460-1
-Depends: libc, ip6tables, kmod-nf-nat6, kmod-ipt-fullconenat
-Source: package/openwrt-fullconenat
-SourceName: ip6tables-mod-fullconenat
-License: GPL-2.0
-LicenseFiles: LICENSE
-Section: net
-Maintainer: Chion Tang <tech@chionlab.moe>
-Architecture: x86_64
-Installed-Size: 2474
-Filename: ip6tables-mod-fullconenat_2020-05-09-869f1460-1_x86_64.ipk
-Size: 3217
-SHA256sum: fad08376a4408d9f89597cacc8bc215c559a2c8d072659b50c1bd2b8175436a2
-Description:  FULLCONENAT ip6tables extension
 
 Package: ipt2socks
 Version: 1.1.3-1
@@ -117,43 +107,49 @@ SourceName: ipt2socks
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 39591
+Installed-Size: 38682
 Filename: ipt2socks_1.1.3-1_x86_64.ipk
-Size: 40426
-SHA256sum: 825dffc4647f7206005631f4bab047b0e5338ef4e8046457efbeabb6d6f32802
+Size: 39540
+SHA256sum: 91221b10a4aa6b827024aa305b9a9c0919c4d833b4a7a80aa06f91dfb35286f2
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
-Version: 2020-05-09-869f1460-1
+Version: 2022-01-29-1dffa4c8-1
 Depends: libc, iptables, kmod-ipt-fullconenat
 Source: package/openwrt-fullconenat
 SourceName: iptables-mod-fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: x86_64
-Installed-Size: 2463
-Filename: iptables-mod-fullconenat_2020-05-09-869f1460-1_x86_64.ipk
-Size: 3207
-SHA256sum: 65b64a7511ac7634a19a726b73d13b96a00aa35ee4a86797f9218ac15cfd8e90
+Installed-Size: 3450
+Filename: iptables-mod-fullconenat_2022-01-29-1dffa4c8-1_x86_64.ipk
+Size: 4203
+SHA256sum: 1572a53037317265238958ab68e3c2696e4ed2138dae6ea66bb985a84b208817
 Description:  FULLCONENAT iptables extension
 
 Package: libmbedtls12
-Version: 2.16.10-1
+Version: 2.16.11-1
 Depends: libc
 Provides: libmbedtls
 Source: feeds/base/package/libs/mbedtls
 SourceName: libmbedtls
-License: GPL-2.0+
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
 Section: libs
+SourceDateEpoch: 1635191094
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 192313
-Filename: libmbedtls12_2.16.10-1_x86_64.ipk
-Size: 193047
-SHA256sum: 710f7d9e504deaef6a63f448fd654564c19a49c41a00d0522a1e276ae1aca29d
+Installed-Size: 193350
+Filename: libmbedtls12_2.16.11-1_x86_64.ipk
+Size: 193877
+SHA256sum: f9dfd130b926f711ac5fd29fd38e600dd5b18bb363209a6bfce8afe0cd2e750b
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -166,12 +162,13 @@ SourceName: luci-app-chinadns
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 1776
+Installed-Size: 1779
 Filename: luci-app-chinadns_1.6.3-1_all.ipk
-Size: 2666
-SHA256sum: 83cc44bc5ef55fd86410b0d1f1358acb704f014f06ab999ac78c2306e1083ed4
+Size: 2692
+SHA256sum: bc2bdaf575c7e799466ff6222d76662ef92afb5ec3b09cb4978be4a7c2514f69
 Description:  LuCI Support for ChinaDNS.
 
 Package: luci-app-dns-forwarder
@@ -182,12 +179,13 @@ SourceName: luci-app-dns-forwarder
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
-Installed-Size: 1489
+Installed-Size: 1491
 Filename: luci-app-dns-forwarder_1.6.3-1_all.ipk
-Size: 2387
-SHA256sum: 1645980610ec02068592b9fc80feeef6f2965b96dc9486ace92f83d2988dfb75
+Size: 2406
+SHA256sum: 8fd4171d240141df0c25b30ac7a0da075267663ef421d4211c5d7c19965152dd
 Description:  LuCI Support for Dns-Forwarder.
 
 Package: luci-app-shadowsocks
@@ -198,12 +196,13 @@ SourceName: luci-app-shadowsocks
 License: GPLv3
 LicenseFiles: LICENSE
 Section: luci
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: all
 Installed-Size: 13397
 Filename: luci-app-shadowsocks_2.0.3-1_all.ipk
-Size: 14320
-SHA256sum: bb68c8446c05e40d209d970017ce09ebd47d981ed5c96e19997a438dd9b4f984
+Size: 14342
+SHA256sum: 1f355b66a2d957036557b3f712b57b34e5282fa3d86d5c441ed1634e2f36d1b7
 Description:  LuCI Support for shadowsocks-libev.
 
 Package: portfwd
@@ -214,12 +213,13 @@ SourceName: portfwd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 9056
+Installed-Size: 9165
 Filename: portfwd_20191118-1_x86_64.ipk
-Size: 9762
-SHA256sum: e8c1192fc2e5efe63ec1a1bf3a6c1c19e566a46b24005b8bf4ed352212fcad4d
+Size: 9895
+SHA256sum: 9302b2b1cb299703a67d5933d3155ebec4a8c67eb90a5a2f6ae63db10799bc3d
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: shadowsocks-libev-server
@@ -230,12 +230,13 @@ SourceName: shadowsocks-libev-server
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 67753
+Installed-Size: 68031
 Filename: shadowsocks-libev-server_3.3.5-1_x86_64.ipk
-Size: 68661
-SHA256sum: 2ca8343568dbe32c67b4b86586c24b514eab5119f4d5e97f1181a6c067eb4370
+Size: 68952
+SHA256sum: 27d6bc7ce0f59d1c77e6cf48930818127c708605cd01aac35abc408f880caf8d
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev
@@ -246,12 +247,13 @@ SourceName: shadowsocks-libev
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 178387
+Installed-Size: 178877
 Filename: shadowsocks-libev_3.3.5-1_x86_64.ipk
-Size: 179223
-SHA256sum: 8b3f5b9dccc5f0b5afde706efe0d0f718d8e26f78bdc82ff01bd0ab085e53fc0
+Size: 179761
+SHA256sum: dde562b279f1ebf003693bda639662d3d3cc4e9f6de639aaaec1b19068537ae3
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: simple-obfs-server
@@ -262,12 +264,13 @@ SourceName: simple-obfs-server
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 32365
+Installed-Size: 32431
 Filename: simple-obfs-server_0.0.5-5_x86_64.ipk
-Size: 33177
-SHA256sum: 010ff888c50cc2f7a6cee143c5d4b71524092a4a2b22a79aa5f62749da46b695
+Size: 33271
+SHA256sum: 7f4f7cd199c539042aabbfb63602f3449f9461bfd385ecfcdcd37abb5b92685c
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
@@ -278,12 +281,13 @@ SourceName: simple-obfs
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 30130
+Installed-Size: 30210
 Filename: simple-obfs_0.0.5-5_x86_64.ipk
-Size: 30870
-SHA256sum: 59e280f2a14d0378bbf58b388ebcd35e7a3fc3cbd0f2e402032c7a244b204c2b
+Size: 30963
+SHA256sum: ad7fddf65907ecbd374fd644ad55b835df3759de5f3939083027c3e24bafe963
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: v2ray-plugin
@@ -292,11 +296,12 @@ Depends: libc
 Source: package/openwrt-v2ray-plugin
 SourceName: v2ray-plugin
 Section: net
+SourceDateEpoch: 1635066095
 Architecture: x86_64
-Installed-Size: 4655842
+Installed-Size: 4655833
 Filename: v2ray-plugin_4.43.0-1_x86_64.ipk
-Size: 4645239
-SHA256sum: c858bbb7673d7c63f5d4012bc816a65c5690f03c89498ceefbc1cc8254c08a72
+Size: 4645079
+SHA256sum: ceb10de437d1128ceb7079be045f3381e36a1ca1843f91f4d3501d74614f685f
 Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray.
 
 Package: vlmcsd
@@ -307,12 +312,13 @@ SourceName: vlmcsd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
+SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 42427
+Installed-Size: 41672
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 43379
-SHA256sum: 5568345341d87b780eb605f6371b071889f3ed6c355dfb417add7be5d4fdf507
+Size: 42631
+SHA256sum: 8714dac3c60b312442e4f3ee59f9cd35a5a4320f23061eb559883e143ee265b7
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
@@ -321,10 +327,11 @@ Depends: libc
 Source: package/openwrt-xray-plugin
 SourceName: xray-plugin
 Section: net
+SourceDateEpoch: 1635066095
 Architecture: x86_64
-Installed-Size: 5225648
+Installed-Size: 5225655
 Filename: xray-plugin_1.5.0-1_x86_64.ipk
-Size: 5213086
-SHA256sum: 54e22536c490fdc0979d509a5cc1d72f743b9d72a7463ebdefa1746eddb6d2fb
+Size: 5213030
+SHA256sum: 6617c859c927308db0e6dffad1ed9cfd1d7dd028c328e883b267c6a818b906b5
 Description:  Yet another SIP003 plugin for shadowsocks, based on Xray-core.
 
