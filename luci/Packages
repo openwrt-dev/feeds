@@ -1,36 +1,36 @@
 Package: luci-app-firewall
-Version: git-21.189.23240-7b931da-1
+Version: git-21.295.66767-8eceb63
 Depends: libc, firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 13997
-Filename: luci-app-firewall_git-21.189.23240-7b931da-1_all.ipk
-Size: 14693
-SHA256sum: b110edaf71813b4cb3a99216b8e3d83acb6ea3acea6cee269b7280f0bf4a543e
+Installed-Size: 14199
+Filename: luci-app-firewall_git-21.295.66767-8eceb63_all.ipk
+Size: 15040
+SHA256sum: 7a7020f11da45dde119fc11516b1a88f4f3dad4ecd898879b83fda10745d3d84
 Description:  Firewall and Portforwarding application
 
 Package: luci-i18n-firewall-zh-cn
-Version: git-21.189.23240-7b931da-1
+Version: git-21.292.69759-790bb93
 Depends: libc, luci-app-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 6340
-Filename: luci-i18n-firewall-zh-cn_git-21.189.23240-7b931da-1_all.ipk
-Size: 7154
-SHA256sum: c1939407e9eb70d856a7d5af8ef1ace4a8673f09fec0e2831f369f9e5037c53e
-Description:  Translation for luci-app-firewall - 中文 (Chinese)
+Installed-Size: 6429
+Filename: luci-i18n-firewall-zh-cn_git-21.292.69759-790bb93_all.ipk
+Size: 7317
+SHA256sum: 8c12d50d3443c96599996b8bff932eeeb965059f337764e73d09b88fd749fc68
+Description:  Translation for luci-app-firewall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-firewall-zh-tw
-Version: git-21.189.23240-7b931da-1
+Version: git-21.292.69759-790bb93
 Depends: libc, luci-app-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 6722
-Filename: luci-i18n-firewall-zh-tw_git-21.189.23240-7b931da-1_all.ipk
-Size: 7575
-SHA256sum: 3f69bf2958f308b6adcefeb00024d62582897a3c27dcd04e6c9ec108eec2aa22
-Description:  Translation for luci-app-firewall - 臺灣華語 (Taiwanese)
+Installed-Size: 6797
+Filename: luci-i18n-firewall-zh-tw_git-21.292.69759-790bb93_all.ipk
+Size: 7672
+SHA256sum: d71e24682c6742cc521fb4dbf2d2d923e8d7ea57544e100013225d5d4b23bfa5
+Description:  Translation for luci-app-firewall - 繁體中文 (Chinese Traditional)
 
