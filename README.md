@@ -1,7 +1,6 @@
 # OpenWrt Feeds
 
 [![CI](https://github.com/openwrt-dev/feeds/workflows/CI/badge.svg)](https://github.com/openwrt-dev/feeds)
-[![CDN](https://data.jsdelivr.com/v1/package/gh/openwrt-dev/feeds/badge?style=rounded)](https://cdn.jsdelivr.net/gh/openwrt-dev/feeds/)
 
 ### Build
 
@@ -60,9 +59,9 @@ src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/x86-64/pack
 
 ### Upstreams
 
-- [@openwrt/openwrt/package/libs/mbedtls](https://github.com/openwrt/openwrt/tree/openwrt-19.07/package/libs/mbedtls)
-- [@openwrt/openwrt/package/network/config/firewall](https://github.com/openwrt/openwrt/tree/openwrt-19.07/package/network/config/firewall)
-- [@openwrt/luci/applications/luci-app-firewall](https://github.com/openwrt/luci/tree/openwrt-19.07/applications/luci-app-firewall)
+- [@openwrt/openwrt/package/libs/mbedtls](https://github.com/openwrt/openwrt/tree/openwrt-21.02/package/libs/mbedtls)
+- [@openwrt/openwrt/package/network/config/firewall](https://github.com/openwrt/openwrt/tree/openwrt-21.02/package/network/config/firewall)
+- [@openwrt/luci/applications/luci-app-firewall](https://github.com/openwrt/luci/tree/openwrt-21.02/applications/luci-app-firewall)
 
 ### Credits
 
