@@ -24,7 +24,6 @@ luci-app-shadowsocks
 
 # fullconenat
 iptables-mod-fullconenat
-ip6tables-mod-fullconenat
 kmod-ipt-fullconenat
 firewall
 luci-app-firewall
