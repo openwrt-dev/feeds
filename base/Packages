@@ -58,6 +58,18 @@ Size: 42651
 SHA256sum: 50308ec802c938310dd3cce1a6092e476f1d3c4078a86005e3b4a23946b08d3e
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
+Package: fullconenat
+Version: 2022-01-29-1dffa4c8-1
+Depends: libc, iptables-mod-fullconenat, firewall
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 1164
+Filename: fullconenat_2022-01-29-1dffa4c8-1_mips_24kc.ipk
+Size: 1974
+SHA256sum: da0bc6d04cd69ec2125704835d4642baf0e565ed89645dcec4ccbfe0b59dd6af
+Description:  FULLCONENAT config and script
+
 Package: hev-socks5-server
 Version: 1.9.7-1
 Depends: libc
@@ -224,10 +236,10 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 43715
+Installed-Size: 43713
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44392
-SHA256sum: 8f0bd7ad134942125bcd387f477ec2e4ed42d26c85570343a8f4bceda01ece35
+Size: 44403
+SHA256sum: 437b1e7a057139bd855ebcbbed6ff6c2e25902d556bfa5151580f73819351d5e
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
