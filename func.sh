@@ -5,6 +5,10 @@ set -o pipefail
 CUR_DIR=$(pwd)
 SDK_DIR=$(pwd)/openwrt-sdk
 
+trim_lines() {
+  sed '/^[[:space:]]*$/d' | sed '/^#/ d'
+}
+
 update_feeds() {
   if [ ! -f $SDK_DIR/.feeds_updated ]; then
     ./scripts/feeds update base packages luci

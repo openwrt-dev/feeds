@@ -23,6 +23,7 @@ luci-app-dns-forwarder
 luci-app-shadowsocks
 
 # fullconenat
+fullconenat
 iptables-mod-fullconenat
 kmod-ipt-fullconenat
 firewall

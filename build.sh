@@ -52,7 +52,7 @@ build_packages() {
   build_package luci-app-firewall
 
   # remove useless & create index
-  find bin/ -type f $(printf " ! -name %s_*" $(cat $CUR_DIR/packages.txt)) | xargs rm -f
+  find bin/ -type f $(printf " ! -name %s_*" $(cat $CUR_DIR/packages.txt | trim_lines)) | xargs rm -f
   make package/index V=s
 
   cd $CUR_DIR
