@@ -59,15 +59,15 @@ SHA256sum: 13aa2b722de132a3aaf95cb10c8c49d6803185fa3e8ab6ea56ef2c5e78dfb301
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fullconenat
-Version: 2022-01-29-1dffa4c8-1
+Version: 2022-01-29-1dffa4c8-2
 Depends: libc, iptables-mod-fullconenat, firewall
 License: GPL-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 1164
-Filename: fullconenat_2022-01-29-1dffa4c8-1_x86_64.ipk
-Size: 2098
-SHA256sum: c96fa2422b3280c80fc4e176c7466ade21b1e6d93f606d3b55433a97a6a635c1
+Installed-Size: 1467
+Filename: fullconenat_2022-01-29-1dffa4c8-2_x86_64.ipk
+Size: 2334
+SHA256sum: 76eb4e0f1f28278310fadcd3f0c5b75675150dc846542d95ebdafd5afe1e7324
 Description:  FULLCONENAT config and script
 
 Package: hev-socks5-server
@@ -95,15 +95,15 @@ SHA256sum: 91221b10a4aa6b827024aa305b9a9c0919c4d833b4a7a80aa06f91dfb35286f2
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
-Version: 2022-01-29-1dffa4c8-1
+Version: 2022-01-29-1dffa4c8-2
 Depends: libc, iptables, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: x86_64
 Installed-Size: 3450
-Filename: iptables-mod-fullconenat_2022-01-29-1dffa4c8-1_x86_64.ipk
-Size: 4203
-SHA256sum: 1572a53037317265238958ab68e3c2696e4ed2138dae6ea66bb985a84b208817
+Filename: iptables-mod-fullconenat_2022-01-29-1dffa4c8-2_x86_64.ipk
+Size: 4202
+SHA256sum: c922abbae9f7ed9b37984786912eb567c0fb77fb34bdf81e11ce46c2ce952922
 Description:  FULLCONENAT iptables extension
 
 Package: libmbedtls12
@@ -236,10 +236,10 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 41671
+Installed-Size: 41669
 Filename: vlmcsd_svn1113-2_x86_64.ipk
 Size: 42632
-SHA256sum: 58ca812eeaa5c1fe76a77095cf90ed98ad04d62b74450180469d7a08a66c10d9
+SHA256sum: 9318abdbef4e397342c3155b00831f3de0fb22333f412c8af80bb834a4f4f0f0
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
