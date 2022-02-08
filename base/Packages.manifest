@@ -93,10 +93,10 @@ Section: net
 SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 1503
+Installed-Size: 1682
 Filename: fullconenat_2022-01-29-1dffa4c8-2_mips_24kc.ipk
-Size: 2387
-SHA256sum: fd638120365f3438df99f7024c9e0c8794d3560da040c71d209ae8bc1e2845c0
+Size: 2530
+SHA256sum: ccb475d70712952ec47a5f7035d247a124605d2e83e8239f8c9fc0048169d5f8
 Description:  FULLCONENAT config and script
 
 Package: hev-socks5-server
@@ -332,10 +332,10 @@ Section: net
 SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 43713
+Installed-Size: 43711
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44407
-SHA256sum: 4160c99c96f93067fc1d340c76fd75a6b569576785f79d4623f05de822c8906b
+Size: 44398
+SHA256sum: adc8c56ac11771f27d1ecdb05fbf637b4a3a4acea4ac68d3c6d63a12cc222e03
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
