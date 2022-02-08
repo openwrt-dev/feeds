@@ -332,10 +332,10 @@ Section: net
 SourceDateEpoch: 1635066095
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 43711
+Installed-Size: 43689
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44398
-SHA256sum: adc8c56ac11771f27d1ecdb05fbf637b4a3a4acea4ac68d3c6d63a12cc222e03
+Size: 44376
+SHA256sum: 21b76fa8032419e0ff9202055fd0f9ea9146bb2fafb1b84f79a5b8046f4308bb
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
