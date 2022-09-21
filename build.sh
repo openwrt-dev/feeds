@@ -35,7 +35,6 @@ build_packages() {
   build_package openwrt-chinadns-ng
   build_package openwrt-dns-forwarder
   build_package openwrt-dns2tcp
-  build_package openwrt-hev-socks5-server
   build_package openwrt-ipt2socks
   build_package openwrt-portfwd
   build_package openwrt-vlmcsd

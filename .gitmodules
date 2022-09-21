@@ -16,9 +16,6 @@
 [submodule "net/openwrt-simple-obfs"]
 	path = net/openwrt-simple-obfs
 	url = https://github.com/aa65535/openwrt-simple-obfs.git
-[submodule "net/openwrt-hev-socks5-server"]
-	path = net/openwrt-hev-socks5-server
-	url = https://github.com/pexcn/openwrt-hev-socks5-server.git
 [submodule "net/openwrt-chinadns-ng"]
 	path = net/openwrt-chinadns-ng
 	url = https://github.com/pexcn/openwrt-chinadns-ng.git

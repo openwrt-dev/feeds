@@ -6,7 +6,6 @@ ChinaDNS
 chinadns-ng
 dns-forwarder
 dns2tcp
-hev-socks5-server
 ipt2socks
 portfwd
 shadowsocks-libev-server
