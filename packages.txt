@@ -12,6 +12,7 @@ shadowsocks-libev-server
 shadowsocks-libev
 simple-obfs-server
 simple-obfs
+transproxy
 v2ray-plugin
 vlmcsd
 xray-plugin

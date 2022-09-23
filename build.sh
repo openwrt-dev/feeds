@@ -38,6 +38,7 @@ build_packages() {
   build_package openwrt-ipt2socks
   build_package openwrt-portfwd
   build_package openwrt-vlmcsd
+  build_package openwrt-transproxy
 
   build_package openwrt-shadowsocks
   build_package openwrt-simple-obfs

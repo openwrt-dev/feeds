@@ -40,3 +40,6 @@
 [submodule "net/openwrt-xray-plugin"]
 	path = net/openwrt-xray-plugin
 	url = https://github.com/pexcn/openwrt-xray-plugin.git
+[submodule "net/openwrt-transproxy"]
+	path = net/openwrt-transproxy
+	url = https://github.com/pexcn/openwrt-transproxy.git
