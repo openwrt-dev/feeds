@@ -291,7 +291,7 @@ SHA256sum: 1aab6b1e414c40681dd4ff410b21e36f051b1f932b9e43d9f3f1a18db90e7016
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: transproxy
-Version: 0.2.10-1
+Version: 0.2.10-2
 Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 Source: package/openwrt-transproxy
 SourceName: transproxy
@@ -301,10 +301,10 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 30959
-Filename: transproxy_0.2.10-1_x86_64.ipk
-Size: 31656
-SHA256sum: a7af2685420dc6baa59df0e57614d93a11b7329198b4d4e25741f8bd97ebc962
+Installed-Size: 30958
+Filename: transproxy_0.2.10-2_x86_64.ipk
+Size: 31672
+SHA256sum: f630b52b4aa0bb8596ad44db2e7685bf6d30d7c85cf280344f82b7a294b247c3
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: v2ray-plugin
@@ -334,8 +334,8 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42595
-SHA256sum: 052ee94c9f86b003d0bedf284904c6bfb7e6d55dd65ec06ba5c3930255e791b9
+Size: 42590
+SHA256sum: e3efadb81109e14932ed47e62a362bd28996d7fedf170169b4899748dfbd2d2d
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
