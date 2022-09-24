@@ -301,10 +301,10 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 30958
+Installed-Size: 30957
 Filename: transproxy_0.2.10-2_x86_64.ipk
-Size: 31672
-SHA256sum: f630b52b4aa0bb8596ad44db2e7685bf6d30d7c85cf280344f82b7a294b247c3
+Size: 31669
+SHA256sum: dc59202c09c76585e3024c7b9d790f10945d31dd2387027267b6986168cc3299
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: v2ray-plugin
@@ -334,8 +334,8 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42590
-SHA256sum: e3efadb81109e14932ed47e62a362bd28996d7fedf170169b4899748dfbd2d2d
+Size: 42589
+SHA256sum: b8184421fcd38e94a4cb35d9cde4eae65368fdcc8b78f09ca10aa2687564c113
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
