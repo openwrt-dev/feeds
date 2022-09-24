@@ -213,10 +213,10 @@ Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 30958
+Installed-Size: 30957
 Filename: transproxy_0.2.10-2_mips_24kc.ipk
-Size: 31676
-SHA256sum: 4c73a75d7522ff00ef46838ca3a3d67677ef32f5e3282612b951232056cc562b
+Size: 31671
+SHA256sum: 59a64dec31c1dcc7ed9f23bd1f2d675ee37bd753e1b714461e235d043a936446
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: v2ray-plugin
@@ -236,10 +236,10 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 43688
+Installed-Size: 43689
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44364
-SHA256sum: 916d109f27b3a69fef6f167fea661dcfdfc5b05401ac8fa4a001b0dd5ef3a10d
+Size: 44370
+SHA256sum: b2c4a3515d122192f0202820ae90606f5bba2e0a05da95fee87f4b48882ce819
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
