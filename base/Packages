@@ -59,15 +59,15 @@ SHA256sum: 120092e463c2e00b8c33b39378056bd659fd7cabd4d8f93077d454def1b2f006
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fullconenat
-Version: 2022-02-13-108a36cb-1
+Version: 2022-02-13-108a36cb-2
 Depends: libc, iptables-mod-fullconenat, firewall
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 1620
-Filename: fullconenat_2022-02-13-108a36cb-1_mips_24kc.ipk
-Size: 2471
-SHA256sum: 8b02cdd87f63c786700cb8f1f9fe1a9792d7ee930af9d7366a6a9d6bb1feacea
+Installed-Size: 1544
+Filename: fullconenat_2022-02-13-108a36cb-2_mips_24kc.ipk
+Size: 2412
+SHA256sum: b9faaf17be7076b27ddee9338a368c0ea18c70bf20b218d60a7ccad91cd6f365
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -83,15 +83,15 @@ SHA256sum: 79b264ffac474ffde980f1b2764ed429060b4a970d5c26d694775931d83eb378
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
-Version: 2022-02-13-108a36cb-1
+Version: 2022-02-13-108a36cb-2
 Depends: libc, iptables, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
 Installed-Size: 3337
-Filename: iptables-mod-fullconenat_2022-02-13-108a36cb-1_mips_24kc.ipk
-Size: 4096
-SHA256sum: 785524aa83280d42682b653af98e67106a8dbfb11d3097b19d143b250cb4c507
+Filename: iptables-mod-fullconenat_2022-02-13-108a36cb-2_mips_24kc.ipk
+Size: 4094
+SHA256sum: 2b2cb468db2c33547525c0e3b43983b1cdea465e4f2bc5201c2092b7790350bb
 Description:  FULLCONENAT iptables extension
 
 Package: libmbedtls12
@@ -238,8 +238,8 @@ Section: net
 Architecture: mips_24kc
 Installed-Size: 43688
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44372
-SHA256sum: 64155cd992cbe4fb07d08f0dec6d95f28262203c2cc9509317f1b091113325ee
+Size: 44373
+SHA256sum: 56f0707d404d3385c50393ca0c3265464316d1a55aecc39f8b2cc3f1e6d4acf0
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
