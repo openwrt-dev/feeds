@@ -59,15 +59,15 @@ SHA256sum: 76e0d5400d7543ece50d3216e7270ab9d325ea7cab3c8408ff9371dce0f78e95
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fullconenat
-Version: 2022-02-13-108a36cb-1
+Version: 2022-02-13-108a36cb-2
 Depends: libc, iptables-mod-fullconenat, firewall
 License: GPL-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 1620
-Filename: fullconenat_2022-02-13-108a36cb-1_x86_64.ipk
-Size: 2470
-SHA256sum: f9c64142e6418908e982557ea3beb37170fdf0f9815687ad41cff1723b6e91e4
+Installed-Size: 1544
+Filename: fullconenat_2022-02-13-108a36cb-2_x86_64.ipk
+Size: 2413
+SHA256sum: d6955679ecd676f02a82a237750197d4426d0d431c0fcf4db71671a7b87449c8
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -83,15 +83,15 @@ SHA256sum: ddf1dd21bba44b5f8ef8b900df0c9aa31a9694ec5844ed362983f1a7c5bd2f11
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
-Version: 2022-02-13-108a36cb-1
+Version: 2022-02-13-108a36cb-2
 Depends: libc, iptables, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: x86_64
 Installed-Size: 3447
-Filename: iptables-mod-fullconenat_2022-02-13-108a36cb-1_x86_64.ipk
-Size: 4191
-SHA256sum: 519d31990e3db878376ea035b246ee213aa2fe10f60d06959a0366a297930b70
+Filename: iptables-mod-fullconenat_2022-02-13-108a36cb-2_x86_64.ipk
+Size: 4196
+SHA256sum: f3247c70b7355f8f6ab88d0383b0699b36ede8a78c17f597f507a054fdc1d3e0
 Description:  FULLCONENAT iptables extension
 
 Package: libmbedtls12
@@ -238,8 +238,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42597
-SHA256sum: 192e82f5941897f86036cf4fcf2b2f34a3359cbee4d210008ef7c4bc3b05156d
+Size: 42590
+SHA256sum: 2df436f55f9ff6c42f8bc834a7b782a079797eec599df7d5b6e2df56db4141f6
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
 Package: xray-plugin
