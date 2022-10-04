@@ -1,21 +1,6 @@
-[submodule "net/luci-app-shadowsocks"]
-	path = luci/luci-app-shadowsocks
-	url = https://github.com/pexcn/luci-app-shadowsocks.git
-[submodule "net/openwrt-dist-luci"]
-	path = luci/openwrt-dist-luci
-	url = https://github.com/pexcn/openwrt-dist-luci.git
-[submodule "net/openwrt-shadowsocks"]
-	path = net/openwrt-shadowsocks
-	url = https://github.com/shadowsocks/openwrt-shadowsocks.git
-[submodule "net/openwrt-chinadns"]
-	path = net/openwrt-chinadns
-	url = https://github.com/aa65535/openwrt-chinadns.git
 [submodule "net/openwrt-dns-forwarder"]
 	path = net/openwrt-dns-forwarder
 	url = https://github.com/aa65535/openwrt-dns-forwarder.git
-[submodule "net/openwrt-simple-obfs"]
-	path = net/openwrt-simple-obfs
-	url = https://github.com/aa65535/openwrt-simple-obfs.git
 [submodule "net/openwrt-chinadns-ng"]
 	path = net/openwrt-chinadns-ng
 	url = https://github.com/pexcn/openwrt-chinadns-ng.git
@@ -34,12 +19,6 @@
 [submodule "net/openwrt-fullconenat"]
 	path = net/openwrt-fullconenat
 	url = https://github.com/pexcn/openwrt-fullconenat.git
-[submodule "net/openwrt-v2ray-plugin"]
-	path = net/openwrt-v2ray-plugin
-	url = https://github.com/pexcn/openwrt-v2ray-plugin.git
-[submodule "net/openwrt-xray-plugin"]
-	path = net/openwrt-xray-plugin
-	url = https://github.com/pexcn/openwrt-xray-plugin.git
 [submodule "net/openwrt-transproxy"]
 	path = net/openwrt-transproxy
 	url = https://github.com/pexcn/openwrt-transproxy.git

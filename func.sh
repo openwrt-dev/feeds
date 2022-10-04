@@ -11,7 +11,7 @@ trim_lines() {
 
 update_feeds() {
   if [ ! -f $SDK_DIR/.feeds_updated ]; then
-    ./scripts/feeds update base packages luci
+    ./scripts/feeds update base packages
     touch $SDK_DIR/.feeds_updated
   fi
 }

@@ -24,37 +24,11 @@ opkg-key add /tmp/key-build.pub
 rm /tmp/key-build.pub
 ```
 
-Setup opkg configs:
+Setup opkg configs, e.g. x86-64:
 ```bash
-# ath79-generic
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-generic/base
-src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ath79-generic/core
-src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ath79-generic/luci
-src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ath79-generic/packages
-
-# ath79-tiny
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ath79-tiny/base
-src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ath79-tiny/core
-src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ath79-tiny/luci
-src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ath79-tiny/packages
-
-# ramips-mt7620
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/base
-src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/core
-src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/luci
-src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ramips-mt7620/packages
-
-# ramips-mt7621
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/base
-src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/core
-src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/luci
-src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/ramips-mt7621/packages
-
 # x86-64
 src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
 src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/x86-64/core
-src/gz openwrt_dev_luci https://github.com/openwrt-dev/feeds/raw/x86-64/luci
-src/gz openwrt_dev_packages https://github.com/openwrt-dev/feeds/raw/x86-64/packages
 ```
 
 ### Upstreams
