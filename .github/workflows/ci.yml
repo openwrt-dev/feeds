@@ -51,8 +51,6 @@ jobs:
           rm -rf $IPK_ARCH/*
           mv $IPK_ARCH-base $IPK_ARCH/base
           mv $IPK_ARCH-core $IPK_ARCH/core
-          mv $IPK_ARCH-luci $IPK_ARCH/luci
-          mv $IPK_ARCH-packages $IPK_ARCH/packages
           # commit and push packages
           cd $IPK_ARCH
           git config user.name github-actions[bot]
