@@ -10,6 +10,9 @@ download_sdk() {
 get_sources() {
   cd $SDK_DIR
 
+  # install depends
+  install_feeds libxtables
+
   # copy sources
   cp -rv $CUR_DIR/net/* package/
   cp $CUR_DIR/key-build .
