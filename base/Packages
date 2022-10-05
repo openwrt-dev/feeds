@@ -1,13 +1,13 @@
 Package: chinadns-ng
-Version: 1.0-beta.25-1
+Version: 1.0-beta.25-2
 Depends: libc, ipset
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 374962
-Filename: chinadns-ng_1.0-beta.25-1_x86_64.ipk
-Size: 375902
-SHA256sum: 69102f1b6dd12a2ccd3ab9ce2434e92e3db3ea3a0d92b332ce4e68bd8d872db5
+Installed-Size: 49249
+Filename: chinadns-ng_1.0-beta.25-2_x86_64.ipk
+Size: 50117
+SHA256sum: c356eda5c7fd27f33cfeeef2d0d4f22c2a59f6cc44153faa55f926a84dd36225
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -83,15 +83,15 @@ SHA256sum: 5c9c04062b3f1e5968464a20503f2d3a1364f15c93961d1cc34a928c7378ffb7
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
-Version: 0.3.0-3
+Version: 0.3.0-4
 Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 31107
-Filename: transproxy_0.3.0-3_x86_64.ipk
-Size: 31865
-SHA256sum: 5c295c2ddc79ddf0aa25d785cb71af4f41e1f9d8dca36ecf4e1e10de9dfa2185
+Installed-Size: 31041
+Filename: transproxy_0.3.0-4_x86_64.ipk
+Size: 31909
+SHA256sum: 3fa4ad38fb22364cae6b09fdfd8d620f188c8eb8cb2bf47bb509777450e003b3
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -102,7 +102,7 @@ Section: net
 Architecture: x86_64
 Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42590
-SHA256sum: b220464d8ddb7db2617e53e08eb02905b3631c5807882f5cd9b8c01638dc3ae4
+Size: 42585
+SHA256sum: 415571e8167514516646fdc20ebe98b565f28a810c27bc85bfa96d741cdcbf73
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
