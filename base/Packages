@@ -1,13 +1,13 @@
 Package: chinadns-ng
-Version: 1.0-beta.25-1
+Version: 1.0-beta.25-2
 Depends: libc, ipset
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 373354
-Filename: chinadns-ng_1.0-beta.25-1_mips_24kc.ipk
-Size: 374254
-SHA256sum: 2d70ce5d08ae92ba49868060fd43579e6f2a93497b7fbc0131e9f67fda2d3951
+Installed-Size: 47628
+Filename: chinadns-ng_1.0-beta.25-2_mips_24kc.ipk
+Size: 48481
+SHA256sum: 390f329f01b93913fca36c4e5102e444c7187937e6bd4490280a60bba18f68dd
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -83,15 +83,15 @@ SHA256sum: 06dc9d677c884bc4509eaaa46907ce4585f3943b630604efab507c5fc39331ec
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
-Version: 0.3.0-3
+Version: 0.3.0-4
 Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 License: GPL-3.0
 Section: utils
 Architecture: mips_24kc
-Installed-Size: 31107
-Filename: transproxy_0.3.0-3_mips_24kc.ipk
-Size: 31867
-SHA256sum: fa98e10aec47da0d7096f4f1a47ba5c899e1a674317a9eefdd5260c7915d2aa2
+Installed-Size: 31041
+Filename: transproxy_0.3.0-4_mips_24kc.ipk
+Size: 31912
+SHA256sum: 9ca9b285b41a5ca5ffa393a22e7a1220dbb91e0f6fda4cf258166e96bc71270e
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -100,9 +100,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 43688
+Installed-Size: 43689
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44364
-SHA256sum: 884285114d26ead1ed2dbb7c0f2a8eb5613c40d57911110b1109ce292f4fd428
+Size: 44375
+SHA256sum: 59b6ed08812292138f71cb8994383a16b974bc9dfeebbb41dc36af811f535702
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
