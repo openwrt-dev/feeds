@@ -33,7 +33,7 @@ SHA256sum: c8f8526e98b2180309a2feee3f4b2a8c44eaac748582963e4df55dae89f01141
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
-Version: 1.1.0-3
+Version: 1.1.0-4
 Depends: libc
 Source: package/openwrt-dns2tcp
 SourceName: dns2tcp
@@ -43,10 +43,10 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 17609
-Filename: dns2tcp_1.1.0-3_mips_24kc.ipk
-Size: 18436
-SHA256sum: 47faab7e40f51e0a6fbb2eca306083cea682b614544a1bf9765f5913275bb46a
+Installed-Size: 17663
+Filename: dns2tcp_1.1.0-4_mips_24kc.ipk
+Size: 18485
+SHA256sum: 8aea3b6a7865c9e56932b21db9a26785d535a8aa95cfef58aa7a93a352cf34a2
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
@@ -145,9 +145,9 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 43689
+Installed-Size: 43688
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44375
-SHA256sum: 59b6ed08812292138f71cb8994383a16b974bc9dfeebbb41dc36af811f535702
+Size: 44371
+SHA256sum: 2b88a4e482acacc1cd68c799f2110315909597a0f2ce0f5a4ab33cdd3a3a129c
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
