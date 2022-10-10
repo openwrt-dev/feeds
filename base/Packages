@@ -23,15 +23,15 @@ SHA256sum: 59ed5d597865d295969cdd05e3264ee051dddffa45d60e2021e0e9e7eee8f06f
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
-Version: 1.1.0-3
+Version: 1.1.0-4
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 18472
-Filename: dns2tcp_1.1.0-3_x86_64.ipk
-Size: 19253
-SHA256sum: aa5309a5058b1d497206a3f1f3dedbcb69eb11199344a621143fe60131eb2ffe
+Installed-Size: 18546
+Filename: dns2tcp_1.1.0-4_x86_64.ipk
+Size: 19327
+SHA256sum: c2f534095e1607ccbc74252d9a168e76a5de1ff3c6b3ad5e66afd6887661cc64
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
@@ -102,7 +102,7 @@ Section: net
 Architecture: x86_64
 Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42585
-SHA256sum: 415571e8167514516646fdc20ebe98b565f28a810c27bc85bfa96d741cdcbf73
+Size: 42589
+SHA256sum: fe6f768afb21af56910e56f794efb18bbde6f90e6b40b00772287d358c099fa6
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
