@@ -67,7 +67,7 @@ SHA256sum: b9faaf17be7076b27ddee9338a368c0ea18c70bf20b218d60a7ccad91cd6f365
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
-Version: 1.1.3-1
+Version: 1.1.3-2
 Depends: libc
 Source: package/openwrt-ipt2socks
 SourceName: ipt2socks
@@ -77,10 +77,10 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 34602
-Filename: ipt2socks_1.1.3-1_mips_24kc.ipk
-Size: 35353
-SHA256sum: 79b264ffac474ffde980f1b2764ed429060b4a970d5c26d694775931d83eb378
+Installed-Size: 34517
+Filename: ipt2socks_1.1.3-2_mips_24kc.ipk
+Size: 35258
+SHA256sum: d7b36d80de3ae26fc817ac62840c1a4236a8bc83f9db508e6c0cb507a3f3a761
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
@@ -118,7 +118,7 @@ SHA256sum: 06dc9d677c884bc4509eaaa46907ce4585f3943b630604efab507c5fc39331ec
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
-Version: 0.3.0-4
+Version: 0.3.1-1
 Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 Source: package/openwrt-transproxy
 SourceName: transproxy
@@ -128,10 +128,10 @@ Section: utils
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 31041
-Filename: transproxy_0.3.0-4_mips_24kc.ipk
-Size: 31912
-SHA256sum: 9ca9b285b41a5ca5ffa393a22e7a1220dbb91e0f6fda4cf258166e96bc71270e
+Installed-Size: 31074
+Filename: transproxy_0.3.1-1_mips_24kc.ipk
+Size: 31908
+SHA256sum: bc670f65426451e1d34a1f995cd61d8658f4679d597ef0a5f6cb28ed33e6e6c8
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -147,7 +147,7 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
 Installed-Size: 43688
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44371
-SHA256sum: 2b88a4e482acacc1cd68c799f2110315909597a0f2ce0f5a4ab33cdd3a3a129c
+Size: 44361
+SHA256sum: 043f788814801ee349af94ef0d700deabb8d52731957b8d7d3571d908b558a66
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
