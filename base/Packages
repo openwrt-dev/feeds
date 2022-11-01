@@ -47,15 +47,15 @@ SHA256sum: d6955679ecd676f02a82a237750197d4426d0d431c0fcf4db71671a7b87449c8
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
-Version: 1.1.3-1
+Version: 1.1.3-2
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 38681
-Filename: ipt2socks_1.1.3-1_x86_64.ipk
-Size: 39534
-SHA256sum: ddf1dd21bba44b5f8ef8b900df0c9aa31a9694ec5844ed362983f1a7c5bd2f11
+Installed-Size: 38500
+Filename: ipt2socks_1.1.3-2_x86_64.ipk
+Size: 39388
+SHA256sum: 155069c62278de5463cf2ed9b4d2941c73cdc3a6c12528feb58eafbc456f370e
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
@@ -83,15 +83,15 @@ SHA256sum: 5c9c04062b3f1e5968464a20503f2d3a1364f15c93961d1cc34a928c7378ffb7
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
-Version: 0.3.0-4
+Version: 0.3.1-1
 Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 31041
-Filename: transproxy_0.3.0-4_x86_64.ipk
-Size: 31909
-SHA256sum: 3fa4ad38fb22364cae6b09fdfd8d620f188c8eb8cb2bf47bb509777450e003b3
+Installed-Size: 31074
+Filename: transproxy_0.3.1-1_x86_64.ipk
+Size: 31916
+SHA256sum: 31f1f2ccaa4314b456d709913e2f7a1f279e06e4ae3e0a29fef5dbe3d9fff7f5
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -100,9 +100,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 41638
+Installed-Size: 41637
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42589
-SHA256sum: fe6f768afb21af56910e56f794efb18bbde6f90e6b40b00772287d358c099fa6
+Size: 42588
+SHA256sum: bf977098678e33c729a84f5fe1b088a9c2d01e9ca09ce36bf4e206f9a4978862
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
