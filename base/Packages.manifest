@@ -118,7 +118,7 @@ SHA256sum: 06dc9d677c884bc4509eaaa46907ce4585f3943b630604efab507c5fc39331ec
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
-Version: 0.3.2-1
+Version: 0.4.1-1
 Depends: libc, ip-tiny, ipset, iptables, ip6tables, iptables-mod-tproxy
 Source: package/openwrt-transproxy
 SourceName: transproxy
@@ -128,10 +128,10 @@ Section: utils
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 31156
-Filename: transproxy_0.3.2-1_mips_24kc.ipk
-Size: 32037
-SHA256sum: ca9ea4678a3663fcfb8a1d8eca786291e84b84dfd9bcfec2a1cb00fb41f2fe0e
+Installed-Size: 31231
+Filename: transproxy_0.4.1-1_mips_24kc.ipk
+Size: 32179
+SHA256sum: bc78f6db3b11e01e7c6121ac57b05f8b1299eb3229745935af58791d854238f7
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -145,9 +145,9 @@ Section: net
 SourceDateEpoch: 1650113974
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 43688
+Installed-Size: 43689
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44363
-SHA256sum: 39f8cea6e8b97d5d0f733310ad29803b5844c0a414f578fd8550481e10a66321
+Size: 44376
+SHA256sum: 7679c79a3d76c395ec9fbd042d64e0c82217bbfabd748d7ec92f04e23c5c0570
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
