@@ -6,13 +6,13 @@ SourceName: chinadns-ng
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 47628
+Installed-Size: 47641
 Filename: chinadns-ng_1.0-beta.25-2_mips_24kc.ipk
-Size: 48481
-SHA256sum: 390f329f01b93913fca36c4e5102e444c7187937e6bd4490280a60bba18f68dd
+Size: 48498
+SHA256sum: 2429fe3b0a87461c5e7d9abb2fe86dfc92f579025d6f0fb9a6c9eb9ceeeb00ad
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -23,13 +23,13 @@ SourceName: dns-forwarder
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: mips_24kc
-Installed-Size: 8836
+Installed-Size: 8837
 Filename: dns-forwarder_1.2.1-2_mips_24kc.ipk
-Size: 9637
-SHA256sum: c8f8526e98b2180309a2feee3f4b2a8c44eaac748582963e4df55dae89f01141
+Size: 9643
+SHA256sum: bc75d5c64af802b02f13a175dd22a5d8ca770ef18a6980cbfd918b0b411d168b
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
@@ -40,13 +40,13 @@ SourceName: dns2tcp
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 17663
+Installed-Size: 17662
 Filename: dns2tcp_1.1.0-4_mips_24kc.ipk
-Size: 18485
-SHA256sum: 8aea3b6a7865c9e56932b21db9a26785d535a8aa95cfef58aa7a93a352cf34a2
+Size: 18486
+SHA256sum: 5aff96b026326849064bbcf4d51f17acd905fa8562e00301ee36841fd79c937f
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
@@ -57,13 +57,13 @@ SourceName: fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
-Maintainer: pexcn <i@pexcn.me>
+SourceDateEpoch: 1665688598
+Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 1544
+Installed-Size: 1557
 Filename: fullconenat_2022-02-13-108a36cb-2_mips_24kc.ipk
-Size: 2412
-SHA256sum: b9faaf17be7076b27ddee9338a368c0ea18c70bf20b218d60a7ccad91cd6f365
+Size: 2435
+SHA256sum: 4e507284bbcb9acf47cde09791daa613b1ffd234a77fb4289590cb19b68771f2
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -74,13 +74,13 @@ SourceName: ipt2socks
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 34517
+Installed-Size: 34516
 Filename: ipt2socks_1.1.3-2_mips_24kc.ipk
-Size: 35258
-SHA256sum: d7b36d80de3ae26fc817ac62840c1a4236a8bc83f9db508e6c0cb507a3f3a761
+Size: 35260
+SHA256sum: 3414ac66a7a8c17ddccac704cbf92094c402b71e609c90cd9d4033f70386a584
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
@@ -91,13 +91,13 @@ SourceName: iptables-mod-fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: mips_24kc
-Installed-Size: 3337
+Installed-Size: 3340
 Filename: iptables-mod-fullconenat_2022-02-13-108a36cb-2_mips_24kc.ipk
-Size: 4094
-SHA256sum: 2b2cb468db2c33547525c0e3b43983b1cdea465e4f2bc5201c2092b7790350bb
+Size: 4097
+SHA256sum: 3f6e400f0ede4015e2a91a27249d9fe53151876d5e938e668b94ac0d2ac2cc0f
 Description:  FULLCONENAT iptables extension
 
 Package: portfwd
@@ -108,13 +108,13 @@ SourceName: portfwd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 9353
+Installed-Size: 9355
 Filename: portfwd_20191118-1_mips_24kc.ipk
-Size: 10123
-SHA256sum: 06dc9d677c884bc4509eaaa46907ce4585f3943b630604efab507c5fc39331ec
+Size: 10136
+SHA256sum: 36a69a4934801325b14e1c82f352bb6b2b028b33a209794158ba95116c09b1e2
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
@@ -125,13 +125,13 @@ SourceName: transproxy
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1650113974
-Maintainer: pexcn <i@pexcn.me>
+SourceDateEpoch: 1665688598
+Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 31240
+Installed-Size: 31250
 Filename: transproxy_0.4.2-1_mips_24kc.ipk
-Size: 32200
-SHA256sum: 953a1492c1ac71a30c1d7f30ccfb1434425e60d97ca599065c330b9663d3ae56
+Size: 32208
+SHA256sum: be4d764b0385b3d7036e6091dc79979f2fda1cbf12f6a4e09e91aafd6984cc42
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -142,12 +142,12 @@ SourceName: vlmcsd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1650113974
+SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 43688
+Installed-Size: 43689
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44362
-SHA256sum: 1d6fa422bd894e7d0f0ecb810f6e34e51b7fc847b9448cefbf1a8b430e7842f8
+Size: 44382
+SHA256sum: 91051cd3b146009848bfa3e5a26e68d2455c337dd13e2ab954fa609537ed4f20
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
