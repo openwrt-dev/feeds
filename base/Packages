@@ -1,13 +1,13 @@
 Package: chinadns-ng
-Version: 2023.03.10-1
+Version: 2023.03.10-2
 Depends: libc, ipset
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 91280
-Filename: chinadns-ng_2023.03.10-1_mips_24kc.ipk
-Size: 92100
-SHA256sum: e02fb2e6a30de03326a88961c8f97ff51c9c62331441082ab0e0090a82c594d9
+Installed-Size: 91284
+Filename: chinadns-ng_2023.03.10-2_mips_24kc.ipk
+Size: 92103
+SHA256sum: 50d2f5accd2db5cde3c136bf04439b680272a4bd7bafd9a05dfc8b690accf702
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -100,9 +100,9 @@ Depends: libc, libpthread
 License: GPL-3.0
 Section: net
 Architecture: mips_24kc
-Installed-Size: 43688
+Installed-Size: 43687
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44379
-SHA256sum: 287d22d8571a4d9ee3374ff00a10e536d86808c0f1cbc77ff3a2247a4073d9e9
+Size: 44377
+SHA256sum: 168e91fbb7ced5a9212b0909da3f2aa026b5f524b937025b5a12791cacd9084a
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
