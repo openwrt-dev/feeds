@@ -9,10 +9,10 @@ Section: net
 SourceDateEpoch: 1665688598
 Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 91240
+Installed-Size: 91280
 Filename: chinadns-ng_2023.03.10-1_mips_24kc.ipk
-Size: 91983
-SHA256sum: 2daa9b427b4e90141bbd26308907e82f9b29119a301d8ccea181cc1a68f24da9
+Size: 92100
+SHA256sum: e02fb2e6a30de03326a88961c8f97ff51c9c62331441082ab0e0090a82c594d9
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -145,9 +145,9 @@ Section: net
 SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
-Installed-Size: 43687
+Installed-Size: 43688
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44377
-SHA256sum: 95ceec40a7516faf056eee54e122b82d36bf299f7705785542d84c601823444a
+Size: 44379
+SHA256sum: 287d22d8571a4d9ee3374ff00a10e536d86808c0f1cbc77ff3a2247a4073d9e9
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
