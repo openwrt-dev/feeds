@@ -4,10 +4,10 @@ Depends: libc, ipset
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 79184
+Installed-Size: 79214
 Filename: chinadns-ng_2023.03.10-1_x86_64.ipk
-Size: 80092
-SHA256sum: feba6d272a21b73c4db134e7d77fccce32da2c636cd0ef84128b82474f0f44eb
+Size: 80121
+SHA256sum: 16926b311e4367abb233607afba93863588f8900aa6d42544e0e16dc2c164e0d
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -102,7 +102,7 @@ Section: net
 Architecture: x86_64
 Installed-Size: 41639
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42604
-SHA256sum: 753c4f583c5076917df84604c6a2d0874311f001d8df9b47187a7e50f4caef39
+Size: 42603
+SHA256sum: e495940c5e98da46a43e70743e32df15686adf57e3d16ddf6b2c2c98220d8701
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
