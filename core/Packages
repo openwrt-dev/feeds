@@ -1,12 +1,12 @@
 Package: kmod-ipt-fullconenat
-Version: 5.4.215+2022-02-13-108a36cb-2
+Version: 5.4.215+2023-01-01-74c5e6f3-1
 Depends: kernel (=5.4.215-1-eef61aad9d9205d0f312846abba7ba7f), kmod-nf-ipt, kmod-nf-nat, kmod-nf-ipt6, kmod-nf-nat6
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 6904
-Filename: kmod-ipt-fullconenat_5.4.215+2022-02-13-108a36cb-2_x86_64.ipk
+Installed-Size: 6907
+Filename: kmod-ipt-fullconenat_5.4.215+2023-01-01-74c5e6f3-1_x86_64.ipk
 Size: 7747
-SHA256sum: 38e290473795c720fb04a4c5293ca4264ba154441be38c2a67a11b69e011dec8
+SHA256sum: 16a931862a6a16fb8acc8d5d8927d59a746c9a1e9ffa82d97f43eff60ba7a670
 Description:  FULLCONENAT netfilter module
 
