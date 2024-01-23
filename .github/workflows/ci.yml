@@ -27,8 +27,6 @@ jobs:
         SDK_URL:
           - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/generic/openwrt-sdk-21.02.5-ath79-generic_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/tiny/openwrt-sdk-21.02.5-ath79-tiny_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/21.02.5/targets/ramips/mt7620/openwrt-sdk-21.02.5-ramips-mt7620_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/21.02.5/targets/ramips/mt7621/openwrt-sdk-21.02.5-ramips-mt7621_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.5/targets/x86/64/openwrt-sdk-21.02.5-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
     steps:
       - name: Checkout
