@@ -14,9 +14,9 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     container:
-      image: pexcn/docker-images:buster-openwrt
+      image: pexcn/docker-images:bookworm-openwrt
     env:
       TZ: Asia/Taipei
       DEBUG: ${{ github.event.inputs.debug }}
