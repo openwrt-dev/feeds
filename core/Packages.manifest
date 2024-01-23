@@ -1,5 +1,5 @@
 Package: kmod-ipt-fullconenat
-Version: 5.4.215+2022-02-13-108a36cb-2
+Version: 5.4.215+2023-01-01-74c5e6f3-1
 Depends: kernel (=5.4.215-1-8bf2c37fddb5d4bb9e3ca54818bf5e18), kmod-nf-ipt, kmod-nf-nat, kmod-nf-ipt6, kmod-nf-nat6
 Source: package/openwrt-fullconenat
 SourceName: kmod-ipt-fullconenat
@@ -9,9 +9,9 @@ Section: kernel
 SourceDateEpoch: 1665688598
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: mips_24kc
-Installed-Size: 7445
-Filename: kmod-ipt-fullconenat_5.4.215+2022-02-13-108a36cb-2_mips_24kc.ipk
-Size: 8306
-SHA256sum: 510cf48d9e01cca07582f75c88bd3e052d512ff4ad7a0944e485581264b20f9a
+Installed-Size: 7444
+Filename: kmod-ipt-fullconenat_5.4.215+2023-01-01-74c5e6f3-1_mips_24kc.ipk
+Size: 8303
+SHA256sum: 94cc0dca631c3841aa2229746bd7d95ae83d50358c5486e3979cce864fc17707
 Description:  FULLCONENAT netfilter module
 
