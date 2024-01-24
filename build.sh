@@ -45,8 +45,8 @@ build_packages() {
 }
 
 copy_packages() {
-  cp -rv $SDK_DIR/bin/packages/*/base $IPK_ARCH-base
-  cp -rv $SDK_DIR/bin/targets/${IPK_ARCH%%-*}/${IPK_ARCH##*-}/packages $IPK_ARCH-core
+  cp -rv $SDK_DIR/bin/packages/*/base ${}-base
+  cp -rv $SDK_DIR/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages $TARGET_PLATFORM-core
 }
 
 download_sdk

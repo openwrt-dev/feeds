@@ -1,6 +1,6 @@
 #!/bin/bash -e
 set -o pipefail
-[ "$DEBUG" = 1 ] && set -x
+[ "$DEBUG_LOG" = 1 ] && set -x
 
 CUR_DIR=$(pwd)
 SDK_DIR=$(pwd)/openwrt-sdk
@@ -31,7 +31,7 @@ install_feeds_with_patches() {
 
 build_package() {
   local package="$1"
-  if [ "$DEBUG" != 1 ]; then
+  if [ "$DEBUG_LOG" != 1 ]; then
     make -j$(nproc) package/$package/compile V=w
   else
     make -j1 package/$package/compile V=s

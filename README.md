@@ -2,10 +2,10 @@
 
 [![CI](https://github.com/openwrt-dev/feeds/workflows/CI/badge.svg)](https://github.com/openwrt-dev/feeds)
 
-### Build
+## Build
 
-```bash
-git clone https://github.com/openwrt-dev/feeds.git -b master --single-branch --recurse-submodules -j4
+```sh
+git clone https://github.com/openwrt-dev/feeds.git --single-branch --recurse-submodules -j$(nproc)
 cd feeds
 
 # update upstreams
@@ -15,22 +15,18 @@ git submodule update --remote --merge
 # See build.sh
 ```
 
-### Usage
+## Usage
 
-1. Add public key:
-```bash
+```sh
+# add public key
 wget -O /tmp/key-build.pub https://github.com/openwrt-dev/feeds/raw/master/key-build.pub
 opkg-key add /tmp/key-build.pub
 rm /tmp/key-build.pub
-```
 
-2. Setup custom feeds at `/etc/opkg/customfeeds.conf`, e.g. `x86-64` architecture:
-```bash
+# setup custom feeds
+cat << EOF >/etc/opkg/customfeeds.conf
 # x86-64
-src/gz openwrt_dev_base https://github.com/openwrt-dev/feeds/raw/x86-64/base
-src/gz openwrt_dev_core https://github.com/openwrt-dev/feeds/raw/x86-64/core
+src/gz openwrt_dev_base https://raw.githubusercontent.com/openwrt-dev/feeds/x86-64/base
+src/gz openwrt_dev_core https://raw.githubusercontent.com/openwrt-dev/feeds/x86-64/core
+EOF
 ```
-
-### Reference
-
-- https://github.com/simonsmh/openwrt-dist

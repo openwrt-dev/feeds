@@ -2,24 +2,25 @@ name: CI
 
 on:
   push:
-    branches: master
-  pull_request:
-    branches: master
   workflow_dispatch:
     inputs:
-      debug:
-        description: 'Whether to enable script debug log'
+      push_branch:
+        description: 'Whether to push to binaries branch'
+        required: true
+        default: '0'
+      debug_log:
+        description: 'Whether to print debug log'
         required: true
         default: '0'
 
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-22.04
     container:
       image: pexcn/docker-images:bookworm-openwrt
     env:
       TZ: Asia/Taipei
-      DEBUG: ${{ github.event.inputs.debug }}
+      DEBUG_LOG: ${{ github.event.inputs.debug_log }}
       SDK_URL: ${{ matrix.SDK_URL }}
     strategy:
       fail-fast: false
@@ -29,31 +30,32 @@ jobs:
           - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/tiny/openwrt-sdk-21.02.5-ath79-tiny_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.5/targets/x86/64/openwrt-sdk-21.02.5-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           #- https://downloads.openwrt.org/snapshots/targets/qualcommax/ipq807x/openwrt-sdk-qualcommax-ipq807x_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout sources
+        uses: actions/checkout@v3
         with:
           submodules: true
 
-      - name: Append environment variable
+      - name: Set environment variable
         run: |
-          echo "IPK_ARCH=$(echo $SDK_URL | awk -F '/' '{print $7 "-" $8}')" >> $GITHUB_ENV
+          echo "TARGET_PLATFORM=$(awk -F '/' '{print $7 "-" $8}' <<< $SDK_URL)" >> $GITHUB_ENV
 
       - name: Build
         run: ./build.sh
 
       - name: Push
-        if: github.event_name == 'push'
+        if: (github.event_name == 'push' && startsWith(github.event.head_commit.message, '[release] ')) || (github.event.inputs.upload_release == 1)
         run: |
-          # update target packages
-          git clone https://github.com/${{ github.repository }}.git --single-branch -b $IPK_ARCH --depth 1 $IPK_ARCH
-          rm -rf $IPK_ARCH/*
-          mv $IPK_ARCH-base $IPK_ARCH/base
-          mv $IPK_ARCH-core $IPK_ARCH/core
-          # commit and push packages
-          cd $IPK_ARCH
+          # update packages
+          git clone https://github.com/${{ github.repository }}.git --single-branch -b $TARGET_PLATFORM --depth 1 $TARGET_PLATFORM
+          rm -rf $TARGET_PLATFORM/*
+          mv ${TARGET_PLATFORM}-base ${TARGET_PLATFORM}/base
+          mv ${TARGET_PLATFORM}-core ${TARGET_PLATFORM}/core
+          # commit and push
+          cd $TARGET_PLATFORM
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
-          git commit -m "$(date '+%Y-%m-%d %H:%M:%S')" || true
-          git push https://${{ github.repository_owner }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git $IPK_ARCH
+          git commit -m "$(date '+%Y-%m-%d %T')" || true
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git $TARGET_PLATFORM
