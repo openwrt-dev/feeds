@@ -25,6 +25,9 @@ build_packages() {
 
   make defconfig
 
+  # some packages cannot compile with ccache, like openwrt-vlmcsd.
+  sed -i 's/^CONFIG_CCACHE=y/# CONFIG_CCACHE is not set/' .config
+
   build_package openwrt-chinadns-ng
   build_package openwrt-dns-forwarder
   build_package openwrt-dns2tcp
