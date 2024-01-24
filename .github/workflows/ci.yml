@@ -28,7 +28,7 @@ jobs:
           - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/generic/openwrt-sdk-21.02.5-ath79-generic_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/tiny/openwrt-sdk-21.02.5-ath79-tiny_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.5/targets/x86/64/openwrt-sdk-21.02.5-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/snapshots/targets/qualcommax/ipq807x/openwrt-sdk-qualcommax-ipq807x_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+          #- https://downloads.openwrt.org/snapshots/targets/qualcommax/ipq807x/openwrt-sdk-qualcommax-ipq807x_gcc-12.3.0_musl.Linux-x86_64.tar.xz
     steps:
       - name: Checkout
         uses: actions/checkout@v2
