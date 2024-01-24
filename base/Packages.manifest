@@ -51,7 +51,7 @@ Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
 Version: 2023-01-01-74c5e6f3-1
-Depends: libc, iptables-mod-fullconenat, firewall
+Depends: libc, iptables-mod-fullconenat
 Source: package/openwrt-fullconenat
 SourceName: fullconenat
 License: GPL-2.0
@@ -62,8 +62,8 @@ Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 1557
 Filename: fullconenat_2023-01-01-74c5e6f3-1_mips_24kc.ipk
-Size: 2431
-SHA256sum: f681dc2cf0c645d2bedd56d111fe1244939f1ef100c1bba7ccbe4dd07806b3b5
+Size: 2422
+SHA256sum: 4aa2d3f285e104dc18002e3b33c3c41fbce2c52f6c75aaee25a5a7684ba12323
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -85,7 +85,7 @@ Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
 Version: 2023-01-01-74c5e6f3-1
-Depends: libc, iptables, kmod-ipt-fullconenat
+Depends: libc, iptables, ip6tables, kmod-ipt-fullconenat
 Source: package/openwrt-fullconenat
 SourceName: iptables-mod-fullconenat
 License: GPL-2.0
@@ -96,8 +96,8 @@ Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: mips_24kc
 Installed-Size: 3339
 Filename: iptables-mod-fullconenat_2023-01-01-74c5e6f3-1_mips_24kc.ipk
-Size: 4102
-SHA256sum: bfa87859206d1e24b119384931a8b1d7303ca07014bf7c9769d4dd6a00e7bd3f
+Size: 4101
+SHA256sum: 00074f680815e4fe8a37f0204b03afa34547c31e23ff826e6e4f5c9f82980be1
 Description:  FULLCONENAT iptables extension
 
 Package: portfwd
@@ -147,7 +147,7 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: mips_24kc
 Installed-Size: 43689
 Filename: vlmcsd_svn1113-2_mips_24kc.ipk
-Size: 44373
-SHA256sum: d055deec18e26edf3493c99776abd75a242055deb95acfef796fe06f2db2fac0
+Size: 44382
+SHA256sum: d7aa566185e441219453e4b4690bf1df0fa375230c51c41bec4ba3b52c2ddbcc
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
