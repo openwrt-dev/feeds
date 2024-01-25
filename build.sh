@@ -45,8 +45,8 @@ build_packages() {
 }
 
 copy_packages() {
-  cp -rv $SDK_DIR/bin/packages/*/base ${}-base
-  cp -rv $SDK_DIR/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages $TARGET_PLATFORM-core
+  cp -rv $SDK_DIR/bin/packages/*/base ${TARGET_PLATFORM}-base
+  cp -rv $SDK_DIR/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages ${TARGET_PLATFORM}-core
 }
 
 download_sdk
