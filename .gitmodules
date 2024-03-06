@@ -1,24 +1,24 @@
 [submodule "net/openwrt-dns-forwarder"]
-	path = net/openwrt-dns-forwarder
+	path = src/openwrt-dns-forwarder
 	url = https://github.com/aa65535/openwrt-dns-forwarder.git
 [submodule "net/openwrt-chinadns-ng"]
-	path = net/openwrt-chinadns-ng
+	path = src/openwrt-chinadns-ng
 	url = https://github.com/pexcn/openwrt-chinadns-ng.git
 [submodule "net/openwrt-dns2tcp"]
-	path = net/openwrt-dns2tcp
+	path = src/openwrt-dns2tcp
 	url = https://github.com/pexcn/openwrt-dns2tcp.git
 [submodule "net/openwrt-ipt2socks"]
-	path = net/openwrt-ipt2socks
+	path = src/openwrt-ipt2socks
 	url = https://github.com/pexcn/openwrt-ipt2socks.git
 [submodule "net/openwrt-portfwd"]
-	path = net/openwrt-portfwd
+	path = src/openwrt-portfwd
 	url = https://github.com/pexcn/openwrt-portfwd.git
 [submodule "net/openwrt-vlmcsd"]
-	path = net/openwrt-vlmcsd
+	path = src/openwrt-vlmcsd
 	url = https://github.com/pexcn/openwrt-vlmcsd.git
 [submodule "net/openwrt-fullconenat"]
-	path = net/openwrt-fullconenat
+	path = src/openwrt-fullconenat
 	url = https://github.com/pexcn/openwrt-fullconenat.git
 [submodule "net/openwrt-transproxy"]
-	path = net/openwrt-transproxy
+	path = src/openwrt-transproxy
 	url = https://github.com/pexcn/openwrt-transproxy.git

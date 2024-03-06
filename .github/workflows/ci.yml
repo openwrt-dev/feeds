@@ -8,10 +8,6 @@ on:
         description: 'Whether to push to binaries branch'
         required: true
         default: '0'
-      debug_log:
-        description: 'Whether to print debug log'
-        required: true
-        default: '0'
 
 jobs:
   build:
@@ -20,16 +16,13 @@ jobs:
       image: pexcn/docker-images:bookworm-openwrt
     env:
       TZ: Asia/Taipei
-      DEBUG_LOG: ${{ github.event.inputs.debug_log }}
       SDK_URL: ${{ matrix.SDK_URL }}
     strategy:
       fail-fast: false
       matrix:
         SDK_URL:
-          - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/generic/openwrt-sdk-21.02.5-ath79-generic_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          - https://downloads.openwrt.org/releases/21.02.5/targets/ath79/tiny/openwrt-sdk-21.02.5-ath79-tiny_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.5/targets/x86/64/openwrt-sdk-21.02.5-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          #- https://downloads.openwrt.org/snapshots/targets/qualcommax/ipq807x/openwrt-sdk-qualcommax-ipq807x_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/snapshots/targets/qualcommax/ipq807x/openwrt-sdk-qualcommax-ipq807x_gcc-12.3.0_musl.Linux-x86_64.tar.xz
 
     steps:
       - name: Checkout sources
@@ -47,12 +40,12 @@ jobs:
           # update packages
           git clone https://github.com/${{ github.repository }}.git --single-branch -b $TARGET_PLATFORM --depth 1 feeds
           rm -rf feeds/*
-          cp -r openwrt/bin/packages/*/base feeds/base
-          cp -r openwrt/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages feeds/core
+          cp -r openwrt-sdk/bin/packages/*/base feeds/base
+          cp -r openwrt-sdk/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages feeds/core
           # commit and push
           cd feeds
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
           git commit -m "$(date '+%Y-%m-%d %T')" || true
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git $TARGET_PLATFORM
+          git push https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git $TARGET_PLATFORM

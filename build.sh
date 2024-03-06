@@ -1,55 +1,49 @@
-#!/bin/bash -e
-
-. $(dirname "$0")/func.sh
+#!/bin/sh
 
 download_sdk() {
-  curl -sSL $SDK_URL | tar Jxf -
-  mv openwrt-sdk-* $SDK_DIR
+  curl -sSL "$SDK_URL" | tar Jxf -
+  mv openwrt-sdk-* openwrt-sdk
 }
 
 get_sources() {
-  cd $SDK_DIR
+  (
+    cd openwrt-sdk || exit 1
 
-  # install depends
-  install_feeds libxtables
+    # prepare install depends
+    ./scripts/feeds update base packages
+    # depends on `openwrt-fullconenat`
+    ./scripts/feeds install libxtables
 
-  # copy sources
-  cp -rv $CUR_DIR/net/* package/
-  cp $CUR_DIR/key-build .
-
-  cd $CUR_DIR
+    # copy sources
+    cp -r ../src/* package/
+    cp ../key-build .
+  )
 }
 
 build_packages() {
-  cd $SDK_DIR
+  (
+    cd openwrt-sdk || exit 1
 
-  make defconfig
+    make defconfig
 
-  # some packages cannot compile with ccache, like openwrt-vlmcsd.
-  sed -i 's/^CONFIG_CCACHE=y/# CONFIG_CCACHE is not set/' .config
+    # some packages cannot compile with ccache, like `openwrt-vlmcsd`.
+    sed -i '/^CONFIG_CCACHE=y/d' .config
 
-  build_package openwrt-chinadns-ng
-  build_package openwrt-dns-forwarder
-  build_package openwrt-dns2tcp
-  build_package openwrt-ipt2socks
-  build_package openwrt-portfwd
-  build_package openwrt-vlmcsd
-  build_package openwrt-transproxy
-  build_package openwrt-fullconenat
+    while read -r package; do
+      # shellcheck disable=SC2086
+      make -j$(($(nproc) + 1)) package/${package}/compile V=e ||
+        make -j1 package/${package}/compile V=s ||
+        exit 1
+    done <../packages.txt | awk -F: '{print $1}' | sed '/^[[:space:]]*$/d' | sed '/^#/d'
 
-  # remove useless & create index
-  find bin/ -type f $(printf " ! -name %s_*" $(cat $CUR_DIR/packages.txt | trim_lines)) | xargs rm -f
-  make package/index V=s
+    # remove useless packages
+    # shellcheck disable=SC2046
+    find bin -type f $(printf " ! -name %s_*" $(awk -F: '{print $2}' ../packages.txt | tr ',' '\n')) -delete
 
-  cd $CUR_DIR
-}
-
-copy_packages() {
-  cp -rv $SDK_DIR/bin/packages/*/base ${TARGET_PLATFORM}-base
-  cp -rv $SDK_DIR/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages ${TARGET_PLATFORM}-core
+    make package/index V=s
+  )
 }
 
 download_sdk
 get_sources
 build_packages
-copy_packages

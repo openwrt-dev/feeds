@@ -1,13 +1,9 @@
-# net
-chinadns-ng
-dns-forwarder
-dns2tcp
-ipt2socks
-portfwd
-transproxy
-vlmcsd
+chinadns-ng:chinadns-ng
+dns-forwarder:dns-forwarder
+dns2tcp:dns2tcp
+ipt2socks:ipt2socks
+portfwd:portfwd
+transproxy:transproxy
+vlmcsd:vlmcsd
 
-# fullconenat
-fullconenat
-iptables-mod-fullconenat
-kmod-ipt-fullconenat
+fullconenat:fullconenat,iptables-mod-fullconenat,kmod-ipt-fullconenat
