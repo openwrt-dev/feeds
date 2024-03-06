@@ -33,27 +33,24 @@ jobs:
 
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
-
-      - name: Set environment variable
-        run: |
-          echo "TARGET_PLATFORM=$(echo $SDK_URL | awk -F '/' '{print $7 "-" $8}')" >> $GITHUB_ENV
 
       - name: Build
         run: ./build.sh
 
       - name: Push
-        if: (github.event_name == 'push' && startsWith(github.event.head_commit.message, '[release] ')) || (github.event.inputs.upload_release == 1)
+        if: (github.event_name == 'push' && startsWith(github.event.head_commit.message, '[release] ')) || (github.event.inputs.push_branch == 1)
         run: |
+          TARGET_PLATFORM=$(sed -n 's|.*targets/\(\w*\)/\(\w*\)/.*|\1-\2|p' <<< $SDK_URL)
           # update packages
-          git clone https://github.com/${{ github.repository }}.git --single-branch -b $TARGET_PLATFORM --depth 1 $TARGET_PLATFORM
-          rm -rf $TARGET_PLATFORM/*
-          mv ${TARGET_PLATFORM}-base ${TARGET_PLATFORM}/base
-          mv ${TARGET_PLATFORM}-core ${TARGET_PLATFORM}/core
+          git clone https://github.com/${{ github.repository }}.git --single-branch -b $TARGET_PLATFORM --depth 1 feeds
+          rm -rf feeds/*
+          cp -r openwrt/bin/packages/*/base feeds/base
+          cp -r openwrt/bin/targets/${TARGET_PLATFORM%%-*}/${TARGET_PLATFORM##*-}/packages feeds/core
           # commit and push
-          cd $TARGET_PLATFORM
+          cd feeds
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
