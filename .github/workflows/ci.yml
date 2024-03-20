@@ -34,6 +34,7 @@ jobs:
         run: ./build.sh
 
       - name: Push
+        shell: bash
         if: (github.event_name == 'push' && startsWith(github.event.head_commit.message, '[release] ')) || (github.event.inputs.push_branch == 1)
         run: |
           TARGET_PLATFORM=$(sed -n 's|.*targets/\(\w*\)/\(\w*\)/.*|\1-\2|p' <<< $SDK_URL)
