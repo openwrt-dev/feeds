@@ -36,14 +36,14 @@ Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
 Version: 2023-01-01-74c5e6f3-1
-Depends: libc, iptables-mod-fullconenat
+Depends: +iptables +ip6tables, libc, iptables-mod-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: x86_64
 Installed-Size: 1557
 Filename: fullconenat_2023-01-01-74c5e6f3-1_x86_64.ipk
-Size: 2422
-SHA256sum: 6788d97cb2cc09b7e6a962e5e836c5c0ab243fbb12ce7c6e59ffb47209b7f93b
+Size: 2433
+SHA256sum: 5166d62a0dc65fb4c7e4e8a60d418b4cb1cf445e10187e00d8afb04c8c5c5106
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -60,14 +60,14 @@ Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
 Version: 2023-01-01-74c5e6f3-1
-Depends: libc, iptables, ip6tables, kmod-ipt-fullconenat
+Depends: libc, libxtables12, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: x86_64
 Installed-Size: 3449
 Filename: iptables-mod-fullconenat_2023-01-01-74c5e6f3-1_x86_64.ipk
-Size: 4206
-SHA256sum: 0b9d6f56034795178ba4e13f3efab555275a8ba94871da32f528fb1bb7bbf701
+Size: 4203
+SHA256sum: 44a8dba71e032a688e3c9fd525b15f779c9e613773d6b94b334d16deb6935391
 Description:  FULLCONENAT iptables extension
 
 Package: portfwd
@@ -102,7 +102,7 @@ Section: net
 Architecture: x86_64
 Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42603
-SHA256sum: ebcddf45055f467031e0e5784d5798aa790bf15c9e5ec4b5077ec9370508f1d6
+Size: 42593
+SHA256sum: e3a56e05513bcd81d8f57c34baa1e318a0546b558f544dc8ed518b5e87838ca8
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
