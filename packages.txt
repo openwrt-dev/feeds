@@ -1,9 +1,9 @@
-chinadns-ng:chinadns-ng
-dns-forwarder:dns-forwarder
-dns2tcp:dns2tcp
-ipt2socks:ipt2socks
-portfwd:portfwd
-transproxy:transproxy
-vlmcsd:vlmcsd
+openwrt-chinadns-ng:chinadns-ng
+openwrt-dns-forwarder:dns-forwarder
+openwrt-dns2tcp:dns2tcp
+openwrt-ipt2socks:ipt2socks
+openwrt-portfwd:portfwd
+openwrt-transproxy:transproxy
+openwrt-vlmcsd:vlmcsd
 
-fullconenat:fullconenat,iptables-mod-fullconenat,kmod-ipt-fullconenat
+openwrt-fullconenat:fullconenat,iptables-mod-fullconenat,kmod-ipt-fullconenat

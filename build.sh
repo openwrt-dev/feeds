@@ -21,6 +21,10 @@ get_sources() {
 }
 
 build_packages() {
+  trim() {
+    sed '/^[[:space:]]*$/d' | sed '/^#/d'
+  }
+
   (
     cd openwrt-sdk || exit 1
 
@@ -31,14 +35,14 @@ build_packages() {
 
     while read -r package; do
       # shellcheck disable=SC2086
-      make -j$(($(nproc) + 1)) package/${package}/compile V=e ||
+      make -j$(($(nproc) + 1)) package/${package}/compile V=w ||
         make -j1 package/${package}/compile V=s ||
         exit 1
-    done <../packages.txt | awk -F: '{print $1}' | sed '/^[[:space:]]*$/d' | sed '/^#/d'
+    done <../packages.txt | awk -F: '{print $1}' | trim
 
     # remove useless packages
     # shellcheck disable=SC2046
-    find bin -type f $(printf " ! -name %s_*" $(awk -F: '{print $2}' ../packages.txt | tr ',' '\n')) -delete
+    find bin -type f $(printf " ! -name %s_*" $(awk -F: '{print $2}' ../packages.txt | trim | tr ',' '\n')) -delete
 
     make package/index V=s
   )

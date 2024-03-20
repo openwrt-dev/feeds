@@ -1,6 +1,6 @@
 # OpenWrt Feeds
 
-[![CI](https://github.com/openwrt-dev/feeds/workflows/CI/badge.svg)](https://github.com/openwrt-dev/feeds)
+[![CI](https://github.com/openwrt-dev/feeds/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/openwrt-dev/feeds)
 
 ## Build
 
