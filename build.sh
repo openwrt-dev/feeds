@@ -10,7 +10,7 @@ get_sources() {
     cd openwrt-sdk || exit 1
 
     # prepare install depends
-    ./scripts/feeds update base packages
+    ./scripts/feeds update base
     # depends on `openwrt-fullconenat`
     ./scripts/feeds install libxtables
 
