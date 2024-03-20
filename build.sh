@@ -33,12 +33,12 @@ build_packages() {
     # some packages cannot compile with ccache, like `openwrt-vlmcsd`.
     sed -i '/^CONFIG_CCACHE=y/d' .config
 
-    while read -r package; do
+    awk -F: '{print $1}' ../packages.txt | trim | while read -r package; do
       # shellcheck disable=SC2086
       make -j$(($(nproc) + 1)) package/${package}/compile V=w ||
         make -j1 package/${package}/compile V=s ||
         exit 1
-    done <../packages.txt | awk -F: '{print $1}' | trim
+    done
 
     # remove useless packages
     # shellcheck disable=SC2046
