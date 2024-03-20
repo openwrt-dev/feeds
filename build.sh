@@ -31,7 +31,7 @@ build_packages() {
     make defconfig
 
     # some packages cannot compile with ccache, like `openwrt-vlmcsd`.
-    sed -i '/^CONFIG_CCACHE=y/d' .config
+    sed -i 's/^CONFIG_CCACHE=y$/# CONFIG_CCACHE is not set/' .config
 
     awk -F: '{print $1}' ../packages.txt | trim | while read -r package; do
       # shellcheck disable=SC2086
