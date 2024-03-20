@@ -1,5 +1,5 @@
 Package: chinadns-ng
-Version: 2023.06.05-1
+Version: 2023.10.28-1
 Depends: libc, ipset
 Source: package/openwrt-chinadns-ng
 SourceName: chinadns-ng
@@ -9,10 +9,10 @@ Section: net
 SourceDateEpoch: 1665688598
 Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: x86_64
-Installed-Size: 404726
-Filename: chinadns-ng_2023.06.05-1_x86_64.ipk
-Size: 405697
-SHA256sum: 2810e650ff60755b9f9b27a1560bde1cb3d3ac694b682d84088e8cb91b4b655e
+Installed-Size: 437455
+Filename: chinadns-ng_2023.10.28-1_x86_64.ipk
+Size: 438457
+SHA256sum: 07233f8299f7afb2e82d6b1c9bfcf688bc24858664aa1509b7104608cda9439b
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -145,9 +145,9 @@ Section: net
 SourceDateEpoch: 1665688598
 Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
-Installed-Size: 41639
+Installed-Size: 41638
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42593
-SHA256sum: f73ee5ae0bf7540d631b947ea397ac411d2c3f4171fb7161cff799128ce050ad
+Size: 42603
+SHA256sum: ebcddf45055f467031e0e5784d5798aa790bf15c9e5ec4b5077ec9370508f1d6
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
