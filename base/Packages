@@ -39,14 +39,14 @@ Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
 Version: 2023-01-01-74c5e6f3-1
-Depends: libc, iptables-mod-fullconenat
+Depends: +iptables +ip6tables, libc, iptables-mod-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: fullconenat_2023-01-01-74c5e6f3-1_aarch64_cortex-a53.ipk
-Size: 2433
-SHA256sum: 77dfb65fd4615c46ea1f2da97b854e7c9fb85d24f07725775c7421d8909f34bf
+Size: 2442
+SHA256sum: b13a11761dc962de56491544fab5df9bc5d131bff0f03322f1a5465ea7c85914
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -64,14 +64,14 @@ Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
 Version: 2023-01-01-74c5e6f3-1
-Depends: libc, iptables, ip6tables, kmod-ipt-fullconenat
+Depends: libc, libxtables12, kmod-ipt-fullconenat
 License: GPL-2.0
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: iptables-mod-fullconenat_2023-01-01-74c5e6f3-1_aarch64_cortex-a53.ipk
-Size: 5851
-SHA256sum: bea435becfc0952168d7a32f5d0f7065a573aa562e18508d9c387a8ae00ad51d
+Size: 5855
+SHA256sum: 3ed60b22bcd3a613dde97e5583d5275ff28d47857e02d8319935e821779deba4
 Description:  FULLCONENAT iptables extension
 
 Package: portfwd
@@ -109,7 +109,7 @@ URL: https://github.com/Wind4/vlmcsd
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: vlmcsd_svn1113-2_aarch64_cortex-a53.ipk
-Size: 42937
-SHA256sum: 410807e40951ea56a9a9bd012df442c09c6e48f8af3060298f649f135e31f5b3
+Size: 42940
+SHA256sum: 30d4cc240e7331ba46771aea3923a0fb3061f89b00a12875b9b89811a96d5bd8
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
