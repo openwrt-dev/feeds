@@ -6,7 +6,7 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-ipt-fullconenat_6.1.82+2023-01-01-74c5e6f3-1_aarch64_cortex-a53.ipk
-Size: 8189
-SHA256sum: 3eaf404092eedb50a3ca2be527f77a955cf431778ff68519d778923d151aab81
+Size: 8188
+SHA256sum: 18fede37668f71f89fa25eb57becf06034bfd6a318cfef8d039abfae601ed31e
 Description:  FULLCONENAT netfilter module
 
