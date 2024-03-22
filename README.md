@@ -18,15 +18,5 @@ git submodule update --remote --merge
 ## Usage
 
 ```sh
-# add public key
-wget -O /tmp/key-build.pub https://github.com/openwrt-dev/feeds/raw/master/key-build.pub
-opkg-key add /tmp/key-build.pub
-rm /tmp/key-build.pub
-
-# setup custom feeds
-cat << EOF >/etc/opkg/customfeeds.conf
-# x86-64
-src/gz openwrt_dev_base https://raw.githubusercontent.com/openwrt-dev/feeds/x86-64/base
-src/gz openwrt_dev_core https://raw.githubusercontent.com/openwrt-dev/feeds/x86-64/core
-EOF
+sh <(wget -qO- https://raw.githubusercontent.com/openwrt-dev/feeds/master/add-feeds.sh)
 ```
