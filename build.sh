@@ -1,7 +1,11 @@
 #!/bin/sh
 
 download_sdk() {
-  curl -sSL "$SDK_URL" | tar Jxf -
+  if [ -z "${SDK_URL##*.tar.zst}" ]; then
+    curl -sSL "$SDK_URL" | tar --zstd -xf -
+  else
+    curl -sSL "$SDK_URL" | tar Jxf -
+  fi
   mv openwrt-sdk-* openwrt-sdk
 }
 
