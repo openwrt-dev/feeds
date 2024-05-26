@@ -12,8 +12,8 @@ Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1320960
 Filename: chinadns-ng_2023.10.28-r1_aarch64_cortex-a53.ipk
-Size: 445081
-SHA256sum: f98415df5e8d71857f995250570e83e16f3c582dd8627d4c171d8c34a3615910
+Size: 445092
+SHA256sum: 51d7194008534e9a5d1fac6bcb5fbb9cb76423af73b23ad5109b2640edda5202
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -136,8 +136,8 @@ Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 174080
 Filename: transproxy_0.4.2-r1_aarch64_cortex-a53.ipk
-Size: 32242
-SHA256sum: 7d05615ce6ed35de27720171f174e23754500cec9a4c14b5c4e989914273de34
+Size: 32257
+SHA256sum: 9bcdd2c199559dcdd98dc4c3855a46e82a63c45335cb41f704eeda24911acf4c
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -154,7 +154,7 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
-Size: 43168
-SHA256sum: 851bbaa32a76786bd18171622f0e9736c6d807d2fd4eb5c0e9a8aee5c66f209f
+Size: 43175
+SHA256sum: 4a4922ef145429439e6fc1e7b80038aa3c74cdf8ca2e1dc9abf6a45d44959f75
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
