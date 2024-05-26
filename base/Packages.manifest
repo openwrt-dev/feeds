@@ -11,8 +11,8 @@ Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: x86_64
 Installed-Size: 437455
 Filename: chinadns-ng_2023.10.28-1_x86_64.ipk
-Size: 438457
-SHA256sum: 07233f8299f7afb2e82d6b1c9bfcf688bc24858664aa1509b7104608cda9439b
+Size: 438469
+SHA256sum: 36fdd1122d5717aa686e6b9f64e6bdbdf9c5009bfa3533c0406b9d52cd36f039
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -130,8 +130,8 @@ Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: x86_64
 Installed-Size: 31250
 Filename: transproxy_0.4.2-1_x86_64.ipk
-Size: 32207
-SHA256sum: 108b10e210aebc40652877c62758fca1b9f64681779b263a6fa1e3e47a25fe86
+Size: 32224
+SHA256sum: aaaf3fd3cafe3c81b93252841a539b53337408cf91bb8636bda6b73072eac29c
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -147,7 +147,7 @@ Maintainer: pexcn <i@pexcn.me>
 Architecture: x86_64
 Installed-Size: 41639
 Filename: vlmcsd_svn1113-2_x86_64.ipk
-Size: 42593
-SHA256sum: bf69391f3a340e8642ecd25a2c388318b904d9888686f8514f50fe003ddfe49d
+Size: 42594
+SHA256sum: da321b2c43943c08268b7ef2b1b7f4a8861b2b9ac3390c8070c6933887ff99b1
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
