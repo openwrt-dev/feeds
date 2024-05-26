@@ -1,17 +1,17 @@
 Package: kmod-ipt-fullconenat
 Version: 6.6.30.2023.01.01~74c5e6f3-r1
-Depends: kernel (=6.6.30~4fbd0ebd2853c0b5a60f3c015a65bad1-r1), kmod-nf-ipt, kmod-nf-nat, kmod-nf-ipt6, kmod-nf-nat6
+Depends: kernel (=6.6.30~574d23748842ed6078a1cd81d2d0280d-r1), kmod-nf-ipt, kmod-nf-nat, kmod-nf-ipt6, kmod-nf-nat6
 Source: feeds/base/openwrt-fullconenat
 SourceName: fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1716449051
+SourceDateEpoch: 1716697680
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-ipt-fullconenat_6.6.30.2023.01.01~74c5e6f3-r1_aarch64_cortex-a53.ipk
-Size: 8205
-SHA256sum: e208a3a6ecbe3ddb982e8acbfa9b1ed187a217eb2348e6be13d6297b76abdbc8
+Size: 8204
+SHA256sum: ae410724ca222a7074a5067ce30a7732f6d452c8dfc059c700e781c3375c92dd
 Description:  FULLCONENAT netfilter module
 

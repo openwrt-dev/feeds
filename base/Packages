@@ -7,8 +7,8 @@ URL: https://github.com/zfl9/chinadns-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 1320960
 Filename: chinadns-ng_2023.10.28-r1_aarch64_cortex-a53.ipk
-Size: 445093
-SHA256sum: e294dbb571822b742182c1b28a465ec794161b189238be3f7ce2f13479c4a018
+Size: 445081
+SHA256sum: f98415df5e8d71857f995250570e83e16f3c582dd8627d4c171d8c34a3615910
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -20,8 +20,8 @@ URL: https://github.com/aa65535/hev-dns-forwarder
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: dns-forwarder_1.2.1-r2_aarch64_cortex-a53.ipk
-Size: 11339
-SHA256sum: c66ae5b1b492a3191524b6534d5c244b546734a0d07dca10af45364c5bf0bde9
+Size: 11332
+SHA256sum: ce6885f1420a56a1e5a74b12b11513bf87cea6d0f602e63d6e095d62f8a5dd38
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
@@ -33,8 +33,8 @@ URL: https://github.com/zfl9/dns2tcp
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: dns2tcp_1.1.0-r4_aarch64_cortex-a53.ipk
-Size: 18225
-SHA256sum: 5100748cd2d96ccd02c253f7ccb4c108c976936d09f1477f9e409cc4e4313324
+Size: 18223
+SHA256sum: 9878b763721b2cf9a832238ba5b66c0a1e3ec6d9ffd7c60df6eaeeea1c4a0a0c
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
@@ -45,8 +45,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: fullconenat_2023.01.01~74c5e6f3-r1_aarch64_cortex-a53.ipk
-Size: 2443
-SHA256sum: f4c70da2d2e78ffbbf24468d40521e0e2e7836d58708e7ddaf80513c396af467
+Size: 2438
+SHA256sum: 20f1d28914d6facda7f43e2080e122a7c18de0abf2382ba7d09ec2d30cddf489
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -58,8 +58,8 @@ URL: https://github.com/zfl9/ipt2socks
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: ipt2socks_1.1.3-r2_aarch64_cortex-a53.ipk
-Size: 37019
-SHA256sum: c444fd22aede305187b30a36d9ad37bf0a792b7457523075c97c13dcd162c30f
+Size: 37018
+SHA256sum: 4979c4e5958494b267ba01d4e56f7c630da1a71d1e21757334e4d4f3615035d8
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
@@ -70,8 +70,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: iptables-mod-fullconenat_2023.01.01~74c5e6f3-r1_aarch64_cortex-a53.ipk
-Size: 5939
-SHA256sum: 334be9d3070f9be6f2edfd30873b7c9f7bb292ba68fbbeb3d0ca455a3af1bd19
+Size: 6006
+SHA256sum: 578b1aca7ff5086b9c36ace5a8d9cb2b4c927db4c2d6c4f44203f4775cceb8bd
 Description:  FULLCONENAT iptables extension
 
 Package: portfwd
@@ -83,8 +83,8 @@ URL: https://github.com/rssnsj/portfwd
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: portfwd_20191118-r1_aarch64_cortex-a53.ipk
-Size: 12075
-SHA256sum: eceb753d8d588217c17ad85ce0e0c996c49ad8b640c70d550dd223827c50997f
+Size: 12062
+SHA256sum: 92a8bdca8def77a4a94dd5f02d4b191e588ac7271eae452f454ad4ec11aae27b
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
@@ -96,8 +96,8 @@ URL: https://github.com/pexcn/transproxy
 Architecture: aarch64_cortex-a53
 Installed-Size: 174080
 Filename: transproxy_0.4.2-r1_aarch64_cortex-a53.ipk
-Size: 32237
-SHA256sum: c467e3679444b8a0c12072dd363b549a1e270b9d8ba5da6fb249962551da5e21
+Size: 32242
+SHA256sum: 7d05615ce6ed35de27720171f174e23754500cec9a4c14b5c4e989914273de34
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -109,7 +109,7 @@ URL: https://github.com/Wind4/vlmcsd
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
-Size: 43166
-SHA256sum: b2a97604f34418880704b658a3253522a00c05d0e0d8f1e6265ea3bf6ba8e9fd
+Size: 43168
+SHA256sum: 851bbaa32a76786bd18171622f0e9736c6d807d2fd4eb5c0e9a8aee5c66f209f
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
