@@ -109,7 +109,7 @@ URL: https://github.com/Wind4/vlmcsd
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
-Size: 43224
-SHA256sum: 20a602f411b243928287f71167ca8be38ce926503e78fe1bb1fbc4511eb91f64
+Size: 43225
+SHA256sum: 2583f412506c17244bbdb52d56959d845c2f78e08a41e2012b1de5a0ead19350
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
