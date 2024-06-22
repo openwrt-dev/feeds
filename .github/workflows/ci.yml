@@ -22,7 +22,7 @@ jobs:
       matrix:
         SDK_URL:
           - https://downloads.openwrt.org/releases/21.02.5/targets/x86/64/openwrt-sdk-21.02.5-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          - https://github.com/openwrt-ipq60xx/ci/releases/download/main/openwrt-sdk-qualcommax-ipq60xx_gcc-13.2.0_musl.Linux-x86_64.tar.zst
+          - https://github.com/openwrt-ipq60xx/ci/releases/download/main/openwrt-sdk-qualcommax-ipq60xx_gcc-13.3.0_musl.Linux-x86_64.tar.zst
 
     steps:
       - name: Checkout sources
