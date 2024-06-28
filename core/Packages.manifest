@@ -6,12 +6,12 @@ SourceName: fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-ipt-fullconenat_6.6.35.2023.01.01~74c5e6f3-r1_aarch64_cortex-a53.ipk
-Size: 8268
-SHA256sum: d55fc74c721aee437323846f70d19f5d68532aa9136025c2159712f11e3fa456
+Size: 8262
+SHA256sum: e734d5af69ec09358b37be70e01430cbd26038e5f7d78a021773e20c28913444
 Description:  FULLCONENAT netfilter module
 

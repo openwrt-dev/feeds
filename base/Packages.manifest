@@ -6,14 +6,14 @@ SourceName: chinadns-ng
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/zfl9/chinadns-ng
 Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1320960
 Filename: chinadns-ng_2023.10.28-r1_aarch64_cortex-a53.ipk
-Size: 445314
-SHA256sum: bf6b3e29e4fcdc1d67226b59e2f2ac8998eea07c5aaacb43310cb0a362f250c2
+Size: 445324
+SHA256sum: 9452afebadaff4f02288349a5fc82ae2574aa21e9a2f2060f96254a16fa431f8
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -24,14 +24,14 @@ SourceName: dns-forwarder
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/aa65535/hev-dns-forwarder
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: dns-forwarder_1.2.1-r2_aarch64_cortex-a53.ipk
-Size: 11340
-SHA256sum: 5e030b05e7a8d0f0c098213e12c3c5fbc83c845799b8b8976999786e5dbf4705
+Size: 11339
+SHA256sum: 053a93b7de750bb0799cb1ca9f3433a929756fd30f4f8cb55814f7d027c9c3da
 Description:  Forwarding DNS queries on TCP transport.
 
 Package: dns2tcp
@@ -42,14 +42,14 @@ SourceName: dns2tcp
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/zfl9/dns2tcp
 Maintainer: pexcn <i@pexcn.me>
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: dns2tcp_1.1.0-r4_aarch64_cortex-a53.ipk
-Size: 18240
-SHA256sum: 0917036ede9acc28098066f675bf589da44e0cdc751b90075a1fa4abec03cc7e
+Size: 18241
+SHA256sum: 007f13dc10831a031a2a253a23479b1a6e653e46a392b4c04a0dddda2f390914
 Description:  Utility to convert DNS query from UDP to TCP.
 
 Package: fullconenat
@@ -60,13 +60,13 @@ SourceName: fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: fullconenat_2023.01.01~74c5e6f3-r1_aarch64_cortex-a53.ipk
 Size: 2441
-SHA256sum: 6dfb975e8cc2d334c88c4a68ee17cf05531ab3864aa0b2d08aa8fe010bf7f241
+SHA256sum: 34aaa1bacc4f4f0f55d01edcbae8470e64614e0dfe0b799ebbd215d6d7b43c66
 Description:  FULLCONENAT config and script
 
 Package: ipt2socks
@@ -77,14 +77,14 @@ SourceName: ipt2socks
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/zfl9/ipt2socks
 Maintainer: pexcn <i@pexcn.me>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: ipt2socks_1.1.3-r2_aarch64_cortex-a53.ipk
-Size: 37017
-SHA256sum: dc9cb07936153e1a33f3becbeae02efe22f0032b16b0e4cf25cb090a4e87ebbc
+Size: 37025
+SHA256sum: 06cb3cc899037fae146fecb5a61a0c5055ec301893e9fc8bb183cf1466526685
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
 Package: iptables-mod-fullconenat
@@ -95,13 +95,13 @@ SourceName: fullconenat
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 Maintainer: Chion Tang <tech@chionlab.moe>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: iptables-mod-fullconenat_2023.01.01~74c5e6f3-r1_aarch64_cortex-a53.ipk
-Size: 6024
-SHA256sum: 0121be0d678c881234b18fef0aff265d38576f5c3d8093aa922adc788fd7745b
+Size: 6025
+SHA256sum: 74940c8efb509a17e4cefabc22ccaea9d77d26fd01558b3151cf77745e099b4d
 Description:  FULLCONENAT iptables extension
 
 Package: portfwd
@@ -112,14 +112,14 @@ SourceName: portfwd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/rssnsj/portfwd
 Maintainer: pexcn <i@pexcn.me>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: portfwd_20191118-r1_aarch64_cortex-a53.ipk
-Size: 11975
-SHA256sum: c728f3af9b61dc2571e726c4e7354d75c3c00929b8bc2b206b361e343880408e
+Size: 11969
+SHA256sum: 0726289416900404140a6ee6c6e32b13075935e22d7902dc8a9f4ad3fd2a3bf7
 Description:  User-space TCP/UDP port forwarding services.
 
 Package: transproxy
@@ -130,14 +130,14 @@ SourceName: transproxy
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/pexcn/transproxy
 Maintainer: pexcn <pexcn97@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 174080
 Filename: transproxy_0.4.2-r1_aarch64_cortex-a53.ipk
-Size: 32251
-SHA256sum: a14dac908213056a0c174ae190096865fd576a11b80cc14916c5dcebda4458ce
+Size: 32234
+SHA256sum: 10b9dbe3eea4f88e898de64c4b9d02ccee06513d4b105dbdb359188c835a770d
 Description:  A bridge of openwrt and transparent proxy.
 
 Package: vlmcsd
@@ -148,13 +148,13 @@ SourceName: vlmcsd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1719222242
+SourceDateEpoch: 1719537267
 URL: https://github.com/Wind4/vlmcsd
 Maintainer: pexcn <i@pexcn.me>
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
-Size: 43225
-SHA256sum: 2b7698ae3ad32ee5f7dfb32f025baa096174b97fd20383bfbf30d846ba1bc552
+Size: 43224
+SHA256sum: 03573000716163fdfd65804dac7f996f9edefd16806645cad6c76859ff63b5c7
 Description:  KMS Emulator in C (currently runs on Linux including Android, FreeBSD, Solaris, Minix, Mac OS, iOS, Windows with or without Cygwin).
 
